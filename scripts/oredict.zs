@@ -62,7 +62,6 @@ val ingotAluminium = <ore:ingotAluminium>;
 ingotAluminium.remove(<hbm:ingot_aluminium>);
 val ingotAluminum = <ore:ingotAluminum>;
 ingotAluminum.remove(<thermalfoundation:material:132>);
-ingotAluminum.remove(<immersiveengineering:metal:1>);
 val ingotPlatinum = <ore:ingotPlatinum>;
 ingotPlatinum.remove(<thermalfoundation:material:134>);
 val ingotElectrum = <ore:ingotElectrum>;
