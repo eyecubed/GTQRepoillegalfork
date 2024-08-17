@@ -1,4 +1,7 @@
 // MV (all of them)
+
+import gregtech.api.metatileentity.multiblock.CleanroomType
+
 // Chemical reactor recipe for kerosene
 recipemap('chemical_reactor').recipeBuilder()
         .inputs(ore('dustSulfur') * 6)
