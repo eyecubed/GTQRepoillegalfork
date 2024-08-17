@@ -142,3 +142,10 @@ recipemap('electric_blast_furnace').recipeBuilder()
         .property("temperature", 2700)
         .duration(400).EUt(470).buildAndRegister()
 
+// Desh recipe. HV.
+recipemap('electric_blast_furnace').recipeBuilder()
+        .inputs(item('hbm:powder_desh_mix') * 6)
+        .fluidInputs(fluid('mercury') * 500 )
+        .outputs(item('hbm:ingot_desh') * 2)
+        .property("temperature", 2700)
+        .duration(400).EUt(240).buildAndRegister()
