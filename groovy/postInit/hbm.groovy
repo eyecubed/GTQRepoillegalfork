@@ -122,3 +122,23 @@ recipemap('centrifuge').recipeBuilder()
         .inputs(ore('oreRedstone') * 2)
         .chancedOutput(item('hbm:nugget_mercury'), 500, 1000)
         .duration(200).EUt(32).buildAndRegister()
+// EBF-Related Recipes
+
+// MV
+recipemap('electric_blast_furnace').recipeBuilder()
+        .inputs(ore('dustCobalt') * 6)
+        .inputs(ore('ingotSteel') * 6)
+        .fluidInputs(fluid('oxygen') * 250 )
+        .outputs(item('hbm:ingot_dura_steel') * 2)
+        .property("temperature", 1200)
+        .duration(400).EUt(140).buildAndRegister()
+
+// AltRecipe for HBM HSS, HV.
+recipemap('electric_blast_furnace').recipeBuilder()
+        .inputs(ore('dustGraphene') * 2)
+        .inputs(ore('ingotSteel') * 6)
+        .fluidInputs(fluid('tungsten') * 250 )
+        .outputs(item('hbm:ingot_dura_steel') * 2)
+        .property("temperature", 2700)
+        .duration(400).EUt(470).buildAndRegister()
+
