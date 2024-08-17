@@ -10,7 +10,11 @@
     },
     {
       "dimID": -1,
-      "dimName": "Nether"
+      "dimName": "Nether" 
+    }
+    {
+      "dimID": 7,
+      "dimName": "Forest"
     }
   ]
 }
