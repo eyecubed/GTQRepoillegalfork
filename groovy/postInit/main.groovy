@@ -78,14 +78,6 @@ recipemap('assembler').recipeBuilder()
          .outputs(item('appliedenergistics2:material', 52) * 16 )
          .duration(200).EUt(7500).buildAndRegister()
 
-recipemap('chemical_reactor').recipeBuilder()
-        .inputs(ore('ingotNeutronium') * 12)
-        .fluidInputs(fluid('sas3') * 120 )
-        .fluidInputs(fluid('amat') * 120 )
-        .fluidInputs(fluid('darmstadtium') * 150 )
-        .fluidOutputs(fluid('antineutronium') * 270 )
-        .duration(400).EUt(620000).buildAndRegister()
-
 // ZPM
 
 recipemap('assembler').recipeBuilder()
@@ -142,3 +134,12 @@ recipemap('chemical_reactor').recipeBuilder()
         .fluidInputs(fluid('aschrab') * 250 )
         .outputs(item('gregtech:meta_ingot', 32012) * 2 )
         .duration(400).EUt(2097152).buildAndRegister()
+
+
+recipemap('chemical_reactor').recipeBuilder()
+        .inputs(ore('ingotNeutronium') * 12)
+        .fluidInputs(fluid('sas3') * 120 )
+        .fluidInputs(fluid('amat') * 120 )
+        .fluidInputs(fluid('darmstadtium') * 150 )
+        .fluidOutputs(fluid('antineutronium') * 270 )
+        .duration(400).EUt(620000).buildAndRegister()
