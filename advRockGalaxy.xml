@@ -1,6 +1,6 @@
 <galaxy>
     <star name="Sol" temp="100" x="0" y="0" numPlanets="10" numGasGiants="1">
-        <planet name="Planet A">
+        <planet name="Earth">
             <fogColor>1,1,1</fogColor>
             <skyColor>0,0,1</skyColor>
             <atmosphereDensity>100</atmosphereDensity>
@@ -9,7 +9,7 @@
             <orbitalTheta>180</orbitalTheta>
             <rotationalPeriod>24000</rotationalPeriod>
             <biomeIds>0</biomeIds>
-            <planet name="Planet A moon">
+            <planet name="Nova">
                 <fogColor>1,1,1</fogColor>
                 <skyColor>1,0.5,0.5</skyColor>
                 <atmosphereDensity>180</atmosphereDensity>
