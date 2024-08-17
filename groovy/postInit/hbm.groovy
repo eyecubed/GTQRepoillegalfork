@@ -116,6 +116,16 @@ recipemap('assembler').recipeBuilder()
         .outputs(item('hbm:circuit_aluminium') * 2)
         .duration(200).EUt(120).buildAndRegister()
 
+// MV.
+recipemap('assembler').recipeBuilder()
+        .inputs(ore('plateAluminium') * 2)
+        .inputs(ore('wireFineCopper') * 4)
+        .inputs(item('gregtech:meta_item_1', 521))
+        .inputs(item('hbm:circuit_aluminium') * 2)
+        .fluidInputs(fluid('tin') * 120)
+        .outputs(item('hbm:circuit_copper') * 2)
+        .duration(200).EUt(120).buildAndRegister()
+
 // Centrifuge recipe for extracting mercury from redstone ore, 5% chance increases 10 by tier.
 // LV.
 recipemap('centrifuge').recipeBuilder()
@@ -149,3 +159,74 @@ recipemap('electric_blast_furnace').recipeBuilder()
         .outputs(item('hbm:ingot_desh') * 2)
         .property("temperature", 2700)
         .duration(400).EUt(240).buildAndRegister()
+
+// Idiot, i forgot the flroping missile comps :cry:
+
+recipemap('assembler').recipeBuilder()
+        .inputs(item('gregtech:meta_item_1', 460) * 2)
+        .inputs(ore('plateDenseStainlessSteel') * 2)
+        .inputs(ore('plateSteel') * 12)
+        .inputs(ore('screwStainlessSteel') * 2)
+        .fluidInputs(fluid('silicone_rubber') * 120)
+        .outputs(item('hbm:warhead_generic_medium'))
+        .duration(200).EUt(500).buildAndRegister()
+
+recipemap('assembler').recipeBuilder()
+        .inputs(ore('plateSteel') * 2)
+        .inputs(ore('plateStainlessSteel') * 4)
+        .inputs(ore('platePolyethylene') * 4)
+        .inputs(ore('componentResistor') * 1)
+        .inputs(ore('circuitLv') * 4)
+        .fluidInputs(fluid('stainless_steel') * 200)
+        .outputs(item('hbm:thruster_medium'))
+        .duration(200).EUt(500).buildAndRegister()
+
+recipemap('assembler').recipeBuilder()
+        .inputs(ore('plateStainlessSteel') * 2)
+        .inputs(ore('plateBlackSteel') * 4)
+        .inputs(ore('platePolyethylene') * 4)
+        .inputs(ore('componentResistor') * 1)
+        .inputs(ore('circuitLv') * 4)
+        .fluidInputs(fluid('stainless_steel') * 200)
+        .outputs(item('hbm:fuel_tank_medium'))
+        .duration(200).EUt(500).buildAndRegister()
+
+recipemap('assembler').recipeBuilder()
+        .inputs(item('hbm:warhead_generic_medium'))
+        .inputs(ore('plateDenseAluminium') * 2)
+        .inputs(ore('dustRedPhosphorus') * 2)
+        .fluidInputs(fluid('glyceryl_trinitrate') * 120)
+        .outputs(item('hbm:warhead_incendiary_medium'))
+        .duration(200).EUt(500).buildAndRegister()
+
+recipemap('assembler').recipeBuilder()
+        .inputs(item('hbm:warhead_generic_medium'))
+        .inputs(item('hbm:det_charge') * 4)
+        .fluidInputs(fluid('stainless_steel') * 120)
+        .outputs(item('hbm:warhead_buster_medium'))
+        .duration(200).EUt(500).buildAndRegister()
+
+recipemap('assembler').recipeBuilder()
+        .inputs(item('hbm:warhead_generic_medium'))
+        .inputs(item('hbm:det_cord') * 2)
+        .inputs(item('hbm:pellet_cluster') * 4)
+        .fluidInputs(fluid('stainless_steel') * 120)
+        .outputs(item('hbm:warhead_cluster_medium'))
+        .duration(200).EUt(500).buildAndRegister()
+
+// fusion recipes for schrab
+recipemap('fusion_reactor').recipeBuilder()
+        .fluidInputs(fluid('germanium') * 250)
+        .fluidInputs(fluid('plutonium') * 500 )
+        .fluidOutputs(fluid('schrabidium') * 150)
+        .duration(400).EUt(62000).buildAndRegister()
+
+// Coolant.
+
+recipemap('chemical_reactor').recipeBuilder()
+        .inputs(ore('dustSaltpeter'))
+        .inputs(ore('rodBlizz') * 4)
+        .fluidInputs(fluid('distilled_water') * 120 )
+        .fluidInputs(fluid('water') * 120 )
+        .fluidOutputs(fluid('coolant') * 40 )
+        .duration(400).EUt(510).buildAndRegister()
