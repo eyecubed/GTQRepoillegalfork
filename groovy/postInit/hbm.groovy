@@ -249,3 +249,8 @@ recipemap('implosion_compressor').recipeBuilder()
         .property("explosives", item('hbm:missile_generic'))
         .duration(400).EUt(120).buildAndRegister()
 
+recipemap('forge_hammer').recipeBuilder()
+         .inputs(ore('ingotAdvancedAlloy') * 2)
+         .inputs(item('gregtech:machine', 998))
+         .outputs(item('hbm:plate_advanced_alloy'))
+         .duration(200).EUt(120).buildAndRegister()
