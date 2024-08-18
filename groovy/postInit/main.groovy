@@ -107,6 +107,7 @@ recipemap('chemical_reactor').recipeBuilder()
 
 // UV
 recipemap('assembly_line').recipeBuilder()
+        .stationResearch(b -> b.researchStack(item('gregtech:meta_item_1', 647)).CWUt(8))
         .inputs(ore('screwDarmstadtium') * 12)
         .inputs(ore('screwNaquadahAlloy') * 4)
         .inputs(item('gregtech:meta_item_1', 532) * 4)
@@ -117,8 +118,9 @@ recipemap('assembly_line').recipeBuilder()
         .inputs(ore('wireFinePositronChargedEuroschidiumAlloy') * 6)
         .fluidInputs(fluid('schrabidium_based_sold_alloy') * 148 )
         .fluidInputs(fluid('polybenzimidazole') * 144 )
-        .outputs(item('gt_aurora:hyperconducting_antischrabidic_circuit') * 2)
+        .outputs(item('gt_aurora:hyperconducting_antischrabidic_circuit') * 12)
         .duration(800).EUt(524288).buildAndRegister()
+
 
 // UHV
 recipemap('chemical_reactor').recipeBuilder()
