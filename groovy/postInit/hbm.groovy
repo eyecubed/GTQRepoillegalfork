@@ -128,6 +128,13 @@ recipemap('assembler').recipeBuilder()
         .fluidInputs(fluid('tin') * 120)
         .outputs(item('hbm:circuit_copper') * 2)
         .duration(200).EUt(120).buildAndRegister()
+// MV Red Phosphourous Recipe.
+recipemap('chemical_reactor').recipeBuilder()
+         .inputs(ore('dustTin'))
+         .inputs(item('twilightforest:fiery_tears'))
+         .outputs(item('hbm:powder_fire'))
+         .duration(200).EUt(120).buildAndRegister()
+
 
 // Centrifuge recipe for extracting mercury from redstone ore, 5% chance increases 10 by tier.
 // LV.
