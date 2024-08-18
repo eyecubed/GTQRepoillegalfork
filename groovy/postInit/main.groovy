@@ -25,6 +25,13 @@ recipemap('chemical_reactor').recipeBuilder()
          .inputs(ore('ingotSteel') * 2 )
          .outputs(item('gregtech:meta_dust', 214) * 16)
          .duration(600).EUt(120).buildAndRegister()
+
+recipemap('assembler').recipeBuilder()
+         .inputs(ore('stickStainlessSteel') * 2)
+         .inputs(ore('plateAdvancedAlloy') * 4)
+         .inputs(item('gregtech:machine', 998))
+         .outputs(item('thermalexpansion:frame'))
+         .duration(200).EUt(120).buildAndRegister()
 // HV
 recipemap('chemical_reactor').recipeBuilder()
         .inputs(ore('dustDiamond'), ore('dustLithium') * 2)
