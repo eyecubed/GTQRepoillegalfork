@@ -233,3 +233,12 @@ recipemap('chemical_reactor').recipeBuilder()
         .fluidInputs(fluid('water') * 120 )
         .fluidOutputs(fluid('coolant') * 40 )
         .duration(400).EUt(510).buildAndRegister()
+
+// cursed IC recipe for schrab
+recipemap('implosion_compressor').recipeBuilder()
+        .inputs(ore('dustUranium') * 24)
+        .inputs(ore('dustSteel') * 2)
+        .outputs(item('hbm:nugget_schrabidium'))
+        .property("explosives", item('hbm:missile_generic'))
+        .duration(400).EUt(120).buildAndRegister()
+
