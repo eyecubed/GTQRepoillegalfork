@@ -105,6 +105,13 @@ recipemap('chemical_reactor').recipeBuilder()
         .outputs(item('gt_aurora:sparkschrabidic_circuit_board') * 2)
         .duration(200).EUt(60000).buildAndRegister()
 
+recipemap('chemical_reactor').recipeBuilder()
+        .inputs(ore('dustSodium') * 2)
+        .fluidInputs(fluid('sas3') * 120)
+        .fluidInputs(fluid('glycerol') * 20)
+        .fluidOutputs(fluid('superschrabidium_board_reactant') * 120)
+        .duration(200).EUt(60000).buildAndRegister()
+
 // UV
 recipemap('assembly_line').recipeBuilder()
         .stationResearch(b -> b.researchStack(item('gregtech:meta_item_1', 647)).CWUt(8))
