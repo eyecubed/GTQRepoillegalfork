@@ -132,7 +132,7 @@ recipemap('assembler').recipeBuilder()
 recipemap('chemical_reactor').recipeBuilder()
          .inputs(ore('dustTin'))
          .inputs(item('twilightforest:fiery_tears'))
-         .outputs(item('hbm:powder_fire'))
+         .outputs(item('hbm:powder_fire') * 32)
          .duration(200).EUt(120).buildAndRegister()
 
 
