@@ -1,1 +1,1 @@
-content.createItem('botathaumamanic_glass_board')
+content.createItem('botathaumamanic_glass_board').register()
