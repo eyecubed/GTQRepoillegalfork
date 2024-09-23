@@ -772,9 +772,9 @@
       <biomeIds>minecraft:ocean</biomeIds>
     </planet>
   </star>
-  <star temp="100" blackHole="false" size="1.2" name="Tatoo 1" numPlanets="0" numGasGiants="0" x="40" y="-40">
-    <star temp="70" blackHole="false" size="0.5" name="Tatoo 2" separation="20.0" />
-    <planet name="Tatooine" DIMID="35" customIcon="MarsLike">
+  <star temp="100" blackHole="false" size="1.2" name="Iris-199" numPlanets="0" numGasGiants="0" x="40" y="-40">
+    <star temp="70" blackHole="true" size="0.5" name="Kuzu-696" separation="20.0" />
+    <planet name="Demeter" DIMID="35" customIcon="MarsLike">
       <isKnown>true</isKnown>
       <fogColor>1.0,1.0,1.0</fogColor>
       <skyColor>1.0,1.0,1.0</skyColor>
