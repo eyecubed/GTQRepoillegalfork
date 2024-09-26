@@ -6,6 +6,7 @@
       <orbitalDistance>70</orbitalDistance>
       <orbitalTheta>0</orbitalTheta>
       <orbitalPhi>0</orbitalPhi>
+    </planet>
       <planet DIMID="4" customIcon="Moon" name="Moon">
         <isKnown>false</isKnown>
         <hasOxygen>false</hasOxygen>
