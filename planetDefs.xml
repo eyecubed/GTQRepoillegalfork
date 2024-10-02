@@ -1,13 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <galaxy>
   <star blackHole="false" name="Sol" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="0" y="0">
-    <planet DIMID="0" customIcon="EarthLike" name="earth">
-      <isKnown>true</isKnown>
-      <orbitalDistance>70</orbitalDistance>
-      <orbitalTheta>0</orbitalTheta>
-      <orbitalPhi>0</orbitalPhi>
-    </planet>
-      <planet DIMID="4" customIcon="Moon" name="Moon">
+   <planet DIMID="0" customIcon="EarthLike" dimMapping="0" name="earth">
+      <planet DIMID="5" customIcon="Moon" name="Moon">
         <isKnown>false</isKnown>
         <hasOxygen>false</hasOxygen>
         <forceRiverGeneration>true</forceRiverGeneration>
