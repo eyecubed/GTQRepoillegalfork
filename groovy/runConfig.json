@@ -1,26 +1,19 @@
 {
-  "packName": "GregTech Aurora",
+  "packName": "Gregtech Aurora",
   "packId": "gtaurora",
   "version": "1.0.0",
   "debug": false,
-  "classes": {
-    "preInit": []
-  },
+  "classes": [
+      "classes/MetaTileEntitySteamLargeHammer.groovy",
+      "classes/MetaTileEntityAlloyKiln.groovy"
+],
   "loaders": {
     "preInit": [
       "preInit/"
     ],
     "postInit": [
+      "postInit/multiblocks.groovy",
       "postInit/"
-    ],
-        "init": [
-          "init/"
     ]
-  },
-  "packmode": {
-    "values": [],
-    "default": "",
-    "_comment": "By default the packmode is not synced with the packmode mod. You can enable integration, but you can no longer change packmode on the fly.",
-    "integratePackmodeMod": false
   }
 }
