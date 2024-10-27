@@ -8,6 +8,14 @@ mods.gregtech.materialEvent {
     .ore()
     .flags()
     .components(material('caesium'), material('germanium'))
-    .separatedInto(material('vanadium'), material('gallium'), material('gallium'), material('demetarium'))
+    .separatedInto(material('gallium'), material('demetarium'))
 .build()
+
+ materialBuilder(31900,'aridium')
+    .colorAverage()
+    .ore()
+    .flags()
+    .separatedInto(material('vibranium'), material('schrabidium'))
+.build()
+
 }

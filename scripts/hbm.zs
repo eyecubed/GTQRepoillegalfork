@@ -22,3 +22,5 @@ mods.ntm.Assembler.removeRecipe(<hbm:warhead_generic_medium>);
 mods.ntm.Assembler.removeRecipe(<hbm:warhead_incendiary_medium>);
 mods.ntm.Assembler.removeRecipe(<hbm:warhead_cluster_medium>);
 mods.ntm.Assembler.removeRecipe(<hbm:warhead_buster_medium>);
+
+mods.ntm.SILEX.addRecipe(2, 900, 100, <minecraft:cooked_beef>, [<hbm:billet_nuclear_waste>, <minecraft:beef>, <minecraft:beef>], [70,20,10]);

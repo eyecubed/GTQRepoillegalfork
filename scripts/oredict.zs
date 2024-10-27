@@ -7,7 +7,8 @@
 <ore:crystalCertusQuartz>.add(<metaitem:gemCertusQuartz>);
 <ore:gemCertusQuartz>.remove(<ore:gemCertusQuartz>.firstItem);
 
-import mods.thaumcraft.ArcaneWorkbench;
+// the holy script wall
+
 val gemLatex = <ore:gemLatex>;
 gemLatex.remove(<hbm:ball_resin>);
 val ingotAnyRubber = <ore:ingotAnyRubber>;
