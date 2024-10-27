@@ -43,18 +43,20 @@ public class MetaTileEntityAlloyKiln extends RecipeMapSteamMultiblockController 
     @Override
     public MetaTileEntity createMetaTileEntity(IGregTechTileEntity tileEntity) {
         return new MetaTileEntityAlloyKiln(metaTileEntityId);
+        this.recipeMapWorkable = new SteamMultiWorkable(this, CONVERSION_RATE);
+        this.recipeMapWorkable.setParallelLimit(PARALLEL_LIMIT);
     }
 
     @NotNull
     @Override
     protected BlockPattern createStructurePattern() {
         return FactoryBlockPattern.start()
-                .aisle("BBBBBBBB", "        ", "        ")
-                .aisle("BCBCBCBC", "        ", "        ")
-                .aisle("BCBCBCBC", "        ", "        ")
-                .aisle("BBBBBBBB", "        ", "        ")
-                .where('B', states(getCasingState()).setMinGlobalLimited(24)) // Bottom layer of bricks
-                .where('C', states(getCasingState())) // Casing blocks
+                .aisle("XXX", "XXX", "XXX")
+                .aisle("XXX", "X#X", "XXX")
+                .aisle("XXX", "XSX", "XXX")
+                .where('S' as char, selfPredicate())
+                .where('X' as char, states(getCasingState()).setMinGlobalLimited(14).or(autoAbilities()))
+                .where('#' as char, air())
                 .build();
     }
 

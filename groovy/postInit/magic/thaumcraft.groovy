@@ -105,9 +105,7 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
     .input(ore('ingotBloodInfusedIron'))
     .instability(40)
     .register()
-
-mods.thaumcraft.research.addScannable('KNOWLEDGETYPEMETALLURGY', item('minecraft:pumpkin'))
-
+    
 
 mods.thaumcraft.arcane_workbench.shapedBuilder()
     .researchKey('UNLOCKALCHEMY@3')
