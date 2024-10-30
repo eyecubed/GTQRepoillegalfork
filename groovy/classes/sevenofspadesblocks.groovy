@@ -28,5 +28,7 @@ public static final def THAUMIC_FURNACE = new SimpleMachineMetaTileEntity[GTValu
       registerSimpleMTE(THAUMIC_FURNACE, 32000, 12, "thaumic_furnace", RecipeMaps.THAUMIC_FURNACE, Textures.ALLOY_SMELTER, [hasFrontFacing (true)], GTUtility.defaultTankSizeFunction) 
     }
 
+  private static final RecipeMap<SimpleRecipeBuilder> THAUMIC_FURNACE = new RecipeMap<>("thaumic_furnace", 2, 1, 1, 0, new SimpleRecipeBuilder(), false)
+
 
 }
