@@ -1,4 +1,5 @@
-materialBuilder(31711, 'mithglar')
+mods.gregtech.materialEvent {
+    materialBuilder(31711, 'mithglar')
     .color(0xAB8C5E)
     .ore(true)
     .flags()
@@ -93,3 +94,5 @@ materialBuilder(31722, 'geadris')
     .components(material('geadris'))
     .iconSet('FINE')
 .build();
+
+}
