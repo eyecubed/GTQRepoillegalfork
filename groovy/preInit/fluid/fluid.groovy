@@ -22,4 +22,14 @@ mods.gregtech.materialEvent {
         .liquid(fluidBuilder())
         .color(0xad0000)
 .build()
+
+    materialBuilder(31999, 'endogenic_coat')
+        .liquid(fluidBuilder())
+        .color(0x2200c9)
+.build()
+
+    materialBuilder(31699, 'fluix_soldering_alloy')
+        .liquid(fluidBuilder())
+        .color(0x6f2ab0)
+.build()
 }

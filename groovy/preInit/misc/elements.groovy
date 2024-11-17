@@ -20,3 +20,16 @@ def Hiihirokane = Elements.add(242, 124, -1, null, "Hiihirokane", "§cHk", false
 def Manasteel = Elements.add(120, 124, -1, null, "Manasteel", "§9Ml§e", false)
 
 def Terrasteel = Elements.add(245, 124, -1, null, "Terrasteel", "§aTr§e", false)
+
+def Mithglar = Elements.add(40, 256, -1, null, "Mithglar", "§6Mᛁ§7", false);
+def Skadiite = Elements.add(45, 128, -1, null, "Skadiite", "§1Skᛞ§9", false);
+def Geldrun = Elements.add(50, 512, -1, null, "Geldrun", "§eᚷe§6", false);
+def Vidium = Elements.add(35, 128, -1, null, "Vidium", "§2ᚹi§a", false);
+def Freyrite = Elements.add(48, 64, -1, null, "Freyrite", "§4Fᚱ§c", false);
+def Swartim = Elements.add(60, 128, -1, null, "Swartim", "§8Sw§7", false); // Removed Norse characters here
+def Trimla = Elements.add(42, 256, -1, null, "Trimla", "§7Tᚱ§f", false);
+def Rodanil = Elements.add(55, 512, -1, null, "Rodanil", "§8Rᛟ§6", false);
+def Drustins = Elements.add(38, 64, -1, null, "Drustins", "§2Dᚱ§a", false);
+def Dowmandir = Elements.add(53, 128, -1, null, "Dowmandir", "§7ᛞo§6", false);
+def Breytir = Elements.add(47, 256, -1, null, "Breytir", "§3Bᚱ§b", false);
+def Geadris = Elements.add(52, 512, -1, null, "Geadris", "§dGᛖ§5", false);

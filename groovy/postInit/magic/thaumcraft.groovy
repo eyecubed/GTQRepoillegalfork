@@ -121,3 +121,27 @@ mods.thaumcraft.arcane_workbench.shapedBuilder()
     .aspect(aspect('terra'))
     .vis(200)
     .register()
+
+mods.thaumcraft.arcane_workbench.shapedBuilder()
+    .researchKey('MANALENS')
+    .output(item('botania:lens'))
+    .matrix('EEE',
+            'ESE',
+            'EEE')
+    .key('S', ore('blockGlass'))
+    .key('E', ore('plateManasteel'))
+    .aspect(aspect('ignis'))
+    .aspect(aspect('terra'))
+    .vis(40)
+    .register()
+
+
+mods.thaumcraft.infusion_crafting.recipeBuilder()
+    .researchKey('MANALENS')
+    .mainInput(ore('ringManasteel'))
+    .output(item('botania:lens'))
+    .aspect('praecantatio', 10)
+    .aspect('terra', 20)
+    .input(item('botania:managlass'))
+    .instability(2)
+    .register()

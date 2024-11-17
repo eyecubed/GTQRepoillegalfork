@@ -72,6 +72,118 @@ materialBuilder(31020, 'space_grade_steel')
     .components(material('end_stone'), material('black_steel'), material('aluminium'))
 .build()
 
+materialBuilder(31300, 'radioactive_clay')
+    .dust()
+        .flags()
+    .colorAverage()
+    .components(material('clay'), material('stone'), material('plutonium'))
+.build()
+
+materialBuilder(31301, 'insentient_polymer_clay')
+    .liquid(fluidBuilder())
+    .flags()
+    .colorAverage()
+    .components(material('clay'), material('stone'), material('plutonium'), material('ender_pearl'))
+.build()
+
+materialBuilder(31700, 'mithglar')
+    .ingot().fluid()
+    .color(0xAB8C5E).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(256, 1, 0, true)
+    .element("Mithglar")
+.build();
+
+materialBuilder(31701, 'skadiite')
+    .ingot().fluid()
+    .color(0x3A4B6E).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(128, 2, 0, true)
+    .element("Skadiite")
+.build();
+
+materialBuilder(31702, 'geldrun')
+    .ingot().fluid()
+    .color(0xFFD700).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(512, 1, 1, true)
+    .element("Geldrun")
+.build();
+
+materialBuilder(31703, 'vidium')
+    .ingot().fluid()
+    .color(0x4F8A10).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(256, 1, 0, true)
+    .element("Vidium")
+.build();
+
+materialBuilder(31704, 'freyrite')
+    .ingot().fluid()
+    .color(0x6E0F0F).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(128, 2, 0, true)
+    .element("Freyrite")
+.build();
+
+materialBuilder(31705, 'swartim')
+    .ingot().fluid()
+    .color(0x2F4F4F).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(128, 1, 0, true)
+    .element("Swartim")
+.build();
+
+materialBuilder(31706, 'trimla')
+    .ingot().fluid()
+    .color(0x7A4B3B).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(256, 1, 0, true)
+    .element("Trimla")
+.build();
+
+materialBuilder(31707, 'rodanil')
+    .ingot().fluid()
+    .color(0x7C7A7A).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(512, 1, 1, true)
+    .element("Rodanil")
+.build();
+
+materialBuilder(31708, 'drustins')
+    .ingot().fluid()
+    .color(0x3E9B77).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(64, 1, 0, true)
+    .element("Drustins")
+.build();
+
+materialBuilder(31709, 'dowmandir')
+    .ingot().fluid()
+    .color(0x5F4B3C).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(128, 1, 0, true)
+    .element("Dowmandir")
+.build();
+
+materialBuilder(31710, 'breytir')
+    .ingot().fluid()
+    .color(0xBA5A31).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(256, 1, 0, true)
+    .element("Breytir")
+.build();
+
+materialBuilder(31711, 'geadris')
+    .ingot().fluid()
+    .color(0x9E3D3D).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(512, 1, 1, true)
+    .element("Geadris")
+.build();
+
+
+
 }
 
 // for things that dont have compat

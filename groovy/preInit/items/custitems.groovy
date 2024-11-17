@@ -17,3 +17,7 @@ content.createItem('circuit.optical_processor').register()
 content.createItem('circuit.optical_array').register()
 content.createItem('circuit_board.optical').register()
 content.createBlock('superschrabidiccasing').register()
+
+// blocks
+content.createBlock('deco_computer').register()
+content.createBlock('machine_casing_ampridge').register()
