@@ -10,6 +10,26 @@
 //
 
 //#MARKER REMOVE
+recipes.remove(<gendustry:industrial_apiary>);
+recipes.remove(<gendustry:sampler>);
+recipes.remove(<gendustry:genetics_processor>);
+recipes.remove(<gendustry:mutatron_advanced>);
+recipes.remove(<gendustry:imprinter>);
+recipes.remove(<gendustry:mutatron>);
+recipes.remove(<gendustry:transposer>);
+recipes.remove(<gendustry:replicator>);
+recipes.remove(<gendustry:extractor>);
+recipes.remove(<gendustry:mutagen_producer>);
+recipes.remove(<hbm:circuit_targeting_tier1>);
+recipes.remove(<hbm:circuit_targeting_tier2>);
+recipes.remove(<hbm:circuit_targeting_tier3>);
+recipes.remove(<hbm:circuit_targeting_tier4>);
+recipes.remove(<hbm:circuit_targeting_tier5>);
+recipes.remove(<hbm:circuit_targeting_tier5>);
+recipes.remove(<actuallyadditions:block_misc:9>);
+recipes.remove(<actuallyadditions:block_phantomface>);
+recipes.remove(<actuallyadditions:block_coal_generator>);
+recipes.remove(<actuallyadditions:block_oil_generator>);
 recipes.remove(<thermalfoundation:material:102> * 4);
 recipes.remove(<thermalfoundation:material:101> * 4);
 recipes.remove(<gendustry:genetics_processor>);
@@ -103,11 +123,6 @@ recipes.remove(<tconstruct:casting>);
 recipes.remove(<tconstruct:smeltery_io>);
 recipes.remove(<tconstruct:faucet>);
 recipes.remove(<tconstruct:seared_tank>);
-recipes.remove(<gregtech:sword>);
-recipes.remove(<gregtech:hoe>);
-recipes.remove(<gregtech:axe>);
-recipes.remove(<gregtech:shovel>);
-recipes.remove(<gregtech:pickaxe>);
 recipes.remove(<hbm:inf_water>);
 recipes.remove(<thermalfoundation:material:640>);
 recipes.remove(<thermalfoundation:material:656>);
@@ -427,9 +442,6 @@ recipes.remove(<appliedenergistics2:inscriber>);
 recipes.remove(<bonsaitrees:bonsaipot>);
 recipes.remove(<actuallyadditions:item_misc:7>);
 recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
-recipes.remove(<minecraft:diamond_pickaxe>);
-recipes.remove(<minecraft:stone_pickaxe>);
-recipes.remove(<minecraft:iron_pickaxe>);
 recipes.remove(<lucraftcore:extractor>);
 recipes.remove(<lucraftcore:infinity_generator>);
 recipes.remove(<gregtech:meta_dust:260>);
@@ -448,6 +460,7 @@ recipes.addShapeless(<pyrotech:material:12> * 5, [<ore:treeSapling>]);
 recipes.addShapeless(<pyrotech:material:12> * 2, [<roots:wildroot>, <ore:wildroot>]);
 recipes.addShapeless(<gregtech:meta_dust:260> * 4, [<gregtech:meta_dust:25>, <gregtech:meta_dust:112>, <gregtech:meta_dust:25>, <gregtech:meta_dust:25>]);
 //#MARKER ADD SHAPED
+recipes.addShaped(<actuallyadditions:block_phantomface>, [[<appliedenergistics2:material:9>, <actuallyadditions:item_misc:8>, <ore:pearlFluix>], [<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:block_misc:6>, <actuallyadditions:item_crystal_empowered:2>], [<ore:pearlFluix>, <actuallyadditions:item_misc:8>, <ore:pearlFluix>]]);
 recipes.addShaped(<gendustry:sampler>, [[<gregtech:meta_plate_double:259>, <gendustry:genetics_processor>, <gregtech:meta_plate_double:259>], [<gendustry:power_module>, <gregtech:meta_item_1:710>, <gendustry:power_module>], [<gregtech:meta_plate_double:259>, <forestry:sturdy_machine>, <gregtech:meta_plate_double:259>]]);
 recipes.addShaped(<gendustry:transposer>, [[<gendustry:genetics_processor>, <gendustry:power_module>, <gendustry:genetics_processor>], [<gendustry:gene_template>, <forestry:sturdy_machine>, <gendustry:gene_template>], [<gendustry:genetics_processor>, <gendustry:power_module>, <gendustry:genetics_processor>]]);
 recipes.addShaped(<gendustry:replicator>, [[<gendustry:genetics_processor>, <gregtech:meta_plate:2000>, <gendustry:genetics_processor>], [<gendustry:gene_template>, <forestry:sturdy_machine>, <gendustry:gene_template>], [<ore:circuitLv>, <gregtech:meta_item_1:710>, <ore:circuitLv>]]);
@@ -458,7 +471,7 @@ recipes.addShaped(<forestry:apiary>, [[<ore:fenceTreatedWood>, <gregtech:treated
 recipes.addShaped(<forestry:fabricator>, [[<ore:plateBrass>, <ore:circuitLv>, <ore:plateBrass>], [<gregtech:meta_item_1:127>, <gregtech:machine:305>, <gregtech:meta_item_1:127>], [<gregtech:item_pipe_large:259>, <forestry:sturdy_machine>, <gregtech:item_pipe_large:259>]]);
 recipes.addShaped(<forestry:centrifuge>, [[<gregtech:meta_plate:259>, <ore:circuitLv>, <gregtech:meta_plate:259>], [<gregtech:meta_screw:259>, <forestry:sturdy_machine>, <gregtech:meta_screw:259>], [<gregtech:meta_plate:259>, <gregtech:meta_item_1:127>, <gregtech:meta_plate:259>]]);
 recipes.addShaped(<forestry:carpenter>, [[<ore:plateBronze>, <ore:circuitLv>, <gregtech:meta_plate:260>], [<gregtech:meta_item_1:78>, <forestry:sturdy_machine>, <gregtech:meta_item_1:157>], [<gregtech:meta_plate:260>, <gregtech:meta_item_1:127>, <ore:plateBronze>]]);
-recipes.addShaped(<forestry:sturdy_machine>, [[<gregtech:meta_plate:260>, <gregtech:meta_screw:260>, <gregtech:meta_plate:260>], [<gregtech:meta_plate:260>, <ore:frameGtTreatedWood>, <gregtech:meta_plate:260>], [<ore:plankTreatedWood>, <gregtech:meta_screw:260>, <gregtech:meta_plate:1648>]]);
+recipes.addShaped(<forestry:sturdy_machine>, [[<gregtech:meta_plate:260>, <gregtech:meta_screw:260>, <gregtech:meta_plate:260>], [<gregtech:meta_plate:260>, <ore:frameGtTreatedWood>, <gregtech:meta_plate:260>], [<ore:plankTreatedWood>, <gregtech:meta_screw:260>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<hbm:factory_titanium_hull> * 8, [[null, <ore:screwIron>, null], [<gregtech:meta_plate:51>, <gregtech:meta_block_frame_20:4>, <ore:plateIron>], [null, <ore:screwIron>, null]]);
 recipes.addShaped(<advancedrocketry:structuretower> * 4, [[<ore:stickLongSpaceGradeSteel>, null, <gregtech:meta_stick_long:31020>], [null, <ore:frameGtStainlessSteel>, null], [<gregtech:meta_stick_long:31020>, null, <ore:stickLongSpaceGradeSteel>]]);
 recipes.addShaped(<advancedrocketry:concrete> * 32, [[<ore:blockConcrete>, <gregtech:stone_smooth:4>, <ore:blockConcrete>], [<ore:blockConcrete>, <ore:blockConcrete>, <gregtech:stone_smooth:4>], [<ore:blockConcrete>, <ore:blockConcrete>, <gregtech:stone_smooth:4>]]);
@@ -512,7 +525,6 @@ recipes.addShaped(<gregtech:meta_item_1:350>, [[<ore:sand>, <pyrotech:rock:5>, <
 recipes.addShaped(<tconstruct:smeltery_controller>, [[<tconstruct:seared_tank>, <ore:ingotBrickSeared>, <tconstruct:seared_tank>], [<tconstruct:smeltery_io>, <pyrotech:cog_diamond>, <tconstruct:smeltery_io>], [<pyrotech:igniter>, <pyrotech:igniter:1>, <pyrotech:igniter>]]);
 recipes.addShaped(<tconstruct:casting>, [[<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_slab>, <pyrotech:refractory_brick_block>], [<ore:blockSeared>, <ore:ingotBrickSeared>, <ore:blockSeared>], [<ore:blockSeared>, null, <ore:blockSeared>]]);
 recipes.addShaped(<minecraft:stone:2>, [[<minecraft:paper>], [<minecraft:stone:1>]]);
-recipes.addShaped(<pyrotech:worktable>, [[<ore:logWood>, <ore:logWood>], [<ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped(<tconstruct:smeltery_io>, [[<tconstruct:materials>, <pyrotech:cog_iron>, <tconstruct:materials>], [<tconstruct:faucet>, <tconstruct:seared_tank>, <tconstruct:faucet>], [<tconstruct:materials>, <pyrotech:cog_iron>, <ore:ingotBrickSeared>]]);
 recipes.addShaped(<tconstruct:smeltery_io>, [[<tconstruct:materials>, <pyrotech:cog_iron>, <tconstruct:materials>], [<tconstruct:faucet>, <tconstruct:seared_tank>, <tconstruct:faucet>], [<tconstruct:materials>, <pyrotech:cog_iron>, <ore:ingotBrickSeared>]]);
 recipes.addShaped(<tconstruct:smeltery_io>, [[<tconstruct:materials>, <pyrotech:cog_iron>, <tconstruct:materials>], [<tconstruct:faucet>, <tconstruct:seared_tank>, <tconstruct:faucet>], [<tconstruct:materials>, <pyrotech:cog_iron>, <ore:ingotBrickSeared>]]);
@@ -766,7 +778,6 @@ recipes.addShaped(<thermalexpansion:frame:64>, [[<gregtech:meta_plate:1016>, <or
 recipes.addShaped(<libvulpes:structuremachine> * 4, [[<gregtech:meta_stick:323>, <gregtech:meta_ingot:323>, <gregtech:meta_stick:323>], [<gregtech:meta_screw:323>, <gregtech:meta_ring:323>, <gregtech:meta_screw:323>], [<ore:stickStainlessSteel>, <gregtech:meta_ingot:323>, <ore:stickStainlessSteel>]]);
 recipes.addShaped(<actuallyadditions:item_misc:7>, [[null, <gregtech:meta_foil:323>, <gregtech:planks:1>], [<gregtech:meta_foil:323>, <gregtech:meta_stick_long:323>, <gregtech:meta_foil:323>], [<gregtech:planks:1>, <gregtech:meta_foil:323>, null]]);
 recipes.addShaped(<appliedenergistics2:inscriber>, [[<gregtech:cleanroom_casing>, <gregtech:meta_item_1:129>, <gregtech:cleanroom_casing>], [<gregtech:meta_item_1:428>, <gregtech:meta_item_1:629>, <gregtech:meta_item_1:428>], [<gregtech:cleanroom_casing>, <gregtech:meta_item_1:129>, <gregtech:cleanroom_casing>]]);
-recipes.addShaped(<forestry:sturdy_machine>, [[<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>], [<gregtech:meta_gear:2036>, <gregtech:meta_item_1:371>, <gregtech:meta_gear:2036>], [<gregtech:planks:1>, <gregtech:meta_block_frame_103>, <gregtech:planks:1>]]);
 recipes.addShaped(<embers:blend_caminite> * 6, [[<thaumadditions:mithrillium_nugget>, <thaumadditions:mithrillium_nugget>, <thaumadditions:mithrillium_nugget>], [<thaumadditions:mithrillium_nugget>, <thaumicwands:item_primal_charm>, null]]);
 recipes.addShaped(<hbm:template_folder>, [[<ore:plateDenseAluminium>, <minecraft:paper>, <gregtech:meta_plate_dense:2>], [<ore:circuitMv>, <minecraft:paper>, <gregtech:meta_item_1:624>], [<gregtech:meta_plate_dense:2>, <minecraft:paper>, <ore:plateDenseAluminium>]]);
 recipes.addShaped(<hbm:anvil_lead>, [[<gregtech:meta_ingot:324>, <gregtech:meta_ingot:324>, <gregtech:meta_ingot:324>], [null, <ore:ingotSteel>, null], [<gregtech:meta_ingot:2>, <gregtech:meta_ingot:2>, <gregtech:meta_ingot:2>]]);
