@@ -23,3 +23,10 @@ recipes.removeByRecipeName("gendustry:recipe22");
 recipes.removeByRecipeName("gendustry:recipe23");
 recipes.removeByRecipeName("gendustry:recipe24");
 recipes.removeByRecipeName("gendustry:recipe25");
+
+recipes.removeByRecipeName("gregtech:hoe_flint");
+recipes.removeByRecipeName("gregtech:sword_flint");
+recipes.removeByRecipeName("gregtech:shovel_flint");
+recipes.removeByRecipeName("gregtech:pickaxe_flint");
+recipes.removeByRecipeName("gregtech:axe_flint");
+recipes.removeByRecipeName("gregtech:crafting_table");
