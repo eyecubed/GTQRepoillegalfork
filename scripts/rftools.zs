@@ -1,3 +1,5 @@
+#reloadable
+
 recipes.addShaped(<rftools:charged_porter>, [[<draconicevolution:dislocator_advanced>, <ore:batteryEv>], [<hbm:ducttape>, <hbm:ducttape>]]);
 recipes.addShaped(<rftoolsdim:empty_dimension_tab>, [[<dimdoors:world_thread>, <dimdoors:stable_fabric>, <dimdoors:world_thread>], [<gtaurora:hume_field_regulation_component>, <dimdoors:stabilized_rift_signature>, <gtaurora:starmetal_cobalt_processing_module_component>], [<dimdoors:world_thread>, <gtaurora:schrabidium_neutronium_processing_module_component>, <dimdoors:world_thread>]]);
 recipes.addShaped(<rftoolsdim:time_absorber>, [[<ore:screwNaquadahAlloy>, null, <gregtech:meta_screw:2042>], [<hbm:battery_spark_cell_10000>, <hbm:singularity_spark>, <hbm:battery_spark_cell_10000>], [<gregtech:meta_screw:2042>, null, <ore:screwNaquadahAlloy>]]);
