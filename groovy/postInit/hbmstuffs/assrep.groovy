@@ -46,3 +46,42 @@ recipemap('canner').recipeBuilder()
         .outputs(item('hbm:part_plutonium') * 4)
         .duration(120).EUt(8).buildAndRegister()
         
+
+// machine tiem!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// lets
+recipemap('assembler').recipeBuilder()
+        .inputs(item('gregtech:meta_turbine_blade', 113) * 7)
+        .inputs(ore('stickStainlessSteel') * 2)
+        .inputs(ore('screwTitanium') * 14)
+        .outputs(item('hbm:turbine_titanium'))
+        .duration(1240).EUt(16).buildAndRegister()
+
+recipemap('assembler').recipeBuilder()
+        .inputs(item('gregtech:meta_item_1', 711).withNbt(['GT.PartStats': ['Material': 'gregtech:ultimet']]))
+        .inputs(ore('circuitMv') * 3)
+        .inputs(ore('plateSteel') * 32)
+        .inputs(ore('stickLongStainlessSteel') * 3)
+        .inputs(item('gregtech:wire_coil') * 16)
+        .outputs(item('hbm:machine_large_turbine'))
+        .duration(2920).EUt(128).buildAndRegister()
+
+recipemap('assembler').recipeBuilder()
+        .inputs(ore('plateSteel') * 64)
+        .inputs(ore('plateBlackSteel') * 64)
+        .inputs(ore('plateStainlesSteel') * 64)
+        .inputs(ore('circuitHv') * 3)
+        .inputs(ore('stickLongStainlessSteel') * 3)
+        .inputs(item('gregtech:wire_coil', 1) * 16)
+        .outputs(item('hbm:turbofan'))
+        .duration(16384).EUt(16).buildAndRegister()
+
+recipemap('assembler').recipeBuilder()
+        .inputs(ore('plateSteel') * 12)
+        .inputs(ore('plateBlackSteel') * 32)
+        .inputs(ore(''))
+        .outputs(item('hbm:'))
+        .duration(1240).EUt(16).buildAndRegister()
+
+// i need to make hbm machines greggy
+// thus, these recipes 
+// 1240 seems a little excessive

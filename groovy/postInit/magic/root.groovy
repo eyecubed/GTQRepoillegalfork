@@ -40,3 +40,33 @@ mods.roots.fey_crafter.recipeBuilder()
     .output(item('dimensionaledibles:nether_cake'))
     .xp(100)
     .register()
+
+mods.roots.fey_crafter.recipeBuilder()
+    .name('say_gex1')
+    .input(item('yurtmod:tent_canvas'),item('yurtmod:tent_canvas'),ore('cobblestone'),item('minecraft:stick'),item('minecraft:stick')) // Must be exactly 5
+    .output(item('yurtmod:mallet'))
+    .xp(10)
+    .register()
+
+
+mods.roots.fey_crafter.recipeBuilder()
+    .name('say_gex1')
+    .input(ore('gemDiamond'),ore('nuggetGold'),ore('gemAmethyst'),ore('gemAmethyst'),item('yurtmod:mallet')) // Must be exactly 5
+    .output(item('yurtmod:super_mallet'))
+    .xp(10)
+    .register()
+
+mods.roots.fey_crafter.recipeBuilder()
+    .name('say_gex1')
+    .input(ore('ingotBrick'),ore('ingotBrick'),ore('ingotBrick'),ore('runestone'),item('roots:wildroot')) // Must be exactly 5
+    .output(item('bonsaitrees:bonsaipot'))
+    .xp(10)
+    .register()
+
+mods.roots.mortar.recipeBuilder()
+    .name('im_going_to_cum')
+    .input(ore('rootsBarkWildwood'),item('roots:runic_dust'),item('thaumcraft:crystal_essence').withNbt(['Aspects': [['key': 'aqua', 'amount': 1]]]),item('thaumcraft:crystal_essence').withNbt(['Aspects': [['key': 'terra', 'amount': 1]]]), item('thaumcraft:crystal_essence').withNbt(['Aspects': [['key': 'ignis', 'amount': 1]]]))
+    .generate(true)
+    .output(item('thaumcraft:salis_mundus'))
+    .color(1, 0, 0.1, 1, 0, 0.1)
+    .register()

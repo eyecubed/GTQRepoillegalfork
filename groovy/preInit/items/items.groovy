@@ -182,7 +182,28 @@ materialBuilder(31711, 'geadris')
     .element("Geadris")
 .build();
 
+materialBuilder(31750, 'hydrolysed_fluix')
+    .gem()
+    .colorAverage().iconSet('CERTUS')
+    .cableProperties(512, 1, 1, true)
+    .components(material('water'), material('fluix'))
+.build();
 
+materialBuilder(31751, 'rootmetal')
+    .ingot().fluid()
+    .rotorStats(110, 90, 125000)
+    .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+    .color(0x028500)
+    .components(material('iron'), material('rare_earth'))
+.build()
+
+materialBuilder(31752, 'dawnstone')
+    .ingot().fluid()
+    .rotorStats(400, 120, 400000)
+    .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+    .color(0xffe650)
+    .components(material('copper'), material('gold'), material('mithlgar'))
+.build()
 
 }
 

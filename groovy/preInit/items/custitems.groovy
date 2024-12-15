@@ -1,3 +1,13 @@
+
+
+import net.minecraft.item.ItemFood
+import net.minecraft.potion.PotionEffect
+import net.minecraft.potion.Potion
+import net.minecraft.item.ItemStack
+import net.minecraft.world.World
+import net.minecraft.entity.player.EntityPlayer
+
+
 content.createItem('botathaumamanic_glass_board').register()
 content.createItem('quantum_credit').register()
 content.createItem('racism').register()
@@ -21,3 +31,14 @@ content.createBlock('superschrabidiccasing').register()
 // blocks
 content.createBlock('deco_computer').register()
 content.createBlock('machine_casing_ampridge').register()
+
+// juicey beans
+
+content.registerItem('juicey_beans', (new ItemFood(999, 999, false) {
+    protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
+        if (!worldIn.isRemote) {
+            player.addPotionEffect(new PotionEffect(Potion.getPotionFromResourceLocation('minecraft:regeneration'), 240000, 3, false, false))
+            player.addPotionEffect(new PotionEffect(Potion.getPotionFromResourceLocation('minecraft:resistance'), 240000, 3, false, false))
+        }
+    }
+}).setAlwaysEdible())
