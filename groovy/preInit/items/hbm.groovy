@@ -491,4 +491,22 @@ materialBuilder(32161, 'gem_grade_fluix_dust')
         .liquid(fluidBuilder())
         .color(0xa9ff29)
 .build()
+
+
+materialBuilder(30037, "desh_alloy")
+    .ingot()
+    .color(0xf5e00)
+    .blastTemp(2700, "MID") 
+    .components(material("chrome"), material("copper"), material("tin"))
+.build();
+
+materialBuilder(30035, "spent_catalyst_beta")
+    .dust()
+    .color(0xffc09c) 
+.build();
+
+materialBuilder(30036, "desh_catalyst")
+    .dust()
+    .color(0xff7e2e) 
+.build();
 }

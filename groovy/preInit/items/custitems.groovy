@@ -27,10 +27,17 @@ content.createItem('circuit.optical_processor').register()
 content.createItem('circuit.optical_array').register()
 content.createItem('circuit_board.optical').register()
 content.createBlock('superschrabidiccasing').register()
-
+content.createItem('circuit.amped_wetware_mainframe').register()
+content.createItem('circuit.amped_wetware_assembly').register()
+content.createItem('circuit.amped_wetware_processor').register()
+content.createItem('circuit.amped_wetware_array').register()
+content.createItem('circuit_board.amped_wetware').register()
+content.createItem('contraschrabidic_core').register()
+content.createItem('etched_draconic_plate').register()
 // blocks
 content.createBlock('deco_computer').register()
 content.createBlock('machine_casing_ampridge').register()
+content.createBlock('machine_casing_bioreactor').register()
 
 // juicey beans
 

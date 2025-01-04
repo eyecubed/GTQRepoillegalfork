@@ -202,7 +202,7 @@ materialBuilder(31752, 'dawnstone')
     .rotorStats(400, 120, 400000)
     .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
     .color(0xffe650)
-    .components(material('copper'), material('gold'), material('mithlgar'))
+    .components(material('copper'), material('gold'), material('manasteel'))
 .build()
 
 }

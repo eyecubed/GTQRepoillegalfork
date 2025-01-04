@@ -266,4 +266,60 @@ materialBuilder(31722, 'aegirith')
     .iconSet('FINE')
 .build();
 
+materialBuilder(31723, 'coralium')
+    .color(0x126c77)
+    .ore()
+    .gem()
+    .flags()
+    .iconSet('FINE')
+.build();
+
+materialBuilder(31725, 'rich_coralium')
+    .color(0x126c77)
+    .ore(true)
+    .flags()
+    .iconSet('FINE')
+.build();
+
+materialBuilder(31724, 'aquivite')
+    .color(0x0d9aff)
+    .ore(true)
+    .flags()
+.build();
+
+materialBuilder(31726, 'alkimvite')
+    .color(0x002e99)
+    .ore()
+    .flags()
+.build();
+
+materialBuilder(31727, 'ignivite')
+    .color(0xfc4103)
+    .ore()
+    .flags()
+.build();
+
+materialBuilder(31728, 'terratite')
+    .color(0x03c200)
+    .ore()
+    .flags()
+.build();
+
+materialBuilder(31729, 'aeratite')
+    .color(0xf4ff54)
+    .ore()
+    .flags()
+.build();
+
+materialBuilder(31730, 'ordominite')
+    .color(0xffffff)
+    .ore()
+    .flags()
+.build();
+
+materialBuilder(31731, 'perditionite')
+    .color(0x000000)
+    .ore()
+    .flags()
+.build();
 }

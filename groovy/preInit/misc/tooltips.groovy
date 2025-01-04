@@ -29,3 +29,9 @@ event_manager.listen { ItemTooltipEvent event ->
         event.getToolTip() << 'Data on Elementary Particles'
     }
 }
+
+event_manager.listen { ItemTooltipEvent event ->
+    if (event.getItemStack() in item('gtaurora:primitive.stone_kiln')) {
+        event.getToolTip() << 'Combines the usage of the Stone Kiln, Drying Rack, and can make Glass!'
+    }
+}
