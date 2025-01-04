@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: [
+		"7c53e653",
+		"4e53f438"
+	],
+	tasks: [{
+		uid: "95768241",
+		type: "checkmark",
+		title: "Reset 2 (Steam)"
+	}],
+	rewards: [{
+		uid: "c7fc4608",
+		type: "command",
+		title: "Reset",
+		icon: "srparasites:itemmobspawner_pod",
+		command: "/srpevolution setphase 0"
+	}]
+}

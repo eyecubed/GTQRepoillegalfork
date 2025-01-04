@@ -1,0 +1,21 @@
+{
+	x: -1.9d,
+	y: 3.7d,
+	dependencies: [
+		"ad1b67e3"
+	],
+	tasks: [{
+		uid: "85dc9225",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "156b323f",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	}]
+}

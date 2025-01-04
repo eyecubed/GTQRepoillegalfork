@@ -1,0 +1,35 @@
+{
+	x: -1.5d,
+	y: -4.5d,
+	shape: "square",
+	dependencies: [
+		"f5ce76d6",
+		"b74dae8f"
+	],
+	tasks: [{
+		uid: "9558d916",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 402"
+		}]
+	},
+	{
+		uid: "5c130327",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 382"
+		}]
+	}],
+	rewards: [{
+		uid: "71f69cc2",
+		type: "item",
+		item: "gregtech:meta_ingot 1 335",
+		count: 16
+	},
+	{
+		uid: "1806ce09",
+		type: "item",
+		item: "gregtech:meta_item_1 1 382",
+		count: 4
+	}]
+}

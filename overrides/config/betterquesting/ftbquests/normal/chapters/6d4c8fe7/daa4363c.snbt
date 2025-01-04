@@ -1,0 +1,20 @@
+{
+	x: -0.1d,
+	y: 4.8d,
+	text: [
+		"NOTE: Diamond Ore has a few extra methods to process pre-furnace.",
+		"",
+		"First, crush on an ironclad anvil. Then wash in a soaking pot, Then crush again, then smelt in a pit kiln. Easy as that."
+	],
+	dependencies: [
+		"e7bf1641",
+		"5cf8a06b"
+	],
+	tasks: [{
+		uid: "3baa9a21",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_diamond_0"
+		}]
+	}]
+}

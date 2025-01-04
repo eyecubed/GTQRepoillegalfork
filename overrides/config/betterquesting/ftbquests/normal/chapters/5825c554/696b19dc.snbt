@@ -1,0 +1,18 @@
+{
+	x: -0.6d,
+	y: 1.1d,
+	description: "I have carpal tunnel",
+	text: [
+		"You know the drill. New voltage, new machines."
+	],
+	dependencies: [
+		"9f9d4b4b"
+	],
+	tasks: [{
+		uid: "41fe70bf",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 114"
+		}]
+	}]
+}

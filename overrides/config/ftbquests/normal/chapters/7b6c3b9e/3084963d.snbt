@@ -1,0 +1,30 @@
+{
+	icon: "harvestcraft:hotcocoaitem",
+	x: -0.9d,
+	y: -1.5d,
+	shape: "hexagon",
+	text: [
+		"Rainbow Curry is one of the harder Pam's foods to make. Collect 16 of them for a nice reward.",
+		"Also, get me some cocoa. I feel cold."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4d358f23"
+	],
+	tasks: [{
+		uid: "1731273a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:rainbowcurryitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c1476d70",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hotcocoaitem"
+		}]
+	}]
+}

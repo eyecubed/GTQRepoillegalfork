@@ -1,0 +1,54 @@
+{
+	title: "MV Covers and Components",
+	x: 1.5d,
+	y: 0.0d,
+	description: "If aluminium is blue, why are these red?",
+	text: [
+		"The components are basically the same, except there is a new one; the MV Emitter. It required for the Laser Engraver which is ",
+		"incredibly important later on."
+	],
+	dependencies: [
+		"2d4dcd80"
+	],
+	tasks: [{
+		uid: "6cfa5af4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 143"
+		}]
+	},
+	{
+		uid: "d824c8d5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 158"
+		}]
+	},
+	{
+		uid: "d88e0715",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 128"
+		}]
+	},
+	{
+		uid: "e327bb2a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 188"
+		}]
+	},
+	{
+		uid: "6a31744b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 173"
+		}]
+	}],
+	rewards: [{
+		uid: "22fcde38",
+		type: "item",
+		item: "gregtech:ore_nickel_0",
+		count: 32
+	}]
+}

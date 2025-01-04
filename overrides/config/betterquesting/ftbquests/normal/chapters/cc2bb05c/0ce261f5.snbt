@@ -1,0 +1,18 @@
+{
+	x: -9.7d,
+	y: 0.95d,
+	shape: "square",
+	text: [
+		"Nano CPUs are required for Nano circuits. They require carbon fibers. I highly recommend setting up Epoxy to make carbon fibers more efficient to make."
+	],
+	dependencies: [
+		"3cd3489b"
+	],
+	tasks: [{
+		uid: "51be71e6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 594"
+		}]
+	}]
+}

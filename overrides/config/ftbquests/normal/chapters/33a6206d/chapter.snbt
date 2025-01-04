@@ -1,0 +1,12 @@
+{
+	title: "Blood Magic",
+	icon: {
+		id: "bloodmagic:blood_orb",
+		tag: {
+			orb: "bloodmagic:weak"
+		}
+	},
+	always_invisible: false,
+	group: 460858873,
+	default_quest_shape: ""
+}

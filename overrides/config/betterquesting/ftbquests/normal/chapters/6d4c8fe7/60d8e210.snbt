@@ -1,0 +1,19 @@
+{
+	x: 1.9d,
+	y: 4.5d,
+	description: "Cokey Dokey",
+	text: [
+		"Use your GT Knife to fashion a bunch of brick molds. Then, turn them all into these coke bricks. this will take a while to do, so i recommend",
+		"you start gathering sand piles, refractory clay, sand, all in advance."
+	],
+	dependencies: [
+		"219334ea"
+	],
+	tasks: [{
+		uid: "9cf65007",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 353"
+		}]
+	}]
+}

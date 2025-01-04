@@ -1,0 +1,29 @@
+{
+	x: -1.4d,
+	y: -1.3d,
+	description: "Binniecore",
+	text: [
+		"Binnie's Mods also have a large variety of alcohol, food, drink, saplings, and more.",
+		"",
+		"Pro tip: §2Forestry's§f farms can be used for a lot of earlygame food instead of the GT Greenhouse. They are more expensive to run compared",
+		"to these farms."
+	],
+	dependencies: [
+		"0f4a510b"
+	],
+	tasks: [{
+		uid: "7c212ae9",
+		type: "checkmark",
+		title: "Binnie's Mods",
+		icon: {
+			id: "binniecore:glass",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "binnie.liqueur.cherry",
+					Amount: 1000
+				}
+			}
+		}
+	}]
+}

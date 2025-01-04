@@ -1,0 +1,21 @@
+{
+	x: 3.6d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"8099e3cc"
+	],
+	tasks: [{
+		uid: "de6baf3b",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "epichlorohydrin",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

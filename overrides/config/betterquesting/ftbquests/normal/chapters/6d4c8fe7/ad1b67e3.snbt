@@ -1,0 +1,33 @@
+{
+	title: "Getting Iron",
+	x: 0.0d,
+	y: 3.9d,
+	description: "(Fe)IN, (Fe)IN, (Fe)IN",
+	text: [
+		"Congrats on your first iron! you can do a few things with it.",
+		"",
+		"First is getting yourself some basic GT Tools. Second, is upgrading your anvil to an Ironclad one. Third, is working your way towards Diamonds",
+		"and the Tinker's Smeltery. I suggest you go with the third option."
+	],
+	dependencies: [
+		"ee795bb9"
+	],
+	tasks: [{
+		uid: "68a91d26",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotIron"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotIron"
+				}
+			}
+		}]
+	}]
+}

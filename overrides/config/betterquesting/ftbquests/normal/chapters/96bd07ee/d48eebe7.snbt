@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	description: "Upgrades, people, Upgrades!",
+	text: [
+		"With your new integrated parts made from cutting silicon, you can make an Integrated LV Circuit, which is more efficient",
+		"to make than the normal LV circuit."
+	],
+	dependencies: [
+		"89b6995b"
+	],
+	tasks: [{
+		uid: "756a708f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 623"
+		}]
+	}]
+}

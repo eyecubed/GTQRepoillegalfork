@@ -1,0 +1,24 @@
+{
+	x: 7.7d,
+	y: -1.7d,
+	text: [
+		"Read the pit burning quest."
+	],
+	dependencies: [
+		"c82dc7c9"
+	],
+	tasks: [{
+		uid: "c1e343c2",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_drain"
+		}]
+	},
+	{
+		uid: "033de4ea",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_collector"
+		}]
+	}]
+}

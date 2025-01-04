@@ -1,0 +1,278 @@
+{
+  "version": 2,
+  "location": "gtqu1:nuclear.schrabidiumcass",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:nuclear.schrabidiumcass",
+        "frontTexture": "multiblocked:blocks/gregtech_front",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "Industrial Schrabidium Transmuter",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "  AAA  ",
+        "  ABA  ",
+        "  ABA  ",
+        "  A@A  ",
+        "  ABA  ",
+        "  ABA  ",
+        "  AAA  "
+      ],
+      [
+        " AACAA ",
+        " AADAA ",
+        " AADAA ",
+        " AAAAA ",
+        " AADAA ",
+        " AADAA ",
+        " AAEAA "
+      ],
+      [
+        "AACECAA",
+        "AA   AA",
+        "AA   AA",
+        "AA   AA",
+        "AA   AA",
+        "AA   AA",
+        "AAAEAAA"
+      ],
+      [
+        "ACEEECA",
+        " F G H ",
+        " I G J ",
+        "AA G AA",
+        "BD G DB",
+        "BD G DB",
+        "AEEAEEA"
+      ],
+      [
+        "AACECAA",
+        "AA   AA",
+        "AA   AA",
+        "AA   AA",
+        "AA   AA",
+        "AA   AA",
+        "AAAEAAA"
+      ],
+      [
+        " AACAA ",
+        " AADAA ",
+        " AADAA ",
+        " AAAAA ",
+        " AADAA ",
+        " AADAA ",
+        " AAEAA "
+      ],
+      [
+        "  AAA  ",
+        "  ABA  ",
+        "  ABA  ",
+        "  AAA  ",
+        "  ABA  ",
+        "  ABA  ",
+        "  AAA  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 9
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gtqu1:nuclear.schrabidiumcass",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "hbm:glass_lead",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "gregtech:boiler_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gregtech:transparent_casing",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "gtaurora:superschrabidiccasing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "OUT"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_2000",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ]
+    }
+  }
+}

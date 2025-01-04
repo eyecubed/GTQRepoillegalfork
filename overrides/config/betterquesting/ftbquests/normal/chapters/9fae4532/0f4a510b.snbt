@@ -1,0 +1,24 @@
+{
+	title: "Food and Survival",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"Welcome to the food and survival chapter! this will give you some in-general tips on how to survive in the harsh environment",
+		"that is this post-apocalyptic wasteland of a modpack.",
+		"",
+		"We will be covering §2 Plant growth, Nutrition, and much more."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8e1f283d",
+		type: "checkmark",
+		icon: "minecraft:iron_hoe"
+	}],
+	rewards: [{
+		uid: "e0d2066c",
+		type: "item",
+		item: "harvestcraft:mustardseedsitem",
+		count: 12
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -2.2d,
+	y: 2.0d,
+	text: [
+		"The Pyre will require some basic stuff from Pyrotech, including a campfire. Not very hard, but it will get harder from here."
+	],
+	dependencies: [
+		"644fea5a"
+	],
+	tasks: [{
+		uid: "81a6f919",
+		type: "item",
+		items: [{
+			item: "roots:pyre"
+		}]
+	}]
+}

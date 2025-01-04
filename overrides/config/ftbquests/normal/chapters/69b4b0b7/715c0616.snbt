@@ -1,0 +1,25 @@
+{
+	x: 0.9d,
+	y: 0.5d,
+	text: [
+		"The Stencil Table is used to make the actual part patterns from the empty patterns. "
+	],
+	dependencies: [
+		"77b97bd8"
+	],
+	tasks: [{
+		uid: "bfe6538d",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 1s,
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1,
+					Damage: 0s
+				}
+			}
+		}]
+	}]
+}

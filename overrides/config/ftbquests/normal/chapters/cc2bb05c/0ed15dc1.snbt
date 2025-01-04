@@ -1,0 +1,22 @@
+{
+	x: -6.4d,
+	y: 0.6d,
+	shape: "square",
+	text: [
+		"RTM stands for Ruthenium, Tantalum, Molybdendum.",
+		"",
+		"Yummy, if i do say so myself."
+	],
+	dependencies: [
+		"311239ca",
+		"22687d58",
+		"36827e2b"
+	],
+	tasks: [{
+		uid: "a99148e8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 451"
+		}]
+	}]
+}

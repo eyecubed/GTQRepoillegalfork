@@ -1,0 +1,30 @@
+{
+	x: -3.7d,
+	y: -1.8d,
+	text: [
+		"This is required, of course it is..",
+		"",
+		"You need it to crush down runestone and other things down into dust.",
+		"",
+		"To get charcoal, you can find it, or you can get it from Pit Burning."
+	],
+	dependencies: [
+		"644fea5a"
+	],
+	tasks: [{
+		uid: "5d836d53",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	},
+	{
+		uid: "7e3522ba",
+		type: "item",
+		items: [{
+			item: "roots:pestle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

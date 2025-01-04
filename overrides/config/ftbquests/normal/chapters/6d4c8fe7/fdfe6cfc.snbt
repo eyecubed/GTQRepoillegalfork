@@ -1,0 +1,22 @@
+{
+	title: "Ore Processing",
+	icon: "gregtech:meta_crushed 1 116",
+	x: 5.7d,
+	y: 3.5d,
+	text: [
+		"Yes, you read that right. You can process ores at this tier, but with nearly no way to smelt them, it's no use. You have to craft a furnace to",
+		"smelt these. Or you can use Tinker's Smeltery. Idk.",
+		"",
+		"Place your ore on an ironclad anvil. Then, rightclick it with a pickaxe to turn it into Crushed ore. Next, wash it in a soaking pot with a campfire",
+		"under it. Finally, click the purified ore with a pickaxe on the anvil for Small Dust.",
+		"",
+		"1/4th as efficient, not recommended..."
+	],
+	dependencies: [
+		"e7bf1641"
+	],
+	tasks: [{
+		uid: "692a073d",
+		type: "checkmark"
+	}]
+}

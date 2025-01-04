@@ -1,0 +1,24 @@
+{
+	x: -7.2d,
+	y: -6.25d,
+	text: [
+		"Automatic thirst replenisher."
+	],
+	dependencies: [
+		"fe9797b8"
+	],
+	tasks: [{
+		uid: "5636f4db",
+		type: "item",
+		items: [{
+			id: "tanaddons:thirst_quencher",
+			tag: {
+				FluidStored: 0,
+				TimeStart: 100,
+				ForgeEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

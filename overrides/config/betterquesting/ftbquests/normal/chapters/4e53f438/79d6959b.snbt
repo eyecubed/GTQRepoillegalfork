@@ -1,0 +1,31 @@
+{
+	x: 1.478571428571442d,
+	y: 3.3680272108843496d,
+	shape: "square",
+	description: "botany pots reference",
+	text: [
+		"one hopper bonsai pot on a boiler is enough to power it. you will need to scavenge a bit for it though.."
+	],
+	dependencies: [
+		"2c8659bd"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "a2013289",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ee1681fe",
+		type: "item",
+		item: "bonsaitrees:bonsaipot",
+		count: 2
+	},
+	{
+		uid: "6db49278",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

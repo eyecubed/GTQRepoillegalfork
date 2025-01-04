@@ -1,0 +1,25 @@
+{
+	title: "HP Boilers",
+	x: 4.0d,
+	y: 6.5d,
+	description: "extra steamy",
+	text: [
+		"HP Boilers are improved steam boilers, and for energy in LV steam is required anyway. So an HP boiler is pretty important."
+	],
+	dependencies: [
+		"f728a05d"
+	],
+	tasks: [{
+		uid: "539b7d35",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2"
+		},
+		{
+			item: "gregtech:machine 1 4"
+		},
+		{
+			item: "gregtech:machine 1 6"
+		}]
+	}]
+}

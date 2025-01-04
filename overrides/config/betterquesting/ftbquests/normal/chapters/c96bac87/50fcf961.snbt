@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 1.1d,
+	text: [
+		"Liquid air for better renewable oxygen and nitrogen.",
+		"",
+		"Also provides you with Helium and Argon."
+	],
+	dependencies: [
+		"b4696d77"
+	],
+	tasks: [{
+		uid: "fe7f3c9f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquid_air",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -6.9d,
+	y: -0.5d,
+	shape: "square",
+	description: "You're a nerd if you know this element",
+	text: [
+		"Molybdenum is acquired through Molybdenum Ore, Wulfrenite, and Powellite."
+	],
+	dependencies: [
+		"ef25d51d"
+	],
+	tasks: [{
+		uid: "bd68b23d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 64"
+		}]
+	}],
+	rewards: [{
+		uid: "84504e45",
+		type: "item",
+		item: "gregtech:ore_wulfenite_0",
+		count: 4
+	}]
+}

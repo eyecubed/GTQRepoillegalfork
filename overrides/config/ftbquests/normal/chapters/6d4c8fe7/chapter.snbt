@@ -1,0 +1,29 @@
+{
+	title: "Introduction",
+	icon: "minecraft:sapling",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -9.6d,
+		y: -2.7d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:nether.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.6d,
+		y: -2.7d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:oven.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

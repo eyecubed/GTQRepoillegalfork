@@ -1,0 +1,16 @@
+{
+	title: "Tinker's Construct",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Do i have to introduce this mod?",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6b51b999",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	}]
+}

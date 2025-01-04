@@ -1,0 +1,21 @@
+{
+	title: "EV Mixer",
+	x: -7.45d,
+	y: 0.6d,
+	shape: "hexagon",
+	description: "\"Protein Shakes, People\"",
+	text: [
+		"EV Mixers are required for RTM Alloy and also for Tungstensteel."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a51c57ba"
+	],
+	tasks: [{
+		uid: "afd5c3e7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 473"
+		}]
+	}]
+}

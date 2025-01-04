@@ -1,0 +1,19 @@
+{
+	x: 3.338775510204073d,
+	y: 1.7306122448979622d,
+	text: [
+		"The Barrel converts Leaves into Tannins, which are required for Tanned Hide. This is required for TiCon patterns, so i HIGHLY recommend you",
+		"start this as soon as you can."
+	],
+	dependencies: [
+		"d430ff50",
+		"5cf8a06b"
+	],
+	tasks: [{
+		uid: "b36955aa",
+		type: "item",
+		items: [{
+			item: "pyrotech:barrel"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 1.7d,
+	y: -2.7d,
+	description: "Wine? Holy fuck, JOSHWINEFAN34???!?!??W!??!?!?!??!?",
+	text: [
+		"Probably the second thing to make. This is for the better Drying Rack, and can also be useful for many more recipes."
+	],
+	dependencies: [
+		"03689261"
+	],
+	tasks: [{
+		uid: "2ec061e8",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "18120c79",
+		type: "item",
+		item: "gtaurora:juicey_beans"
+	}]
+}

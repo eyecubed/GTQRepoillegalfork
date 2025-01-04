@@ -1,0 +1,48 @@
+{
+	title: "Mold",
+	x: 2.5d,
+	y: 5.0d,
+	description: "Avg GTCEu player's feet:",
+	text: [
+		"Molds are items used in the Alloy Smelter. they can be used to make components corresponding to that mold more efficiently."
+	],
+	dependencies: [
+		"f728a05d"
+	],
+	tasks: [{
+		uid: "21e2ba9c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12"
+		}]
+	},
+	{
+		uid: "c61bb0d3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 18"
+		}]
+	},
+	{
+		uid: "a152a22c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "9f809cd2",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "0dd68001",
+		type: "item",
+		item: "gregtech:meta_item_1 1 13"
+	},
+	{
+		uid: "b88f6f45",
+		type: "item",
+		item: "gregtech:meta_item_1 1 17"
+	}]
+}

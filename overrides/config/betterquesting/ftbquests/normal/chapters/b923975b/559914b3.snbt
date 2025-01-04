@@ -1,0 +1,30 @@
+{
+	x: 5.492857142857154d,
+	y: -9.926020408163254d,
+	shape: "square",
+	text: [
+		"LV Has now been conquered! MV gives you access to a lot of new stuff, like Galacticraft, Petrochem, more centrifuging recipes, and a better",
+		"EBF as well as new multiblocks. ",
+		"",
+		"Now that you have the Circuit Assembler, it is a good idea to make some circuits.",
+		"",
+		"You can use either use soldering alloy which is more resource-efficient or tin which isn't as resource efficient but is cheaper."
+	],
+	dependencies: [
+		"6310fa70"
+	],
+	size: 2.5d,
+	tasks: [{
+		uid: "cf3c9934",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 635"
+		}]
+	}],
+	rewards: [{
+		uid: "87ba56d4",
+		type: "item",
+		item: "harvestcraft:heartybreakfastitem",
+		count: 12
+	}]
+}

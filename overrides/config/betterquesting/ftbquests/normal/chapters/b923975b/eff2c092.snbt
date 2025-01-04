@@ -1,0 +1,27 @@
+{
+	title: "Battery Buffers",
+	x: 0.0d,
+	y: -9.5d,
+	shape: "square",
+	description: "storing energy",
+	text: [
+		"Battery buffers work as a way to store energy and also a way to distribute more amps.",
+		"",
+		"Having a 4x Battery Buffer means you have 4 amps available to you. This is especially useful for the EBF."
+	],
+	dependencies: [
+		"597c63e3"
+	],
+	tasks: [{
+		uid: "d1e8188a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1316"
+		}]
+	}],
+	rewards: [{
+		uid: "9bd12587",
+		type: "item",
+		item: "gregtech:machine 1 986"
+	}]
+}

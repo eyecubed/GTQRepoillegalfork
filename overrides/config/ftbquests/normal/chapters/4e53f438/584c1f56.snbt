@@ -1,0 +1,23 @@
+{
+	x: 9.0d,
+	y: 1.0d,
+	text: [
+		"Yet another component of the LV circuit. there are better resistors in higher tiers."
+	],
+	dependencies: [
+		"7ea6b89e"
+	],
+	tasks: [{
+		uid: "fc28a824",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 519"
+		}]
+	}],
+	rewards: [{
+		uid: "484ee065",
+		type: "item",
+		item: "gregtech:meta_item_1 1 519",
+		count: 12
+	}]
+}

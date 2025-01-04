@@ -1,0 +1,37 @@
+{
+	title: "Arc Furnace and Oxygen Gas",
+	x: -6.0d,
+	y: -0.5d,
+	description: "breathing hydrogen > breathing oxygen",
+	text: [
+		"Oxygen Gas can be acquired in many Electrolysis recipes.",
+		"",
+		"There are 2 main ways i say you could get it:",
+		"",
+		"Electrolysing Water for Oxygen and Hydrogen, but this produces more Oxygen than Hydrogen. This still can be used to automate easily",
+		"as Water is basically infinite.",
+		"",
+		"You can also get oxygen as a byproduct from processing ores, so i recommend not voiding any oxygen after ore processing.",
+		"",
+		"the Arc Furnace is used for a lot of convenient recipes like Sand -> Glass, and it can easily make Wrought Iron as well.",
+		"",
+		"It also unlocks Annealed Copper which can be used for making the Temperature Maintainer which means you don't have to worry about",
+		"temperature anymore."
+	],
+	dependencies: [
+		"fb376710"
+	],
+	tasks: [{
+		uid: "b1d96f65",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 95"
+		}]
+	}],
+	rewards: [{
+		uid: "c8f08195",
+		type: "item",
+		item: "gregtech:meta_dust 1 255",
+		count: 12
+	}]
+}

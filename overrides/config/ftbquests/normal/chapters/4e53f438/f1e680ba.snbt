@@ -1,0 +1,19 @@
+{
+	x: 0.9683673469387912d,
+	y: 1.0006802721088448d,
+	shape: "square",
+	description: "ore processing",
+	text: [
+		"Crush ores in the macerator for a bit more output."
+	],
+	dependencies: [
+		"2c8659bd"
+	],
+	tasks: [{
+		uid: "c8925112",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 9"
+		}]
+	}]
+}

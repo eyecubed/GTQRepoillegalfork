@@ -1,0 +1,31 @@
+{
+	title: "Crafting Tables",
+	x: 0.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"Forestry is an old school mod - everything needs its own crafting table!"
+	],
+	dependencies: [
+		"5051efe4"
+	],
+	tasks: [{
+		uid: "1b5b5277",
+		type: "item",
+		items: [{
+			item: "forestry:carpenter"
+		}]
+	},
+	{
+		uid: "7bb60fb2",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "189c6edd",
+		type: "item",
+		item: "forestry:sturdy_machine"
+	}]
+}

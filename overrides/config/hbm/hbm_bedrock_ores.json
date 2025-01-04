@@ -1,0 +1,25 @@
+{
+  "dimConfig": [
+    {
+      "dimID": 0,
+      "oreRarity": 0,
+      "isWhiteList": true,
+      "bedrockOres": [
+      ]
+    },
+    {
+      "dimID": -1,
+      "oreRarity": 0,
+      "isWhiteList": true,
+      "bedrockOres": [
+      ]
+    },
+    {
+      "dimID": -6,
+      "oreRarity": 0,
+      "isWhiteList": true,
+      "bedrockOres": [
+      ]
+    }
+  ]
+}

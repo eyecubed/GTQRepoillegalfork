@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"This is probably going to be your first HV Circuit. If you have acquired Stainless Steel, PE, and this circuit, you can move onto HV.",
+		"",
+		"Sidenote: i was looking into this and noticed that the Assembly HV Circuit is basically the same as this one. So you can craft either based",
+		"on your needs."
+	],
+	dependencies: [
+		"89b6995b"
+	],
+	tasks: [{
+		uid: "7562affb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 625"
+		}]
+	}]
+}

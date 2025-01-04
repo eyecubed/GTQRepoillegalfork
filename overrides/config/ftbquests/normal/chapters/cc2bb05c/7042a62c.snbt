@@ -1,0 +1,25 @@
+{
+	title: "EV Circuit Assembling",
+	x: -10.885714285714286d,
+	y: -0.5037414965986144d,
+	shape: "hexagon",
+	description: "You MOST DEFINITELY know the drill by now..",
+	text: [
+		"To make this you have to invest into a Mainframe which is an IV circuit. "
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"dc8ab2e6",
+		"3d82b53e",
+		"9deeda8b",
+		"ce283306"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b883aadd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 638"
+		}]
+	}]
+}

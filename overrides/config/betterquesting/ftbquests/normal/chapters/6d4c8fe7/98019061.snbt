@@ -1,0 +1,19 @@
+{
+	x: 1.9d,
+	y: -1.5d,
+	description: "Brying Cack",
+	text: [
+		"This is just a bigger and better Rack. I highly suggest you make this after getting your first fiber, so.. get it i guess."
+	],
+	dependencies: [
+		"49f30bf2",
+		"26e32166"
+	],
+	tasks: [{
+		uid: "80d440f7",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack 1 1"
+		}]
+	}]
+}

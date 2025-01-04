@@ -1,0 +1,23 @@
+{
+	title: "The Nether",
+	x: 0.8d,
+	y: -0.7d,
+	text: [
+		"The Nether in this pack is insufferable to go through with, requiring progression in both Roots and Gregtech to get here.",
+		"Once you are here though, there are a few things you will need;",
+		"",
+		"1) Sulfur",
+		"Sulfur is required in LARGE amounts in LV, so i HIGHLY, HIGHLY suggest you mine as much as you can.",
+		"",
+		"2) Quartz, Certus, Quartzite",
+		"Quartz, as well as being an important magic ingredient, also has its Certus variant, which you will need in HV.",
+		"",
+		"3) Tetrahedrite",
+		"Copper!"
+	],
+	tasks: [{
+		uid: "f406026b",
+		type: "dimension",
+		dim: -1
+	}]
+}

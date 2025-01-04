@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: 0.95d,
+	description: "Fictional EU storage",
+	text: [
+		""
+	],
+	dependencies: [
+		"989009f9"
+	],
+	tasks: [{
+		uid: "727d9531",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 741s,
+			tag: {
+				Charge: 0L
+			}
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Drying",
+	x: 0.7d,
+	y: -2.7d,
+	description: "Chronos...",
+	text: [
+		"This is where i recommend you start parallelization. make at least 6 of these, and keep them in the background, drying as much fiber as ",
+		"humanly possible. These will be needed for processing clay and other stuff, as well as a little bit of ore. So, might as well stockpile on it."
+	],
+	dependencies: [
+		"4fab4e16"
+	],
+	tasks: [{
+		uid: "5781aea9",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack"
+		}],
+		count: 2L
+	}]
+}

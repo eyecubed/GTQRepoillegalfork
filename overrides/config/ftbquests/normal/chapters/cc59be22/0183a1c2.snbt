@@ -1,0 +1,17 @@
+{
+	x: -3.1750000000000025d,
+	y: -2.6d,
+	text: [
+		"This machine is used to convert gem dusts back into gems. Also converts enderpearl dust back into ender pearls."
+	],
+	dependencies: [
+		"9d9b32df"
+	],
+	tasks: [{
+		uid: "bbf5f1c9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1003"
+		}]
+	}]
+}

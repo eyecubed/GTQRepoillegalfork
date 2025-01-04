@@ -1,0 +1,28 @@
+{
+	title: "Stonework",
+	x: 1.9d,
+	y: 1.6d,
+	description: "work on stone (pushes pr to stoned git xd lol died xd hawk tuah)",
+	text: [
+		"Ignore the subtitle, i was autistic. anyways, Stone is an extremely important component for the next part of the progression. ",
+		"The granite anvil, the refractory items, all need stone products. So, i recommend you set up a lot of these."
+	],
+	dependencies: [
+		"bd398fd9",
+		"faa8761f"
+	],
+	tasks: [{
+		uid: "82315ad1",
+		type: "item",
+		items: [{
+			item: "minecraft:stone"
+		}]
+	},
+	{
+		uid: "fcd2f786",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_slab"
+		}]
+	}]
+}

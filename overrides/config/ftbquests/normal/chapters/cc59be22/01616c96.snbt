@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 0.55d,
+	shape: "square",
+	text: [
+		"The HV chemical reactor is used for many important chemlines like Titanium and PTFE. PTFE can be used to make Large chemical reactors",
+		"which work more efficiently."
+	],
+	dependencies: [
+		"9ac3b937"
+	],
+	tasks: [{
+		uid: "c43b7d4b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 217"
+		}]
+	}]
+}

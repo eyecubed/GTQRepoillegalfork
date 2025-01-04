@@ -1,0 +1,69 @@
+{
+	x: -0.1d,
+	y: 3.0d,
+	description: "Flinty V2",
+	text: [
+		"Flint Tools are the next step in progression. These allow you to get Ores, so be happy little one."
+	],
+	dependencies: [
+		"eef81f55",
+		"8b3e862f"
+	],
+	tasks: [{
+		uid: "ed334456",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "162317db",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0e713b00",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41fe6b3f",
+		type: "item",
+		items: [{
+			id: "gregtech:knife",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:flint",
+					MaxDurability: 63,
+					Durability: 0,
+					AttackDamage: 1.0f,
+					AttackSpeed: 3.0f
+				},
+				HideFlags: 2,
+				ench: [{
+					id: 20,
+					lvl: 2s
+				}],
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4b63576d",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

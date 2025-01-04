@@ -1,0 +1,40 @@
+{
+	title: "Clone Wars",
+	x: 3.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	description: "200,000 units are ready, with a million more well on the way.",
+	text: [
+		"Makes bees out of Liquid Protein and Liquid DNA."
+	],
+	dependencies: [
+		"793fff49"
+	],
+	tasks: [{
+		uid: "f1b4e663",
+		type: "item",
+		items: [{
+			item: "gendustry:extractor"
+		}]
+	},
+	{
+		uid: "23539f92",
+		type: "item",
+		items: [{
+			item: "gendustry:liquifier"
+		}]
+	},
+	{
+		uid: "ac292af9",
+		type: "item",
+		items: [{
+			item: "gendustry:replicator"
+		}]
+	}],
+	rewards: [{
+		uid: "28198093",
+		type: "item",
+		item: "minecraft:porkchop",
+		count: 32
+	}]
+}

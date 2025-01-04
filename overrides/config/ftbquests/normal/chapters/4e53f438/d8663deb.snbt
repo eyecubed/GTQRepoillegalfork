@@ -1,0 +1,28 @@
+{
+	title: "LV Motors",
+	x: 10.0d,
+	y: 5.0d,
+	text: [
+		"You're almost there! ",
+		"",
+		"In order to unlock the more fancy stuff in LV straight away you should make 6 LV motors for your own convenience.",
+		"",
+		"This is mainly for some Steam Turbines to power your machines."
+	],
+	dependencies: [
+		"cd3ff571"
+	],
+	tasks: [{
+		uid: "a31da543",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 127"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "3f02cb54",
+		type: "item",
+		item: "gregtech:machine 1 986"
+	}]
+}

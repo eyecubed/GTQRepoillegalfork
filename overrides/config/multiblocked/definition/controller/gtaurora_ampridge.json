@@ -1,0 +1,206 @@
+{
+  "version": 2,
+  "location": "gtaurora:ampridge",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/gregtech_base",
+        "frontTexture": "multiblocked:blocks/gregtech_front",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "d47ef2ce-1fa2-4338-b723-ab372617ded6",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "A                           A",
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "ABBBBBBBBBBBBBBBBBBBBBBBBBBBA",
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "A                           A"
+      ],
+      [
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "A                           A",
+        "A                           A",
+        "A                           A",
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      ],
+      [
+        "ACCCCCCCCCCCCCCCCCCCCCCCCCCCA",
+        "A                           A",
+        "DCCCCCCCCCCCCCCCCCCCCCCCCCCCE",
+        "A                           A",
+        "ACCCCCCCCCCCCCCCCCCCCCCCCCCCA"
+      ],
+      [
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "A                           A",
+        "A                           A",
+        "A                           A",
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      ],
+      [
+        "A                         AAA",
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAFA",
+        "ABBBBBBBBBBBBBBBBBBBBBBBBBA@A",
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAGA",
+        "A                         AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gtaurora:ampridge",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:transparent_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "gtaurora:machine_casing_ampridge",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "multiblocked:energy_output",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "OUT"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "multiblocked:energy_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  }
+}

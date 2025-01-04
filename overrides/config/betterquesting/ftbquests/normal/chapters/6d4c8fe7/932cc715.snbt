@@ -1,0 +1,25 @@
+{
+	x: -4.4d,
+	y: 2.0d,
+	text: [
+		"To get Obsidian, You can use a diamond pick.. which isn't possible. Whatever shall you do? Well, i have a solution; Amethyst tools.",
+		"",
+		"You may have come across Amethyst in chests a bunch. It's time to use it. Gather some vines and sticks, and using those in a Fey ",
+		"Crafter you can get Amethyst tools.",
+		"",
+		"You can also go through Tinker's to get obsidian from lava and water in the smeltery."
+	],
+	dependencies: [
+		"a059d029",
+		"d7b02839",
+		"ed83c3a5",
+		"9535867a"
+	],
+	tasks: [{
+		uid: "1bc83539",
+		type: "item",
+		items: [{
+			item: "roots:runed_obsidian"
+		}]
+	}]
+}

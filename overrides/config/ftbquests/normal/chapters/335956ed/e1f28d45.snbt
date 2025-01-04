@@ -1,0 +1,38 @@
+{
+	title: "Pressing Time",
+	x: -1.0d,
+	y: -1.0d,
+	shape: "rsquare",
+	dependencies: [
+		"5e1561f5"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "b8380f83",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "f9008a48",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "ad49e648",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "fce06201",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}]
+}

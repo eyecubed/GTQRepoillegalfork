@@ -1,0 +1,7 @@
+{
+	title: "HV Extras",
+	icon: "gregtech:machine 1 217",
+	always_invisible: false,
+	group: -866533854,
+	default_quest_shape: ""
+}

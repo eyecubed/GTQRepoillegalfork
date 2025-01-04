@@ -1,0 +1,19 @@
+{
+	title: "PGM T3",
+	x: -3.5872448979591667d,
+	y: -1.705102040816321d,
+	shape: "square",
+	text: [
+		"This is used for Osmium, which unlocks Mekanism, and a bunch of other utilities"
+	],
+	dependencies: [
+		"ba61e546"
+	],
+	tasks: [{
+		uid: "c68e4828",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2059"
+		}]
+	}]
+}

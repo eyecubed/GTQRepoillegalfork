@@ -1,0 +1,51 @@
+{
+	title: "Crude Tools",
+	x: 0.0d,
+	y: 1.1d,
+	text: [
+		"These are your first tools. Get pebbles from punching up piles on the ground, Get sticks by punching leaves.",
+		"",
+		"To get fiber, you can use Bamboo, Sugarcane, or Wildroot. It doesn't spawn in Greenery grasses, sadly.",
+		"Once you have your Crude Shovel, you can mine Grass for a chance at getting some clumps, which can be converted into Fiber directly."
+	],
+	dependencies: [
+		"4fab4e16"
+	],
+	tasks: [{
+		uid: "69f3c34c",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "03d09d29",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11d5fdc9",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "199069ad",
+		type: "item",
+		item: "gregtechfoodoption:gtfo_meta_item 1 132"
+	},
+	{
+		uid: "d002354c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

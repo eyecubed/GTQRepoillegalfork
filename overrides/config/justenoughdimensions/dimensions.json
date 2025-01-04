@@ -1,0 +1,11 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+      "dim": 900
+    }
+  ]
+}

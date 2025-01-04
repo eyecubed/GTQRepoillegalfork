@@ -1,0 +1,42 @@
+{
+	title: "Components",
+	x: -0.6d,
+	y: 0.8d,
+	shape: "square",
+	text: [
+		"The recipes for these have been Gregified to be in the HV age.",
+		"",
+		"Rocket fuel also requires Ammonia and Liquid Air, which is pretty late into HV."
+	],
+	dependencies: [
+		"9f22d93b"
+	],
+	tasks: [{
+		uid: "8e9b46cf",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:misc"
+		}]
+	},
+	{
+		uid: "10c705e1",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 3"
+		}]
+	},
+	{
+		uid: "db898dae",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 4"
+		}]
+	},
+	{
+		uid: "39a7b6bd",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 5"
+		}]
+	}]
+}

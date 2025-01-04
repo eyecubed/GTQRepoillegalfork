@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	dependencies: [
+		"ad1b67e3"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "cfa1b9fe",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	},
+	{
+		uid: "f0f04e34",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	x: 8.0d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"Congrats! you are now a certified gregtech beginner. Now it's time for the juicy stuff... (including nukes)",
+		" For your first machine, you should get yourself an LV turbine. It inputs steam and takes out energy, provided it has a place to store the energy.",
+		"",
+		"I have also given you some magnetic steel rods for *free*, so you don't have much hassle when making the LV motors."
+	],
+	dependencies: [
+		"584c1f56",
+		"366343ff",
+		"a4ab19d6",
+		"f728a05d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "88b933a8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}]
+	}],
+	rewards: [{
+		uid: "dd735910",
+		type: "random",
+		title: "Weaponry Loot Table",
+		icon: "hbm:ammo_shell_w9",
+		table: 1
+	},
+	{
+		uid: "120f50be",
+		type: "xp_levels",
+		xp_levels: 12
+	},
+	{
+		uid: "c6e581dc",
+		type: "item",
+		item: "toughasnails:fruit_juice 1 6"
+	},
+	{
+		uid: "da34e1f0",
+		type: "item",
+		item: "gregtech:meta_ingot 1 2035",
+		count: 8
+	}]
+}

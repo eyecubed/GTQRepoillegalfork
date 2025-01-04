@@ -1,0 +1,30 @@
+{
+	title: "Treated Wood",
+	x: -3.5d,
+	y: 1.5d,
+	description: "wood on crack",
+	text: [
+		"Treated Wood is useful for about 2 things: the Primitive Pump and fluid pipes for carrying water. It can also obviously be used as deco, not suprising.."
+	],
+	dependencies: [
+		"c0a19029"
+	],
+	tasks: [{
+		uid: "245be68b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankTreatedWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plankTreatedWood"
+				}
+			}
+		}]
+	}]
+}

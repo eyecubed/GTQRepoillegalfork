@@ -1,0 +1,28 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"The laser engraver is a machine that engraves patterns onto Silicon Wafers for use in making circuits. It is required to make HV circuits and ",
+		"also is a way to make MV and LV circuits more efficiently.",
+		"",
+		"The product of engraving depends upon the lens used; for an integrated logic wafer you would need a Red lens or a Ruby lens.",
+		"",
+		"After you engrave the wafer, you need to cut it once. then you can use it as a component."
+	],
+	dependencies: [
+		"8d740ac9"
+	],
+	tasks: [{
+		uid: "02c607ec",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 561"
+		}]
+	}],
+	rewards: [{
+		uid: "11684a5d",
+		type: "item",
+		item: "gregtech:meta_lens 1 311"
+	}]
+}

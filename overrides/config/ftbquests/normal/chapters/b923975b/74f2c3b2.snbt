@@ -1,0 +1,17 @@
+{
+	x: -7.0d,
+	y: -0.5d,
+	text: [
+		"Electrolysing air is also a good way to get Oxygen as well as Nitrogen."
+	],
+	dependencies: [
+		"fb376710"
+	],
+	tasks: [{
+		uid: "6e6f8a01",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 530"
+		}]
+	}]
+}

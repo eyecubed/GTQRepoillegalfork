@@ -1,0 +1,35 @@
+{
+	title: "Wiremills",
+	x: 0.0d,
+	y: -3.0d,
+	shape: "square",
+	description: "wiring your mill",
+	text: [
+		"This is the first or second machine i reckon you should make. It reduces the cost of making wires heavily, and reduces the microcrafting",
+		"issues as well. Can also make other types of wire.",
+		"",
+		"It becomes one ingot -> one wire, WHICH IS THREE TIMES more efficient and doesn't cost you precious durability."
+	],
+	dependencies: [
+		"b15b80b0"
+	],
+	tasks: [{
+		uid: "7c3379d8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 620"
+		}]
+	}],
+	rewards: [{
+		uid: "c99fe578",
+		type: "item",
+		item: "gregtech:meta_ingot 1 324",
+		count: 12
+	},
+	{
+		uid: "51b67554",
+		type: "item",
+		item: "gregtech:wire_single 1 112",
+		count: 12
+	}]
+}

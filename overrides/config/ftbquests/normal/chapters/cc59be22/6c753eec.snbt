@@ -1,0 +1,17 @@
+{
+	x: 0.2d,
+	y: 3.4d,
+	text: [
+		"Infinite water, as a cover. Can be placed on blocks to fill them with water constantly, very good for boilers."
+	],
+	dependencies: [
+		"d5a2415f"
+	],
+	tasks: [{
+		uid: "9f29e4a4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 310"
+		}]
+	}]
+}
