@@ -8,3 +8,10 @@ recipemap('assembler').recipeBuilder()
         .outputs(item('threng:material', 4))
         .duration(620).EUt(220).buildAndRegister()
     
+recipemap('mixer').recipeBuilder()
+        .inputs(ore('dustFluix') * 2)
+                .inputs(ore('dustCarbon') * 2)
+                        .inputs(ore('dustSilicon') * 2)
+        .outputs(item('threng:material', 1))
+        .duration(120).EUt(220).buildAndRegister()
+    

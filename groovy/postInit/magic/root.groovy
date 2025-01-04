@@ -7,7 +7,7 @@ mods.roots.fey_crafter.recipeBuilder()
 
 mods.roots.fey_crafter.recipeBuilder()
     .name('gay_sex1')
-    .input(item('minecraft:stick'),item('minecraft:stick'),ore('gemAmethyst'),ore('gemAmethyst'),ore('gemAmethyst')) // Must be exactly 5
+    .input(item('minecraft:stick'),ore('vine'),ore('gemAmethyst'),ore('gemAmethyst'),ore('gemAmethyst')) // Must be exactly 5
     .output(item('mysticalworld:amethyst_axe'))
     .xp(25)
     .register()
@@ -69,4 +69,13 @@ mods.roots.mortar.recipeBuilder()
     .generate(true)
     .output(item('thaumcraft:salis_mundus'))
     .color(1, 0, 0.1, 1, 0, 0.1)
+    .register()
+
+    // botania is after this.
+
+mods.roots.transmutation.recipeBuilder()
+    .name('botania_gtqu')
+    .start(blockstate('minecraft:red_flower', 'type=white_tulip'))
+    .output(item('botania:flower'))
+    .condition(mods.roots.predicates.stateBuilder().blockstate(blockstate('roots:elemental_soil')).below().register())
     .register()

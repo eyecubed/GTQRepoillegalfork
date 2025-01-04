@@ -72,16 +72,6 @@ recipemap('assembler').recipeBuilder()
         .inputs(ore('circuitHv') * 3)
         .inputs(ore('stickLongStainlessSteel') * 3)
         .inputs(item('gregtech:wire_coil', 1) * 16)
-        .outputs(item('hbm:turbofan'))
-        .duration(16384).EUt(16).buildAndRegister()
-
-recipemap('assembler').recipeBuilder()
-        .inputs(ore('plateSteel') * 12)
-        .inputs(ore('plateBlackSteel') * 32)
-        .inputs(ore(''))
-        .outputs(item('hbm:'))
-        .duration(1240).EUt(16).buildAndRegister()
-
-// i need to make hbm machines greggy
-// thus, these recipes 
-// 1240 seems a little excessive
+        .inputs(item('hbm:turbine_tungsten') * 2)
+        .outputs(item('hbm:machine_turbofan'))
+        .duration(16384).EUt(510).buildAndRegister()
