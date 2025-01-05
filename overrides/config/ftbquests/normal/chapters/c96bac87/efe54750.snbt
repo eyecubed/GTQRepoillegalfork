@@ -1,0 +1,61 @@
+{
+	title: "NanoMuscle Suite",
+	x: -1.5d,
+	y: 1.9d,
+	description: "this is suprisingly pretty good...",
+	text: [
+		"This is probably your first powered armorset, other than the modular powersuits one. The helmet provides night vision and the boots provide step assist; you can upgrade",
+		"the chestplate with a jetpack in HV-EV."
+	],
+	dependencies: [
+		"4fecff2e"
+	],
+	tasks: [{
+		uid: "822fa8db",
+		type: "item",
+		items: [{
+			id: "gregtech:gt_armor",
+			Damage: 20s,
+			tag: {
+				Charge: 6400000L
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fed6bb10",
+		type: "item",
+		items: [{
+			id: "gregtech:gt_armor",
+			Damage: 21s,
+			tag: {
+				Charge: 6400000L
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d7327644",
+		type: "item",
+		items: [{
+			id: "gregtech:gt_armor",
+			Damage: 22s,
+			tag: {
+				Charge: 6400000L
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd9c912c",
+		type: "item",
+		items: [{
+			id: "gregtech:gt_armor",
+			Damage: 23s,
+			tag: {
+				Charge: 6400000L
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Fuel Efficiency II",
+	x: 1.45d,
+	y: -2.4d,
+	text: [
+		"High Octane Diesel is one of the most efficient fuels to use, it's viable for EV and HV as well."
+	],
+	dependencies: [
+		"5f099f1e"
+	],
+	tasks: [{
+		uid: "db6fd807",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "gasoline_premium",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

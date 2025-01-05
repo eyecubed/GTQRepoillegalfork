@@ -1,0 +1,28 @@
+{
+	title: "Better Fluid Rigging",
+	x: -7.45d,
+	y: 1.5d,
+	shape: "hexagon",
+	description: "It's pink, SO GIRLIEPPOP AAAAA",
+	text: [
+		"The Advanced Fluid Drilling Rig is a better way to get oil; and i mean better.",
+		"It produces an absolutely crazy 16x amount of fluid. You will gain 32x more oil from an oil vein.",
+		"",
+		"Using Octane-Boosted Gasoline is an insane way to get a lot of power for IV and LuV."
+	],
+	dependencies: [
+		"22687d58"
+	],
+	tasks: [{
+		uid: "82d5d8ae",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1033"
+		}]
+	}],
+	rewards: [{
+		uid: "26665a0b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 83"
+	}]
+}

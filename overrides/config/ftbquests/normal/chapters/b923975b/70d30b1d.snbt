@@ -1,0 +1,16 @@
+{
+	title: "Covers",
+	x: 6.5d,
+	y: -1.5d,
+	shape: "square",
+	text: [
+		"Covers are sort of like attachable upgrades that can be put on a face of a machine to do various functions.",
+		"",
+		"They can be removed using a crowbar."
+	],
+	tasks: [{
+		uid: "e46f3d43",
+		type: "checkmark",
+		icon: "gregtech:meta_item_1 1 322"
+	}]
+}

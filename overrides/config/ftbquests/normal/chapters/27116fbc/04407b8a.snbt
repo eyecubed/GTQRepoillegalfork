@@ -1,0 +1,19 @@
+{
+	title: "RFTools",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"Welcome to RFTools! I assume you've read the quest in the LV Chapter, but to get started, you will need to be in LV, and also have access",
+		"to the Assembling Machine.",
+		"",
+		"Machine Bases are in MV, so don't think about doing Redstone till then."
+	],
+	tasks: [{
+		uid: "084ab4de",
+		type: "item",
+		items: [{
+			item: "rftools:machine_frame"
+		}]
+	}]
+}

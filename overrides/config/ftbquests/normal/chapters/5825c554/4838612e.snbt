@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	text: [
+		"HSS-S does not actually exist IRL, it is an alloy of some PGM metals and HSS-E."
+	],
+	dependencies: [
+		"35cdb0c1"
+	],
+	tasks: [{
+		uid: "604e994d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2520"
+		}]
+	}]
+}

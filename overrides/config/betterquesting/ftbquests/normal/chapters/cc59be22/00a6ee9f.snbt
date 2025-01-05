@@ -1,0 +1,27 @@
+{
+	x: 3.0d,
+	y: -2.65d,
+	text: [
+		"Now that you have Titanium Tetrachloride, you need to smelt it in an EBF with Magnesium for the titanium ingots.",
+		"",
+		"Congrats! you can now make EV machines, EU2 machines, and missiles- but wait! first you need to cool your titanium.",
+		"",
+		"For this we need a Vaccuum Freezer.. Grinding time."
+	],
+	dependencies: [
+		"53f22e72"
+	],
+	tasks: [{
+		uid: "c1d95be8",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "titanium_tetrachloride",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

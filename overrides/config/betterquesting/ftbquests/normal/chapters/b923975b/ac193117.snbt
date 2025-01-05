@@ -1,0 +1,80 @@
+{
+	title: "Important Blocks",
+	x: -2.0714285714285623d,
+	y: -8.119047619047606d,
+	shape: "square",
+	text: [
+		"Maintanence means you just have to have a set of tools in your inventory and click the gray button in the centre.",
+		"",
+		"Later on you can craft Tape which avoids this.",
+		"",
+		"",
+		"The muffler hatch is a waste output block. It needs to be unobstructed otherwise the smoke will not be able to come out and the machine",
+		"won't work.",
+		"",
+		"Input/Output hatches and buses are required. Hatches are for fluids and Buses are for items. It is recommended you have one of each,",
+		"but it is not necessary.",
+		"",
+		"Energy hatches allow you to input energy into the machine.",
+		"",
+		"Overclocking mechanic was mentioned before."
+	],
+	dependencies: [
+		"b74dae8f"
+	],
+	tasks: [{
+		uid: "5e3d9265",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	},
+	{
+		uid: "680748dc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		}]
+	},
+	{
+		uid: "58c4a2d7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1211"
+		}]
+	},
+	{
+		uid: "abea93c5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1181"
+		}]
+	},
+	{
+		uid: "28191eae",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1196"
+		}]
+	},
+	{
+		uid: "3ce7e059",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1151"
+		}]
+	},
+	{
+		uid: "2983818d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1166"
+		}]
+	}],
+	rewards: [{
+		uid: "4b5424eb",
+		type: "item",
+		item: "gregtech:machine 1 986",
+		count: 6
+	}]
+}

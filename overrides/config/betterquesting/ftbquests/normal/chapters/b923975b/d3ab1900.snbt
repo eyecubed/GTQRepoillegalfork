@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: -2.5d,
+	text: [
+		"The conveyor module can accept item filters and it will also transfer items similar to how the electric pump works."
+	],
+	dependencies: [
+		"70d30b1d"
+	],
+	tasks: [{
+		uid: "b43277ab",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 157"
+		}]
+	}]
+}

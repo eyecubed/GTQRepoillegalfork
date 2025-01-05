@@ -1,0 +1,12 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	shape: "square",
+	tasks: [{
+		uid: "2f75c2d4",
+		type: "item",
+		items: [{
+			item: "hbm:powder_osmiridium"
+		}]
+	}]
+}

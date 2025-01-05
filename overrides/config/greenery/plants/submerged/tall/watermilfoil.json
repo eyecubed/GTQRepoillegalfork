@@ -1,0 +1,19 @@
+{
+    "maxAge": 1,
+    "worldGen": [
+        "0 | type:river | 1.0 | 32 | 64"
+    ],
+    "drops": [
+        "this | 1.0"
+    ],
+    "allowedSoils": [
+        "ground",
+        "sand",
+        "grass",
+        "clay",
+        "rock"
+    ],
+    "compatibleFluids": [
+        "water"
+    ]
+}

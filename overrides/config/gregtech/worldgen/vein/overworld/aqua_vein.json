@@ -1,0 +1,43 @@
+{
+  "name": "gtaurora.veins.ore.coralium",
+  "weight": 0,
+  "density": 0.50,
+  "max_height": 40,
+  "min_height": 10,
+  "dimension_filter": ["dimension_id:0"],
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "coralium"
+  },
+  "generator": {
+    "type": "layered",
+    "radius": [
+      14,
+      16
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:coralium"
+      },
+      {
+        "secondary": "ore:rich_coralium"
+      },
+      {
+        "between": "ore:alkimvite"
+      },
+      {
+        "sporadic": "ore:aquivite"
+      }
+    ]
+  },
+
+  "biome_modifier": {
+    "type": "biome_map",
+    "ocean": 250,
+    "frozen_ocean": 500,
+    "deep_ocean": 600
+  }
+}

@@ -1,0 +1,18 @@
+{
+	x: 6.25d,
+	y: -2.65d,
+	description: "Cool!",
+	text: [
+		"most ingots now onwards will have to be cooled in the Vaccuum Freezer. (any ingots that require temp. of 1750K+)"
+	],
+	dependencies: [
+		"e658b4e9"
+	],
+	tasks: [{
+		uid: "e6b16c2e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1002"
+		}]
+	}]
+}

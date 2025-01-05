@@ -1,0 +1,24 @@
+{
+    "entries": [
+
+      {
+        "key": "MANALENS",
+        "name": "Focusing Mana",
+        "icons": ["botania:lens"],
+        "category": "BOTANY",
+        "location": [0, 0],
+        "stages": [
+            {
+                "text": "Lately, Mana has interested me more and more. I want to make a medium to focus it into a beam, possibly even changing its properties...",
+                "required_item": ["botania:manaresource"],
+                "required_knowledge": ["THEORY;INFUSION;1"]
+              },
+              {
+                "text": "Success! This lens can easily manipulate Mana into a nice and tidy beam. I can even add runes to it for changing its properties!"
+
+              }
+        ]
+      }
+    ]
+  }
+  

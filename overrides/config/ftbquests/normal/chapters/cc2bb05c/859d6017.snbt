@@ -1,0 +1,29 @@
+{
+	x: -4.7d,
+	y: 6.0d,
+	description: "Sigma Ultra Mega Giga Super Beta Gamma Episilon Omega Male Multiblock (SUMGSBGEOM)",
+	text: [
+		"This is a sigma ultra mega super beta gamma omega epsilon male multiblock that makes an unholy amount of steam for an unholy",
+		"amount of fuel",
+		"",
+		"Reserved only for the greatest",
+		"",
+		"And might be useful in some recipes"
+	],
+	dependencies: [
+		"74807ddd"
+	],
+	tasks: [{
+		uid: "43250ed4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1016"
+		}]
+	}],
+	rewards: [{
+		uid: "c24712af",
+		type: "item",
+		item: "gregtech:meta_block_compressed_125 1 13",
+		count: 12
+	}]
+}

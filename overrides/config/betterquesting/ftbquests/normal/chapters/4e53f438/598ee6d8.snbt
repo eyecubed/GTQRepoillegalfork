@@ -1,0 +1,27 @@
+{
+	x: 10.0d,
+	y: 2.5d,
+	description: "How to get glass dust?",
+	text: [
+		"You need to grind down sand and flint and combine them together to get glass dust. Glass dust can be used in the Alloy Smelter",
+		"with any type of mold to get the respective item (e.g block mold for a block of glass)"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"30749f7d"
+	],
+	tasks: [{
+		uid: "da013904",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2049"
+		}]
+	},
+	{
+		uid: "aa171bdc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2023"
+		}]
+	}]
+}

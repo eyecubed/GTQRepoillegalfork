@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	shape: "square",
+	text: [
+		"This may sound stupid but remember NOT to supply your LV machines with MV power... "
+	],
+	dependencies: [
+		"2d4dcd80"
+	],
+	tasks: [{
+		uid: "3fa5549f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 987"
+		}]
+	},
+	{
+		uid: "db9cd3ac",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 2"
+		}]
+	}]
+}

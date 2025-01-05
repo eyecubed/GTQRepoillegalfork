@@ -1,0 +1,19 @@
+{
+	x: 0.8d,
+	y: 0.9d,
+	text: [
+		"To begin your journey into magic, you'll need Vis Crystals. You'll need to refine these from their ore form.",
+		"",
+		"Essentia-Infused ores can be found across the world. As of 1.0.3 There are two; the Essentia Deposits and the Coralium Veins.",
+		"",
+		"After going through the standard ore processing procedures, you'll need this multiblock to purify them into crystal form."
+	],
+	tasks: [{
+		uid: "0a1b3079",
+		type: "item",
+		title: "Ore Processing",
+		items: [{
+			item: "gtaurora:magic.arcane_vat"
+		}]
+	}]
+}

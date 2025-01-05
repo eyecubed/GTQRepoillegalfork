@@ -1,0 +1,48 @@
+{
+	title: "You know the drill..",
+	x: 0.0d,
+	y: -2.35d,
+	shape: "square",
+	description: "This is 100% very extremely fun",
+	text: [
+		"New EV machine parts for new EV machines. EV Emitters need Quantum Eyes, which need radon; read more to find out how to get it."
+	],
+	dependencies: [
+		"0a38de13"
+	],
+	tasks: [{
+		uid: "8ac58018",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 130"
+		}]
+	},
+	{
+		uid: "7257fa39",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 175"
+		}]
+	},
+	{
+		uid: "bcaa1840",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 220"
+		}]
+	},
+	{
+		uid: "eb428835",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 205"
+		}]
+	},
+	{
+		uid: "c21a1afe",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 235"
+		}]
+	}]
+}

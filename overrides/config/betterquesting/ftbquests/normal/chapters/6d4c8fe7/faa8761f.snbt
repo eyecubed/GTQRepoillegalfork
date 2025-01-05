@@ -1,0 +1,23 @@
+{
+	title: "Furnace V.01",
+	x: 2.8d,
+	y: 0.8d,
+	description: "yes, the title rips off gtnh. how about you suck my (redacted)?",
+	text: [
+		"The Pit Kiln is a single use version of the furnace. To use it, place it down in an area surrounded by blocks. Then, put the desired item inside.",
+		"Then, put logs of any kind till it is full. After that use, use your Flint and Tinder to light it on fire, thus starting the smelting process.",
+		"",
+		"These recipes do take a decent amount of time, so be ware."
+	],
+	dependencies: [
+		"8ff54195",
+		"03689261"
+	],
+	tasks: [{
+		uid: "2e56b59f",
+		type: "item",
+		items: [{
+			item: "pyrotech:kiln_pit"
+		}]
+	}]
+}

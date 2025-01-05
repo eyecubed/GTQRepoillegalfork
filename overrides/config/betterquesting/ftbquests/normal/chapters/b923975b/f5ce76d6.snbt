@@ -1,0 +1,29 @@
+{
+	title: "Glue",
+	x: -3.0d,
+	y: -4.5d,
+	shape: "octagon",
+	text: [
+		"Glue is an incredibly convenient crafting fluid that is used to make cheaper recipes for a LOT of things.",
+		"Glue is also required to make the Phenolic Circuit Board, which is a component of the MV circuit.",
+		"",
+		"It is made from centrifuging Sticky Resin. If you don't have a few rubber trees and lumberjacks to automate it, i recommend you do as soon",
+		"as you can."
+	],
+	dependencies: [
+		"d855fbe3"
+	],
+	tasks: [{
+		uid: "a3d36eb2",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "glue",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

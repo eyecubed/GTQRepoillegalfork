@@ -1,0 +1,28 @@
+{
+	title: "Forestry",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"Welcome to Forestry! This is a large farming/resource generating mod that has many types of automation to explore."
+	],
+	tasks: [{
+		uid: "4b530c33",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}]
+	},
+	{
+		uid: "bc466a95",
+		type: "item",
+		items: [{
+			item: "forestry:wrench"
+		}]
+	}],
+	rewards: [{
+		uid: "6221223d",
+		type: "item",
+		item: "forestry:book_forester"
+	}]
+}

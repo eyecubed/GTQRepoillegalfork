@@ -1,0 +1,18 @@
+{
+	x: 1.7d,
+	y: -1.4d,
+	text: [
+		"While being necessary for Magic, Blaze drops are also very necessary for the Furnace Core, which is your key to Industrialisation.",
+		"I recommend you brew a fire-res elixir or two to help you through this."
+	],
+	dependencies: [
+		"f8f2822e"
+	],
+	tasks: [{
+		uid: "5b812d54",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}]
+	}]
+}

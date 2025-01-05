@@ -1,0 +1,20 @@
+{
+	title: "More Components",
+	x: -1.7d,
+	y: 0.0d,
+	description: "I'm too lazy to add everything, L",
+	text: [
+		"More IV components, more efficient covers..",
+		"Have we been here before?"
+	],
+	dependencies: [
+		"9f9d4b4b"
+	],
+	tasks: [{
+		uid: "7bce28cb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 131"
+		}]
+	}]
+}

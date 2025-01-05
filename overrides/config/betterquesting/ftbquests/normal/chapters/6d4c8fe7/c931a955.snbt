@@ -1,0 +1,20 @@
+{
+	title: "Amethyst",
+	x: -2.7d,
+	y: 3.0d,
+	text: [
+		"Amethyst tools are as good as diamond. To craft them you need to use the Fey Crafter."
+	],
+	dependencies: [
+		"0e7b44f6"
+	],
+	tasks: [{
+		uid: "d1f43ff9",
+		type: "item",
+		items: [{
+			item: "mysticalworld:amethyst_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

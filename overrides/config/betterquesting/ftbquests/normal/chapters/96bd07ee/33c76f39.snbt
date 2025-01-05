@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		"The LV extruder is so useless it's pretty much a meme in the GT community at this point.",
+		"",
+		"But the MV extruder is so much more; it can do a number of useful recipes that reduce your need to microcraft things and makes making",
+		"pipes and rotors and the like much easier."
+	],
+	dependencies: [
+		"df4e943f"
+	],
+	tasks: [{
+		uid: "27e14416",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 321"
+		}]
+	}],
+	rewards: [{
+		uid: "0bece98f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 31"
+	},
+	{
+		uid: "d2e0e415",
+		type: "item",
+		item: "gregtech:meta_item_1 1 57"
+	}]
+}

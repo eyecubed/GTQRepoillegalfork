@@ -1,0 +1,25 @@
+{
+	title: "Iridium and Osmium",
+	x: 2.5d,
+	y: -1.25d,
+	shape: "rsquare",
+	description: "Mekanism reference?!",
+	text: [
+		"These are some PGM metals that you should make + smelt if you haven't made them already."
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "fa62aff8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 50"
+		}]
+	},
+	{
+		uid: "bc48ea8f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 75"
+		}]
+	}]
+}

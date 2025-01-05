@@ -1,0 +1,21 @@
+{
+	title: "The End",
+	x: 4.235d,
+	y: -4.675000000000001d,
+	text: [
+		"The End has many more ores available, like Platinium and Naquahdah. It is highly suggested you go there as End ores give 2x the product",
+		"of Overworld ores."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9d9b32df"
+	],
+	tasks: [{
+		uid: "c6e39b6f",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}],
+		count: 12L
+	}]
+}

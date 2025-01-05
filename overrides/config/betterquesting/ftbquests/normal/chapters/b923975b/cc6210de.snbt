@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -10.5d,
+	description: "X-ray",
+	text: [
+		"the Ore prospector can be used to find ore veins easier. Along with VisualOres where you can map out your prospected ores."
+	],
+	dependencies: [
+		"597c63e3"
+	],
+	tasks: [{
+		uid: "afdae8ca",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 466s,
+			tag: {
+				Charge: 100000L
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "29d5f4ab",
+		type: "item",
+		item: "gregtech:ore_cassiterite_0",
+		count: 24
+	}]
+}

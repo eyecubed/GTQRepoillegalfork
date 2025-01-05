@@ -1,0 +1,18 @@
+{
+	x: -6.05d,
+	y: 6.85d,
+	description: "EBF Upgrade #213487467",
+	text: [
+		"Just another multiblock energy input."
+	],
+	dependencies: [
+		"aaee3ad8"
+	],
+	tasks: [{
+		uid: "bb1e4584",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1214"
+		}]
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	x: -7.45d,
+	y: 2.75d,
+	shape: "hexagon",
+	description: "GreggerIO",
+	text: [
+		"ME Input/Output hatches and buses are a compact way to connect AE2 to your multiblocks. There is also a Reservoir Hatch which",
+		"is basically an infinite water sink for a multiblock."
+	],
+	dependencies: [
+		"736b71d9"
+	],
+	tasks: [{
+		uid: "1a2f7f80",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1745"
+		}]
+	},
+	{
+		uid: "3bf4b38b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1748"
+		}]
+	},
+	{
+		uid: "fb194a9f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1746"
+		}]
+	},
+	{
+		uid: "c5894bbb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1747"
+		}]
+	},
+	{
+		uid: "15a479e8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1418"
+		}]
+	}],
+	rewards: [{
+		uid: "e070191e",
+		type: "item",
+		item: "appliedenergistics2:material 1 7",
+		count: 12
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	text: [
+		"The Storage Scanner is an extremely useful machine created by using a TON of LV circuits. It's worth the investment, though, as it functions",
+		"as an Interface to other storage solutions, including crates and chests! It can also be used to loot chests, and it also connects to Modular",
+		"Storages easily, allowing quick and easy access to a lot of them at once."
+	],
+	dependencies: [
+		"04407b8a"
+	],
+	tasks: [{
+		uid: "35bdddb6",
+		type: "item",
+		items: [{
+			item: "rftools:storage_scanner"
+		}]
+	}]
+}

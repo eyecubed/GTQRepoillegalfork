@@ -1,0 +1,20 @@
+{
+	x: -1.3d,
+	y: -2.2d,
+	shape: "hexagon",
+	text: [
+		"Refractory Brick Collection time!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4d358f23"
+	],
+	tasks: [{
+		uid: "0d5e325f",
+		type: "item",
+		items: [{
+			item: "pyrotech:refractory_brick_block"
+		}],
+		count: 32L
+	}]
+}

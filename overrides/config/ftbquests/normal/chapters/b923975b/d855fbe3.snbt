@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		"The centrifuge is one of, if not the most important machines to be used in Ore Processing and GT in general.",
+		"",
+		"This machine takes Impure dust (made in macerator or forge hammer) and turns it into clean dust with a byproduct in the form of Tiny dusts.",
+		"This is the cheapest way to get ore processing in LV.",
+		"",
+		"",
+		"Outside of ore processing it has many uses like separating dusts, separating air to form different gases, etc.",
+		"",
+		"It should be made as SOON as possible after you get started with Ore Processing."
+	],
+	dependencies: [
+		"c7df8a8a"
+	],
+	tasks: [{
+		uid: "fd17179e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 185"
+		}]
+	}],
+	rewards: [{
+		uid: "701b7b2c",
+		type: "item",
+		item: "gregtech:meta_dust 1 41",
+		count: 4
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 2.5d,
+	dependencies: [
+		"ad1b67e3",
+		"7f8783d1"
+	],
+	tasks: [{
+		uid: "2c8774b5",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

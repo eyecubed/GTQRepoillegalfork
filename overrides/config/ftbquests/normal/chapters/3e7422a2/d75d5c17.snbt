@@ -1,0 +1,28 @@
+{
+	title: "Kowalski, Analysis",
+	x: 3.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"Analyse the bees to get their genetic traits."
+	],
+	dependencies: [
+		"1f6cb9cc",
+		"6cebfa7a"
+	],
+	tasks: [{
+		uid: "bd49a195",
+		type: "item",
+		items: [{
+			item: "forestry:portable_alyzer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3415444a",
+		type: "item",
+		item: "forestry:honey_drop",
+		count: 5
+	}]
+}

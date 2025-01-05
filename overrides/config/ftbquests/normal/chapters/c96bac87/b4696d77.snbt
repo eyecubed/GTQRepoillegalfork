@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"The Distillation tower is a multiblock that is very useful for petroleum production. It can make different distillery products all at once instead",
+		"of voiding the other products. this reduces waste and also unlocks some more recipes related to distillation."
+	],
+	dependencies: [
+		"8099e3cc"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "588b7a07",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1005"
+		}]
+	}]
+}

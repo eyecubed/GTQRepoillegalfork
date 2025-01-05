@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: -11.4d,
+	text: [
+		"This can be used for temperature regulation without extra armor."
+	],
+	dependencies: [
+		"597c63e3"
+	],
+	tasks: [{
+		uid: "7a1fb55f",
+		type: "item",
+		items: [{
+			id: "tanaddons:portable_temp_regulator",
+			tag: {
+				TimeStart: 100,
+				ForgeEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

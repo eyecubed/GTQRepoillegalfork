@@ -1,0 +1,13 @@
+{
+	x: -3.1999999999999997d,
+	y: 0.6499999999999999d,
+	shape: "square",
+	size: 2.0d,
+	tasks: [{
+		uid: "66a526ce",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 323"
+		}]
+	}]
+}

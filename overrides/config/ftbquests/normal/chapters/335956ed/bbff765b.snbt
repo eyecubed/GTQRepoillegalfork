@@ -1,0 +1,19 @@
+{
+	x: -3.5999999999999996d,
+	y: -1.68d,
+	shape: "diamond",
+	dependencies: [
+		"028ecf3a"
+	],
+	size: 0.6d,
+	tasks: [{
+		uid: "f35a4092",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Mixer",
+	x: 1.0d,
+	y: -6.5d,
+	shape: "square",
+	text: [
+		"The mixer is a pretty important machine in later tiers as it is used for a lot of recipes involving chemicals and fluids, but it is not ",
+		"needed much in LV other than for Gallium Arsenide.",
+		"",
+		"I recommend you hold this off till you are ready to focus on the MV Circuits."
+	],
+	dependencies: [
+		"d80f84e1"
+	],
+	tasks: [{
+		uid: "96b67c4b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 470"
+		}]
+	}],
+	rewards: [{
+		uid: "521ff518",
+		type: "item",
+		item: "gregtech:meta_dust_small 1 100",
+		count: 12
+	}]
+}

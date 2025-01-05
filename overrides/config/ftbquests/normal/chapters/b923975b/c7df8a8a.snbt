@@ -1,0 +1,22 @@
+{
+	title: "Ore Processing in Electric Age",
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"Ore Processing in LV is not as simple as you think; Now, the Macerator still doesn't have any extra output slots, but from now on ore processing",
+		"will focus more on the byproducts found from processing certain ores;",
+		"",
+		"A great example is Gallium Arsenide, which requires a lot of infastructure in Ore Processing to build."
+	],
+	tasks: [{
+		uid: "7b428402",
+		type: "checkmark",
+		icon: "gregtech:meta_dust 1 283"
+	}],
+	rewards: [{
+		uid: "4829f093",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 64
+	}]
+}

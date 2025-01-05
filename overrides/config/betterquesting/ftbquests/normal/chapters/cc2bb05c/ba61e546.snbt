@@ -1,0 +1,35 @@
+{
+	x: -2.25d,
+	y: -0.05d,
+	shape: "hexagon",
+	description: "Platline time..",
+	text: [
+		"Ruthenium, Rhodium, Iridium, Osmium, and Platinum are all Platinum Group Metals.",
+		"They are all required in recipes of this tier and above this tier, and all of this needs to be automated in order for you to gain the maximum",
+		"amount of benefit.",
+		"",
+		"First i recommend you setup an Aqua Regia setup; which is Nitric Acid and Hydrochloric Acid. ",
+		"",
+		"After that, you need to centrifuge any ore that produces a PGM metal;",
+		"",
+		"these are Sheldonite, Tetrahedrite, Chalcopyrite, Pentlandrite, Bornite, and finally Chalcoite.",
+		"",
+		"All of the Purified versions of these minerals need to be reacted with Nitric Acid for the Platinum Group Sludge dust."
+	],
+	dependencies: [
+		"0a38de13"
+	],
+	tasks: [{
+		uid: "1dc96f03",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 364"
+		}]
+	}],
+	rewards: [{
+		uid: "60bd3354",
+		type: "item",
+		item: "gregtech:meta_crushed 1 273",
+		count: 12
+	}]
+}

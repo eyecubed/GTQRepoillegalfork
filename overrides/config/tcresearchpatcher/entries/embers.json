@@ -1,0 +1,67 @@
+{
+  "entries": [
+    {
+      "key": "CAMINITE_DISCOVERY",
+      "name": "Discovery of Caminite",
+      "icons": ["embers:caminite_blend"],
+      "category": "DWARVEN",
+      "location": [0, 0],
+      "parents": [],
+      "stages": [
+        {
+          "text": "During your exploration, you stumble upon a unique clay-like material known as §6Caminite§r. This versatile substance can be crafted into plates used for mechanical components, forming the backbone of many Ember machines. Smelt raw Caminite to begin unlocking its potential!",
+          "required_item": ["embers:caminite_raw"],
+          "required_knowledge": ["THEORY;ARTIFICE;1"]
+        }
+      ]
+    },
+    {
+      "key": "EMBER_BORE",
+      "name": "The Ember Bore",
+      "icons": ["embers:ember_bore"],
+      "category": "DWARVEN",
+      "location": [-2, 2],
+      "parents": ["CAMINITE_DISCOVERY"],
+      "stages": [
+        {
+          "text": "The §6Ember Bore§r is used to acquire Ember Crystals, Shards, and Grit. When placed, it expands to a 3x3 area. For optimal operation, the Bore must be placed on, one block above, or two blocks above §6bedrock§r. It consumes solid fuel to generate these resources, with efficiency determined by an §6Atmospheric Gauge§r reading. The higher the reading, the more items per fuel you receive. To automate its input and output, use a §6Mechanical Core§r with hoppers or item extractors.",
+          "required_item": ["embers:ember_bore", "embers:atmospheric_gauge"],
+          "required_knowledge": ["THEORY;ARTIFICE;2"],
+          "warp": 1
+        }
+      ]
+    },
+    {
+      "key": "CRYSTALIZED_EMBER",
+      "name": "Crystallized Ember",
+      "icons": ["embers:crystal_ember"],
+      "category": "DWARVEN",
+      "location": [2, 2],
+      "parents": ["EMBER_BORE"],
+      "stages": [
+        {
+          "text": "§6Ember Crystals§r and §6Ember Shards§r are key resources extracted by the Ember Bore. While they are used in some crafting recipes, their primary purpose is to be converted into §6Ember Energy§r, the mod's power system. Crystals generate 1,400 Ember, while shards generate 400 Ember. §6Ember Grit§r, a byproduct, functions as a fuel for machines or can be reused in the Ember Bore.",
+          "required_item": ["embers:ember_crystal", "embers:ember_shard"],
+          "required_knowledge": ["THEORY;ARTIFICE;3"],
+          "warp": 3
+        }
+      ]
+    },
+    {
+      "key": "EMBER_ACTIVATOR",
+      "name": "The Ember Activator",
+      "icons": ["embers:ember_activator"],
+      "category": "DWARVEN",
+      "location": [0, 4],
+      "parents": ["CRYSTALIZED_EMBER"],
+      "stages": [
+        {
+          "text": "The §6Ember Activator§r is your starting point for converting crystals and shards into Ember energy. Once placed, the Activator expands into a 2-block high structure. Feed it Ember Crystals or Shards through the bottom block using hoppers, item pipes, or similar systems. It produces energy which can power basic machines and automation setups. For greater efficiency in advanced setups, consider upgrading to a §6Pressure Refinery§r.",
+          "required_item": ["embers:ember_activator"],
+          "required_knowledge": ["THEORY;ARTIFICE;4"],
+          "warp": 2
+        }
+      ]
+    }
+  ]
+}

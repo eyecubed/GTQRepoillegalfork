@@ -1,0 +1,39 @@
+{
+	title: "Convenient Molds",
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		"Some molds can save on a lot of hassle. Especially this one, since you won't need to hand-craft rotors for turbines anymore.",
+		"",
+		"There are also gear and small gear molds which make it much easier to make Forestry machines later on."
+	],
+	dependencies: [
+		"69403346"
+	],
+	tasks: [{
+		uid: "e17a1c79",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 24"
+		}]
+	},
+	{
+		uid: "fd002fd9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 13"
+		}]
+	},
+	{
+		uid: "b1a226a6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 23"
+		}]
+	}],
+	rewards: [{
+		uid: "3154d99e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 24"
+	}]
+}

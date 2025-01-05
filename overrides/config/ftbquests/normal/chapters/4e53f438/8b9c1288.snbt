@@ -1,0 +1,30 @@
+{
+	title: "Ore Processing: Step II",
+	x: -3.54795918367347d,
+	y: 7.976190476190467d,
+	text: [
+		"Now you got the crushed variant of the ore. Right-clicking it on a cauldron will output Purified Ore while using a bit of the water-",
+		"",
+		"Don't worry, later you can automate this as well"
+	],
+	dependencies: [
+		"024fab14"
+	],
+	tasks: [{
+		uid: "86b84253",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed 1 265"
+		}]
+	}],
+	rewards: [{
+		uid: "c3917eb1",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "water"
+			}
+		}
+	}]
+}

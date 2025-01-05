@@ -1,0 +1,50 @@
+{
+	title: "Transporting Power",
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"EU is the main energy unit of GT. ",
+		"",
+		"In LV the only practical way to generate energy is the Steam Turbine. It converts 2L Steam -> 1 EU.",
+		"",
+		"There are 2 ways to transport power- Wires and Cables. Wires are uninsulated and will lose more energy compared to the insulated Cables.",
+		"Wires and Cables need to be connected to machines with Wire Cutters.",
+		"",
+		"How energy loss works is that the farther apart your machines are the more energy is lost- that's why keeping your machines close together",
+		"in one room is a must. You can also use Superconductors farther on which have no energy loss.",
+		"",
+		"If you are using cables to transport energy, you will have to keep in mind the Amperage mechanic;",
+		"",
+		"That is that one machine = one amp, and the more machines you have the more amps you will need to sufficiently power them all.",
+		"",
+		"if you have more than one steam turbine it is recommended to make 2x or 4x cables so that your cables do not burn from excessive amperage."
+	],
+	dependencies: [
+		"9105f0c9"
+	],
+	tasks: [{
+		uid: "05b67e46",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any wireGtSingleTin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "wireGtSingleTin"
+				}
+			}
+		}]
+	},
+	{
+		uid: "7caacc24",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 112"
+		}]
+	}]
+}

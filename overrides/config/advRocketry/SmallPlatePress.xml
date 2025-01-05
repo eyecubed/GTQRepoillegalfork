@@ -1,0 +1,1283 @@
+<!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advanced-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="true">
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreDilithium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productdust;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockIron</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;4;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreIron</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productdust;2;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockGold</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;4;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreGold</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productdust;2;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;4;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productdust;2;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTin</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;4;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreTin</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productdust;2;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;4;6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;4;7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;4;9</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productdust;2;9</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;4;10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productdust;2;10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productplate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productplate;4;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockAdaminite</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumadditions:adaminite_plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockAmericium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockAnnealedCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;252</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockBatteryAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;256</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockBeryllium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockBismuthBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;303</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockBlackBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;302</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockBlackSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2011</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockBlueAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2527</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockBlueSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2511</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumcraft:plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;355</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockChrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;22</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockCobalt</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;23</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockCobaltBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2014</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockConstantan</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;356</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockCupronickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;274</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockDamascusSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2012</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockDarmstadtium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;27</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockDawnstone</oreDict>
+		</input>
+		<output>
+			<itemStack>embers:plate_dawnstone;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockDuranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;129</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;353</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockEnderium</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;359</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockEnrichedNaquadahTriniumEuropiumDuranide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;431</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockEpoxy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1013</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockEuropium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;33</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;39</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockGalliumArsenide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;351</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockHastelloyC276</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3003</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockHastelloyX</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3004</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockHslaSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3020</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockHsse</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2519</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockHssg</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2516</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockHsss</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2520</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockIncoloyMa956</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3022</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockIndiumGalliumPhosphide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;354</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockIndiumTinBariumTitaniumCuprate</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;429</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockInvar</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;354</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockKanthal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;288</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockLead</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;323</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockLumium</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;358</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockMagnalium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;290</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockManganese</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;61</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockMaragingSteel300</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3002</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockMithminite</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumadditions:mithminite_plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockMithril</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;328</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockMithrillium</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumadditions:mithrillium_plate;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockMolybdenum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;64</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockMolybdenumDisilicide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3009</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockNaquadah</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;124</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockNaquadahAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2042</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockNaquadahEnriched</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;125</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockNaquadria</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;126</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockNeodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;66</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockNeutronium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;127</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockNichrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;294</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;325</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockNiobiumNitride</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;295</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockNiobiumTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;296</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockOsmiridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;344</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockOsmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;75</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;77</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPlastic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1012</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;326</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPlutonium241</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;82</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPolybenzimidazole</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1010</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPolycaprolactam</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1015</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPolyphenyleneSulfide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1008</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPolytetrafluoroethylene</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1016</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPolyvinylButyral</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1074</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPolyvinylChloride</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1007</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPotin</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2037</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockRedAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2517</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockRedSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2510</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockReinforcedEpoxyResin</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1006</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockRhodium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;90</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockRhodiumPlatedPalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2062</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockRoseGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;301</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockRubber</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1068</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockRuridit</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;310</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockRuthenium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;93</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockSignalum</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;357</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;4;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockSiliconeRubber</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1000</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;4;322</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockStainlessSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;323</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockStellite100</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3000</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockSterlingSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;300</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockStyreneButadieneRubber</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;1004</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTantalum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;104</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTantalumCarbide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3008</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockThaumium</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumcraft:plate;4;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockThorium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;109</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTinAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;328</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTitaniumCarbide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3007</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTitaniumTungstenCarbide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3021</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTrinaquadalloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3005</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTrinium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;130</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTritanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;128</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;115</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTungstenCarbide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;396</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockTungstenSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2013</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockUltimet</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;331</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;116</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockUranium235</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;117</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockUranium238</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;116</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockUraniumRhodiumDinaquadide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;430</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockVanadiumGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;334</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockVanadiumSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;2036</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockVoid</oreDict>
+		</input>
+		<output>
+			<itemStack>thaumcraft:plate;4;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockWatertightSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3001</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockWroughtIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;335</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockYttriumBariumCuprate</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;338</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockZeron100</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;3006</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_plate;4;122</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreAncientDebris</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:dust.ancient_debris;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreArdite</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:dust.ardite;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreBeryllium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_dust;2;10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreCobalt</oreDict>
+		</input>
+		<output>
+			<itemStack>magneticraft:dusts;2;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreDraconium</oreDict>
+		</input>
+		<output>
+			<itemStack>draconicevolution:draconium_dust;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreGraphite</oreDict>
+		</input>
+		<output>
+			<itemStack>bigreactors:dustgraphite;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreLead</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;2;67</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreLithium</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanism:otherdust;2;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreMagnetite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_dust;2;292</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreMithril</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;2;72</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreMolybdenum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_dust;2;64</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreNaquadah</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_dust;2;124</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreNeodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_dust;2;66</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;2;69</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreOsmium</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanism:dust;2;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>orePalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_dust;2;77</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>orePlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;2;70</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>orePlutonium</oreDict>
+		</input>
+		<output>
+			<itemStack>bigreactors:dustblutonium;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;2;66</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreThorium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_dust;2;109</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>magneticraft:dusts;2;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>bigreactors:dustyellorium;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreYellorium</oreDict>
+		</input>
+		<output>
+			<itemStack>bigreactors:dustyellorium;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>magneticraft:dusts;2;14</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

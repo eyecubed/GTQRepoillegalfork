@@ -1,0 +1,27 @@
+{
+	disable_toast: true,
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "You havent seen this subtitle for years now haven't you?",
+	text: [
+		"Aluminium is the core component of the MV machines. If you have aluminium, you are able to make the machine hulls.. But the circuits are still",
+		"required for the actual machinery.",
+		"",
+		"MV is also the age where a lot of different mods and mechanics are unlocked, Including HBM's Nuclear Tech-E, Ender IO, etc."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "dc4a67dd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "db1e0e8b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 521",
+		count: 8
+	}]
+}

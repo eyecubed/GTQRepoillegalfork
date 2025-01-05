@@ -1,0 +1,17 @@
+{
+	x: -4.7d,
+	y: -2.7d,
+	text: [
+		"This does not work by itself. It needs a Grove Stone Supplication ritual, which activates it. Next, put a fey crafter within 10 blocks of it to use it."
+	],
+	dependencies: [
+		"644fea5a"
+	],
+	tasks: [{
+		uid: "aea3b163",
+		type: "item",
+		items: [{
+			item: "roots:grove_stone"
+		}]
+	}]
+}

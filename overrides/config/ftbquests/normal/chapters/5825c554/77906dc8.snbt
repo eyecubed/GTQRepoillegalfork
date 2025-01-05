@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	description: "Electroplating, can piss in a fucking JAR!!",
+	text: [
+		"This is required for the main material for LuV, Rhodium-Plated Palladium."
+	],
+	dependencies: [
+		"9f9d4b4b"
+	],
+	tasks: [{
+		uid: "e7ef2f82",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 474"
+		}]
+	}]
+}

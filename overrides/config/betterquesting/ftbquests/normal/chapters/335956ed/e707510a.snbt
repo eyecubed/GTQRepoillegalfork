@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	shape: "gear",
+	description: "RGB-Water Cooled Ryzen 9 RTX 4090",
+	dependencies: [
+		"5e522def",
+		"778ce14b"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "ff2afdc0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}]
+}

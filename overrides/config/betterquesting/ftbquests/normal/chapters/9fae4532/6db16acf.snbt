@@ -1,0 +1,38 @@
+{
+	title: "Serene Seasons",
+	x: 1.452040816326516d,
+	y: -1.3510204081632615d,
+	text: [
+		"Some crops can only grow when in season; this means you can't just grow any crop at any time of the year.",
+		"",
+		"You can view what season it is using the Season Clock.",
+		"",
+		"You can also see what season a plant requires (if integrated) by looking at its tooltip.",
+		"",
+		"Vanilla trees usually can grow in any season."
+	],
+	dependencies: [
+		"0f4a510b"
+	],
+	tasks: [{
+		uid: "49441cef",
+		type: "item",
+		items: [{
+			item: "sereneseasons:season_clock"
+		}]
+	}],
+	rewards: [{
+		uid: "587d5b40",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "stone",
+					Amount: 1000
+				}
+			}
+		}
+	}]
+}

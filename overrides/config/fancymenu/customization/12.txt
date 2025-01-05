@@ -1,0 +1,157 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = groovy/bigblackoilymen.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 322
+  width = 211
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 9976d6cc-5a0b-47c5-8d98-2d9a5ef92dad1719494364602
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 139
+  action = deep_customization_element:title_screen_branding
+  actionid = 8afa54ae-a25c-407f-80c2-77069073c3691719494364643
+  y = 418
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 668
+  width = 185
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 53ee14d2-c4e3-40dd-832d-a3808eb5a88e1719494364644
+  y = 460
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 530
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = f8ed586a-f368-4a69-b689-392fbd8170c41719494364645
+  y = 220
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 290
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 5027fcae-e875-4fc8-b181-a475c5cb1b351719494364645
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 3e57a8ee-91ef-4a1d-b528-598d9057c1a21719494364646
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = false
+  scale = 1.0
+  source = Credits%n%%n%Owner and Author: Iristhepianist/Ra1nthepianist%n%Contributors: AncientSkies, Frosteco, 10/Abel102389%n%Mental Health Supporter?: Malzz%n%%n%GT:QU 
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 222
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ca392e56-b29a-4ed9-a981-59f110bb24e51719497087183
+  y = 361
+  alignment = left
+  height = 56
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = groovy/ejadg.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = groovy/ejadg.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = groovy/ejadg.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = groovy/ejadg.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = groovy/ejadg.png
+}
+

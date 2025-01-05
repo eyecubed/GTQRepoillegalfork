@@ -1,0 +1,2221 @@
+# Configuration file
+
+disableditems {
+    B:"abyssalcraft:aaxe"=false
+    B:"abyssalcraft:ahoe"=false
+    B:"abyssalcraft:apick"=false
+    B:"abyssalcraft:ashovel"=false
+    B:"abyssalcraft:asword"=false
+    B:"abyssalcraft:coraxe"=false
+    B:"abyssalcraft:corbow"=false
+    B:"abyssalcraft:corhoe"=false
+    B:"abyssalcraft:corpick"=false
+    B:"abyssalcraft:corshovel"=false
+    B:"abyssalcraft:corsword"=false
+    B:"abyssalcraft:daxe"=false
+    B:"abyssalcraft:dhoe"=false
+    B:"abyssalcraft:dpick"=false
+    B:"abyssalcraft:dreadhilt"=false
+    B:"abyssalcraft:dreadiumaxe"=false
+    B:"abyssalcraft:dreadiumhoe"=false
+    B:"abyssalcraft:dreadiumpickaxe"=false
+    B:"abyssalcraft:dreadiumshovel"=false
+    B:"abyssalcraft:dreadiumsword"=false
+    B:"abyssalcraft:dreadkatana"=false
+    B:"abyssalcraft:dshovel"=false
+    B:"abyssalcraft:dsword"=false
+    B:"abyssalcraft:ethaxiumaxe"=false
+    B:"abyssalcraft:ethaxiumhoe"=false
+    B:"abyssalcraft:ethaxiumpickaxe"=false
+    B:"abyssalcraft:ethaxiumshovel"=false
+    B:"abyssalcraft:ethaxiumsword"=false
+    B:"abyssalcraft:soulreaper"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_hoe_crystal_black"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_hoe_crystal_blue"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_hoe_crystal_green"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_hoe_crystal_light_blue"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_hoe_crystal_red"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_hoe_crystal_white"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_hoe_emerald"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_hoe_obsidian"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_hoe_quartz"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_sword_crystal_black"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_sword_crystal_blue"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_sword_crystal_green"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_sword_crystal_light_blue"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_sword_crystal_red"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_sword_crystal_white"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_sword_emerald"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_sword_obsidian"=false
+
+    #  [default: false]
+    B:"actuallyadditions:item_sword_quartz"=false
+
+    #  [default: false]
+    B:"aether:arkenium_axe"=false
+
+    #  [default: false]
+    B:"aether:arkenium_pickaxe"=false
+
+    #  [default: false]
+    B:"aether:arkenium_shovel"=false
+
+    #  [default: false]
+    B:"aether:arkenium_sword"=false
+
+    #  [default: false]
+    B:"aether:gravitite_axe"=false
+
+    #  [default: false]
+    B:"aether:gravitite_pickaxe"=false
+
+    #  [default: false]
+    B:"aether:gravitite_shovel"=false
+
+    #  [default: false]
+    B:"aether:gravitite_sword"=false
+
+    #  [default: false]
+    B:"aether:holystone_axe"=false
+
+    #  [default: false]
+    B:"aether:holystone_pickaxe"=false
+
+    #  [default: false]
+    B:"aether:holystone_shovel"=false
+
+    #  [default: false]
+    B:"aether:holystone_sword"=false
+
+    #  [default: false]
+    B:"aether:skyroot_axe"=false
+
+    #  [default: false]
+    B:"aether:skyroot_pickaxe"=false
+
+    #  [default: false]
+    B:"aether:skyroot_shovel"=false
+
+    #  [default: false]
+    B:"aether:skyroot_sword"=false
+
+    #  [default: false]
+    B:"aether:zanite_axe"=false
+
+    #  [default: false]
+    B:"aether:zanite_pickaxe"=false
+
+    #  [default: false]
+    B:"aether:zanite_shovel"=false
+
+    #  [default: false]
+    B:"aether:zanite_sword"=false
+
+    #  [default: false]
+    B:"aiotbotania:elementiumhoe"=false
+
+    #  [default: false]
+    B:"aiotbotania:livingrockaxe"=false
+
+    #  [default: false]
+    B:"aiotbotania:livingrockhoe"=false
+
+    #  [default: false]
+    B:"aiotbotania:livingrockpickaxe"=false
+
+    #  [default: false]
+    B:"aiotbotania:livingrockshovel"=false
+
+    #  [default: false]
+    B:"aiotbotania:livingrocksword"=false
+
+    #  [default: false]
+    B:"aiotbotania:livingwoodaxe"=false
+
+    #  [default: false]
+    B:"aiotbotania:livingwoodhoe"=false
+
+    #  [default: false]
+    B:"aiotbotania:livingwoodpickaxe"=false
+
+    #  [default: false]
+    B:"aiotbotania:livingwoodshovel"=false
+
+    #  [default: false]
+    B:"aiotbotania:livingwoodsword"=false
+
+    #  [default: false]
+    B:"aiotbotania:manasteelhoe"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:diamond_cleaver"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:diamond_halberd"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:diamond_lance"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:diamond_spear"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:giant_club"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:golden_cleaver"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:golden_halberd"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:golden_lance"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:golden_spear"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:ice_spear"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:iron_cleaver"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:iron_halberd"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:iron_lance"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:iron_spear"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:macuahuitl"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:obsidian_spear"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:stone_cleaver"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:stone_halberd"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:stone_lance"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:stone_spear"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:wooden_cleaver"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:wooden_halberd"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:wooden_lance"=false
+
+    #  [default: false]
+    B:"ancientwarfarenpc:wooden_spear"=false
+
+    #  [default: false]
+    B:"animus:kama_bound"=false
+
+    #  [default: false]
+    B:"animus:kama_diamond"=false
+
+    #  [default: false]
+    B:"animus:kama_gold"=false
+
+    #  [default: false]
+    B:"animus:kama_iron"=false
+
+    #  [default: false]
+    B:"animus:kama_stone"=false
+
+    #  [default: false]
+    B:"animus:kama_wood"=false
+
+    #  [default: false]
+    B:"apocalypse_craft:cane_knife"=false
+
+    #  [default: false]
+    B:"apocalypse_craft:flameblade"=false
+
+    #  [default: false]
+    B:"apocalypse_craft:murasamablade"=false
+
+    #  [default: false]
+    B:"apocalypse_craft:precisionpickaxe"=false
+
+    #  [default: false]
+    B:"appliedenergistics2:certus_quartz_axe"=false
+
+    #  [default: false]
+    B:"appliedenergistics2:certus_quartz_hoe"=false
+
+    #  [default: false]
+    B:"appliedenergistics2:certus_quartz_pickaxe"=false
+
+    #  [default: false]
+    B:"appliedenergistics2:certus_quartz_spade"=false
+
+    #  [default: false]
+    B:"appliedenergistics2:certus_quartz_sword"=false
+
+    #  [default: false]
+    B:"appliedenergistics2:nether_quartz_axe"=false
+
+    #  [default: false]
+    B:"appliedenergistics2:nether_quartz_hoe"=false
+
+    #  [default: false]
+    B:"appliedenergistics2:nether_quartz_pickaxe"=false
+
+    #  [default: false]
+    B:"appliedenergistics2:nether_quartz_spade"=false
+
+    #  [default: false]
+    B:"appliedenergistics2:nether_quartz_sword"=false
+
+    #  [default: false]
+    B:"aquaculture:neptunium_axe"=false
+
+    #  [default: false]
+    B:"aquaculture:neptunium_hoe"=false
+
+    #  [default: false]
+    B:"aquaculture:neptunium_pickaxe"=false
+
+    #  [default: false]
+    B:"aquaculture:neptunium_shovel"=false
+
+    #  [default: false]
+    B:"aquaculture:neptunium_sword"=false
+    B:"arcaneworld:arcane_hoe"=false
+    B:"arcaneworld:ethereal_sword"=false
+    B:"arcaneworld:molten_axe"=false
+    B:"arcaneworld:molten_pickaxe"=false
+    B:"arcaneworld:molten_shovel"=false
+
+    #  [default: false]
+    B:"astralsorcery:itemchargedcrystalsword"=false
+
+    #  [default: false]
+    B:"astralsorcery:itemcrystalsword"=false
+
+    #  [default: false]
+    B:"avaritia:infinity_axe"=false
+
+    #  [default: false]
+    B:"avaritia:infinity_hoe"=false
+
+    #  [default: false]
+    B:"avaritia:infinity_pickaxe"=false
+
+    #  [default: false]
+    B:"avaritia:infinity_shovel"=false
+
+    #  [default: false]
+    B:"avaritia:infinity_sword"=false
+
+    #  [default: false]
+    B:"avaritia:skullfire_sword"=false
+
+    #  [default: false]
+    B:"bloodarsenal:blood_infused_iron_sword"=false
+
+    #  [default: false]
+    B:"bloodarsenal:blood_infused_wooden_sword"=false
+
+    #  [default: false]
+    B:"bloodarsenal:bound_stick"=false
+
+    #  [default: false]
+    B:"bloodarsenal:stasis_sword"=false
+
+    #  [default: false]
+    B:"bloodarsenal:warp_blade"=false
+
+    #  [default: false]
+    B:"bloodmagic:bound_sword"=false
+
+    #  [default: false]
+    B:"bloodmagic:sentient_axe"=false
+
+    #  [default: false]
+    B:"bloodmagic:sentient_bow"=false
+
+    #  [default: false]
+    B:"bloodmagic:sentient_pickaxe"=false
+
+    #  [default: false]
+    B:"bloodmagic:sentient_shovel"=false
+
+    #  [default: false]
+    B:"bloodmagic:sentient_sword"=false
+
+    #  [default: false]
+    B:"botania:crystalbow"=false
+
+    #  [default: false]
+    B:"botania:elementiumaxe"=false
+
+    #  [default: false]
+    B:"botania:elementiumpick"=false
+
+    #  [default: false]
+    B:"botania:elementiumshovel"=false
+
+    #  [default: false]
+    B:"botania:elementiumsword"=false
+
+    #  [default: false]
+    B:"botania:enderdagger"=false
+
+    #  [default: false]
+    B:"botania:glasspick"=false
+
+    #  [default: false]
+    B:"botania:livingwoodbow"=false
+
+    #  [default: false]
+    B:"botania:manasteelaxe"=false
+
+    #  [default: false]
+    B:"botania:manasteelpick"=false
+
+    #  [default: false]
+    B:"botania:manasteelshovel"=false
+
+    #  [default: false]
+    B:"botania:manasteelsword"=false
+
+    #  [default: false]
+    B:"botania:starsword"=false
+
+    #  [default: false]
+    B:"botania:terraaxe"=false
+
+    #  [default: false]
+    B:"botania:terrapick"=false
+
+    #  [default: false]
+    B:"botania:terrasword"=false
+
+    #  [default: false]
+    B:"botania:thundersword"=false
+
+    #  [default: false]
+    B:"botanicadds:mana_stealer_sword"=false
+
+    #  [default: false]
+    B:"deepmoblearning:glitch_infused_sword"=false
+    B:"defiledlands:ravaging_axe"=false
+    B:"defiledlands:ravaging_pickaxe"=false
+    B:"defiledlands:ravaging_shovel"=false
+    B:"defiledlands:scarlite_razor"=false
+    B:"defiledlands:scarlite_reaver"=false
+    B:"defiledlands:umbrium_axe"=false
+    B:"defiledlands:umbrium_hoe"=false
+    B:"defiledlands:umbrium_pickaxe"=false
+    B:"defiledlands:umbrium_shovel"=false
+    B:"defiledlands:umbrium_sword"=false
+
+    #  [default: false]
+    B:"dimdoors:rift_blade"=false
+
+    #  [default: false]
+    B:"ebwizardry:flamecatcher"=false
+
+    #  [default: false]
+    B:"ebwizardry:flaming_axe"=false
+
+    #  [default: false]
+    B:"ebwizardry:frost_axe"=false
+
+    #  [default: false]
+    B:"ebwizardry:spectral_bow"=false
+
+    #  [default: false]
+    B:"ebwizardry:spectral_pickaxe"=false
+
+    #  [default: false]
+    B:"ebwizardry:spectral_sword"=false
+
+    #  [default: false]
+    B:"embers:axe_copper"=false
+
+    #  [default: false]
+    B:"embers:axe_dawnstone"=false
+
+    #  [default: false]
+    B:"embers:axe_lead"=false
+
+    #  [default: false]
+    B:"embers:axe_silver"=false
+
+    #  [default: false]
+    B:"embers:hoe_copper"=false
+
+    #  [default: false]
+    B:"embers:hoe_dawnstone"=false
+
+    #  [default: false]
+    B:"embers:hoe_lead"=false
+
+    #  [default: false]
+    B:"embers:hoe_silver"=false
+
+    #  [default: false]
+    B:"embers:pickaxe_copper"=false
+
+    #  [default: false]
+    B:"embers:pickaxe_dawnstone"=false
+
+    #  [default: false]
+    B:"embers:pickaxe_lead"=false
+
+    #  [default: false]
+    B:"embers:pickaxe_silver"=false
+
+    #  [default: false]
+    B:"embers:shovel_copper"=false
+
+    #  [default: false]
+    B:"embers:shovel_dawnstone"=false
+
+    #  [default: false]
+    B:"embers:shovel_lead"=false
+
+    #  [default: false]
+    B:"embers:shovel_silver"=false
+
+    #  [default: false]
+    B:"embers:sword_copper"=false
+
+    #  [default: false]
+    B:"embers:sword_dawnstone"=false
+
+    #  [default: false]
+    B:"embers:sword_lead"=false
+
+    #  [default: false]
+    B:"embers:sword_silver"=false
+
+    #  [default: false]
+    B:"embers:tyrfing"=false
+
+    #  [default: false]
+    B:"enderio:item_dark_steel_axe"=false
+
+    #  [default: false]
+    B:"enderio:item_dark_steel_bow"=false
+
+    #  [default: false]
+    B:"enderio:item_dark_steel_pickaxe"=false
+
+    #  [default: false]
+    B:"enderio:item_dark_steel_sword"=false
+
+    #  [default: false]
+    B:"enderio:item_end_steel_axe"=false
+
+    #  [default: false]
+    B:"enderio:item_end_steel_bow"=false
+
+    #  [default: false]
+    B:"enderio:item_end_steel_pickaxe"=false
+
+    #  [default: false]
+    B:"enderio:item_end_steel_sword"=false
+
+    #  [default: false]
+    B:"extrabotany:elementiumhammer"=false
+
+    #  [default: false]
+    B:"extrabotany:excaliber"=false
+
+    #  [default: false]
+    B:"extrabotany:failnaught"=false
+
+    #  [default: false]
+    B:"extrabotany:firstfractal"=false
+
+    #  [default: false]
+    B:"extrabotany:manasteelhammer"=false
+
+    #  [default: false]
+    B:"extrabotany:shadowkatana"=false
+
+    #  [default: false]
+    B:"extrabotany:terrasteelhammer"=false
+
+    #  [default: false]
+    B:"extrabotany:ultimatehammer"=false
+
+    #  [default: false]
+    B:"extrautils2:compoundbow"=false
+
+    #  [default: false]
+    B:"extrautils2:fireaxe"=false
+
+    #  [default: false]
+    B:"extrautils2:lawsword"=false
+
+    #  [default: false]
+    B:"extrautils2:luxsaber"=false
+
+    #  [default: false]
+    B:"forbiddenmagicre:blood_rapier"=false
+
+    #  [default: false]
+    B:"forbiddenmagicre:diabolist_fork"=false
+
+    #  [default: false]
+    B:"forbiddenmagicre:distortion_pick"=false
+
+    #  [default: false]
+    B:"forbiddenmagicre:dragon_slayer"=false
+
+    #  [default: false]
+    B:"forbiddenmagicre:morph_axe"=false
+
+    #  [default: false]
+    B:"forbiddenmagicre:morph_pick"=false
+
+    #  [default: false]
+    B:"forbiddenmagicre:morph_shovel"=false
+
+    #  [default: false]
+    B:"forbiddenmagicre:morph_sword"=false
+
+    #  [default: false]
+    B:"forbiddenmagicre:riding_crop"=false
+
+    #  [default: false]
+    B:"forbiddenmagicre:skull_axe"=false
+    B:"forgottenitems:bound_axe"=false
+    B:"forgottenitems:bound_pickaxe"=false
+    B:"forgottenitems:bound_shovel"=false
+    B:"forgottenitems:explosion_pickaxe"=false
+    B:"forgottenitems:gamble_pickaxe"=false
+    B:"forgottenitems:hasty_pickaxe"=false
+    B:"forgottenitems:obsidian_harvester"=false
+    B:"forgottenitems:vein_pickaxe"=false
+
+    #  [default: false]
+    B:"fp:composite_axe"=false
+
+    #  [default: false]
+    B:"fp:composite_hoe"=false
+
+    #  [default: false]
+    B:"fp:composite_pickaxe"=false
+
+    #  [default: false]
+    B:"fp:composite_spade"=false
+
+    #  [default: false]
+    B:"fp:grenade_launcher"=false
+
+    #  [default: false]
+    B:"fp:laserbow"=false
+    B:"fpatarmory:composite_sword"=false
+    B:"fpatarmory:neon_hoe"=false
+    B:"fpatarmory:neon_pickaxe"=false
+    B:"fpatarmory:neon_shovel"=false
+
+    #  [default: false]
+    B:"futuremc:netherite_axe"=false
+
+    #  [default: false]
+    B:"futuremc:netherite_hoe"=false
+
+    #  [default: false]
+    B:"futuremc:netherite_pickaxe"=false
+
+    #  [default: false]
+    B:"futuremc:netherite_shovel"=false
+
+    #  [default: false]
+    B:"futuremc:netherite_sword"=false
+    B:"galacticraftcore:steel_hoe"=false
+    B:"galacticraftcore:steel_pickaxe"=false
+    B:"galacticraftcore:steel_shovel"=false
+    B:"galacticraftcore:steel_sword"=false
+    B:"galacticraftplanets:desh_hoe"=false
+    B:"galacticraftplanets:desh_pick"=false
+    B:"galacticraftplanets:desh_pick_slime"=false
+    B:"galacticraftplanets:desh_spade"=false
+    B:"galacticraftplanets:desh_sword"=false
+    B:"galacticraftplanets:grapple"=false
+    B:"galacticraftplanets:titanium_hoe"=false
+    B:"galacticraftplanets:titanium_pickaxe"=false
+    B:"galacticraftplanets:titanium_shovel"=false
+    B:"galacticraftplanets:titanium_sword"=false
+    B:"galacticraftplanets:volcanic_pickaxe"=false
+    B:"galaxyspace:cobalt_axe"=false
+    B:"galaxyspace:cobalt_hoe"=false
+    B:"galaxyspace:cobalt_pickaxe"=false
+    B:"galaxyspace:cobalt_spade"=false
+    B:"galaxyspace:cobalt_sword"=false
+    B:"galaxyspace:plasma_axe"=false
+    B:"galaxyspace:plasma_pickaxe"=false
+    B:"galaxyspace:plasma_sword"=false
+
+    #  [default: false]
+    B:"gregtech:axe"=false
+
+    #  [default: false]
+    B:"gregtech:butchery_knife"=false
+
+    #  [default: false]
+    B:"gregtech:chainsaw_lv"=false
+
+    #  [default: false]
+    B:"gregtech:hoe"=false
+
+    #  [default: false]
+    B:"gregtech:knife"=false
+
+    #  [default: false]
+    B:"gregtech:scythe"=false
+
+    #  [default: false]
+    B:"gregtech:sword"=false
+
+    #  [default: false]
+    B:"gregtechfoodoption:butchery_knife.hv"=false
+
+    #  [default: false]
+    B:"hbm:alloy_hoe"=false
+
+    #  [default: false]
+    B:"hbm:alloy_sword"=false
+
+    #  [default: false]
+    B:"hbm:big_sword"=false
+
+    #  [default: false]
+    B:"hbm:bottle_opener"=false
+
+    #  [default: false]
+    B:"hbm:chernobylsign"=false
+
+    #  [default: false]
+    B:"hbm:cmb_hoe"=false
+
+    #  [default: false]
+    B:"hbm:cmb_sword"=false
+
+    #  [default: false]
+    B:"hbm:cobalt_decorated_hoe"=false
+
+    #  [default: false]
+    B:"hbm:cobalt_decorated_sword"=false
+
+    #  [default: false]
+    B:"hbm:cobalt_hoe"=false
+
+    #  [default: false]
+    B:"hbm:cobalt_sword"=false
+
+    #  [default: false]
+    B:"hbm:crowbar"=false
+
+    #  [default: false]
+    B:"hbm:crucible"=false
+
+    #  [default: false]
+    B:"hbm:desh_hoe"=false
+
+    #  [default: false]
+    B:"hbm:desh_sword"=false
+
+    #  [default: false]
+    B:"hbm:diamond_gavel"=false
+
+    #  [default: false]
+    B:"hbm:elec_sword"=false
+
+    #  [default: false]
+    B:"hbm:hf_sword"=false
+
+    #  [default: false]
+    B:"hbm:hs_sword"=false
+
+    #  [default: false]
+    B:"hbm:lead_gavel"=false
+
+    #  [default: false]
+    B:"hbm:memespoon"=false
+
+    #  [default: false]
+    B:"hbm:mese_gavel"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_alloyed"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_baleful"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_bred"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_demonic"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_etched"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_fused"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_hardened"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_irradiated"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_machined"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_reforged"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_seared"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_treated"=false
+
+    #  [default: false]
+    B:"hbm:meteorite_sword_warped"=false
+
+    #  [default: false]
+    B:"hbm:redstone_sword"=false
+
+    #  [default: false]
+    B:"hbm:reer_graar"=false
+
+    #  [default: false]
+    B:"hbm:schrabidium_hammer"=false
+
+    #  [default: false]
+    B:"hbm:schrabidium_hoe"=false
+
+    #  [default: false]
+    B:"hbm:schrabidium_sword"=false
+
+    #  [default: false]
+    B:"hbm:shimmer_axe"=false
+
+    #  [default: false]
+    B:"hbm:shimmer_sledge"=false
+
+    #  [default: false]
+    B:"hbm:sopsign"=false
+
+    #  [default: false]
+    B:"hbm:starmetal_hoe"=false
+
+    #  [default: false]
+    B:"hbm:starmetal_sword"=false
+
+    #  [default: false]
+    B:"hbm:steel_hoe"=false
+
+    #  [default: false]
+    B:"hbm:steel_sword"=false
+
+    #  [default: false]
+    B:"hbm:stopsign"=false
+
+    #  [default: false]
+    B:"hbm:titanium_hoe"=false
+
+    #  [default: false]
+    B:"hbm:titanium_sword"=false
+
+    #  [default: false]
+    B:"hbm:ullapool_caber"=false
+
+    #  [default: false]
+    B:"hbm:weapon_bat"=false
+
+    #  [default: false]
+    B:"hbm:weapon_bat_nail"=false
+
+    #  [default: false]
+    B:"hbm:weapon_golf_club"=false
+
+    #  [default: false]
+    B:"hbm:weapon_pipe_lead"=false
+
+    #  [default: false]
+    B:"hbm:weapon_pipe_rusty"=false
+
+    #  [default: false]
+    B:"hbm:weapon_saw"=false
+
+    #  [default: false]
+    B:"hbm:wood_gavel"=false
+
+    #  [default: false]
+    B:"hbm:wrench"=false
+
+    #  [default: false]
+    B:"hbm:wrench_flipped"=false
+
+    #  [default: false]
+    B:"iceandfire:amphithere_macuahuitl"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonbone_axe"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonbone_bow"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonbone_hoe"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonbone_pickaxe"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonbone_shovel"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonbone_sword"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonbone_sword_fire"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonbone_sword_ice"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonsteel_fire_axe"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonsteel_fire_hoe"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonsteel_fire_pickaxe"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonsteel_fire_shovel"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonsteel_fire_sword"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonsteel_ice_axe"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonsteel_ice_hoe"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonsteel_ice_pickaxe"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonsteel_ice_shovel"=false
+
+    #  [default: false]
+    B:"iceandfire:dragonsteel_ice_sword"=false
+
+    #  [default: false]
+    B:"iceandfire:dread_knight_sword"=false
+
+    #  [default: false]
+    B:"iceandfire:dread_queen_sword"=false
+
+    #  [default: false]
+    B:"iceandfire:dread_sword"=false
+
+    #  [default: false]
+    B:"iceandfire:hippocampus_slapper"=false
+
+    #  [default: false]
+    B:"iceandfire:hippogryph_sword"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_desert_axe"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_desert_hoe"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_desert_pickaxe"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_desert_shovel"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_desert_sword"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_desert_sword_venom"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_jungle_axe"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_jungle_hoe"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_jungle_pickaxe"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_jungle_shovel"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_jungle_sword"=false
+
+    #  [default: false]
+    B:"iceandfire:myrmex_jungle_sword_venom"=false
+
+    #  [default: false]
+    B:"iceandfire:silver_axe"=false
+
+    #  [default: false]
+    B:"iceandfire:silver_hoe"=false
+
+    #  [default: false]
+    B:"iceandfire:silver_pickaxe"=false
+
+    #  [default: false]
+    B:"iceandfire:silver_shovel"=false
+
+    #  [default: false]
+    B:"iceandfire:silver_sword"=false
+
+    #  [default: false]
+    B:"iceandfire:stymphalian_bird_dagger"=false
+
+    #  [default: false]
+    B:"iceandfire:troll_weapon.axe"=false
+
+    #  [default: false]
+    B:"iceandfire:troll_weapon.column"=false
+
+    #  [default: false]
+    B:"iceandfire:troll_weapon.column_forest"=false
+
+    #  [default: false]
+    B:"iceandfire:troll_weapon.column_frost"=false
+
+    #  [default: false]
+    B:"iceandfire:troll_weapon.hammer"=false
+
+    #  [default: false]
+    B:"iceandfire:troll_weapon.trunk"=false
+
+    #  [default: false]
+    B:"iceandfire:troll_weapon.trunk_frost"=false
+
+    #  [default: false]
+    B:"lostinfinity:abyssal_curse"=false
+
+    #  [default: false]
+    B:"lostinfinity:aurorus_blade"=false
+
+    #  [default: false]
+    B:"lostinfinity:aurorus_wand"=false
+
+    #  [default: false]
+    B:"lostinfinity:avenger"=false
+
+    #  [default: false]
+    B:"lostinfinity:blade_of_the_conqueror"=false
+
+    #  [default: false]
+    B:"lostinfinity:blade_of_the_dead"=false
+
+    #  [default: false]
+    B:"lostinfinity:blade_of_the_forbidden"=false
+
+    #  [default: false]
+    B:"lostinfinity:bladesofconvergence"=false
+
+    #  [default: false]
+    B:"lostinfinity:bladesofduality"=false
+
+    #  [default: false]
+    B:"lostinfinity:cane_of_venoms"=false
+
+    #  [default: false]
+    B:"lostinfinity:celestialminerspickaxe"=false
+
+    #  [default: false]
+    B:"lostinfinity:chain_of_venoms"=false
+
+    #  [default: false]
+    B:"lostinfinity:crystal_pickaxe"=false
+
+    #  [default: false]
+    B:"lostinfinity:cthulhu_sword_of_balance"=false
+
+    #  [default: false]
+    B:"lostinfinity:cthulhu_sword_of_peace"=false
+
+    #  [default: false]
+    B:"lostinfinity:cthulhu_sword_of_uncertainty"=false
+
+    #  [default: false]
+    B:"lostinfinity:cthulhu_sword_of_war"=false
+
+    #  [default: false]
+    B:"lostinfinity:dark_zapper"=false
+
+    #  [default: false]
+    B:"lostinfinity:dawn_of_eternity"=false
+
+    #  [default: false]
+    B:"lostinfinity:dominator"=false
+
+    #  [default: false]
+    B:"lostinfinity:dueling_sword_dull"=false
+
+    #  [default: false]
+    B:"lostinfinity:dueling_sword_razor_edged"=false
+
+    #  [default: false]
+    B:"lostinfinity:dueling_sword_sharp"=false
+
+    #  [default: false]
+    B:"lostinfinity:dusk_of_eternity"=false
+
+    #  [default: false]
+    B:"lostinfinity:eidolon"=false
+
+    #  [default: false]
+    B:"lostinfinity:everlasting_warlord"=false
+
+    #  [default: false]
+    B:"lostinfinity:forgefire_axe"=false
+
+    #  [default: false]
+    B:"lostinfinity:forgefirepickaxe"=false
+
+    #  [default: false]
+    B:"lostinfinity:ghosthunter"=false
+
+    #  [default: false]
+    B:"lostinfinity:head_collector"=false
+
+    #  [default: false]
+    B:"lostinfinity:holosaber"=false
+
+    #  [default: false]
+    B:"lostinfinity:hyper_knuckle"=false
+
+    #  [default: false]
+    B:"lostinfinity:kingslayer"=false
+
+    #  [default: false]
+    B:"lostinfinity:last_breath"=false
+
+    #  [default: false]
+    B:"lostinfinity:moonglow_blade"=false
+
+    #  [default: false]
+    B:"lostinfinity:moonglow_wand"=false
+
+    #  [default: false]
+    B:"lostinfinity:nightmare_pickaxe"=false
+
+    #  [default: false]
+    B:"lostinfinity:novacron_blade"=false
+
+    #  [default: false]
+    B:"lostinfinity:novacron_wand"=false
+
+    #  [default: false]
+    B:"lostinfinity:phantom_blade"=false
+
+    #  [default: false]
+    B:"lostinfinity:rapier_of_revenge"=false
+
+    #  [default: false]
+    B:"lostinfinity:saber_claw"=false
+
+    #  [default: false]
+    B:"lostinfinity:sabre_of_the_pickle_lord"=false
+
+    #  [default: false]
+    B:"lostinfinity:solar_spear"=false
+
+    #  [default: false]
+    B:"lostinfinity:starfire_blade"=false
+
+    #  [default: false]
+    B:"lostinfinity:starfire_wand"=false
+
+    #  [default: false]
+    B:"lostinfinity:sword_of_insanity"=false
+
+    #  [default: false]
+    B:"lostinfinity:sword_of_reverberance"=false
+
+    #  [default: false]
+    B:"lostinfinity:sword_of_selection"=false
+
+    #  [default: false]
+    B:"lostinfinity:thermosaw"=false
+
+    #  [default: false]
+    B:"lostinfinity:vitalitus"=false
+
+    #  [default: false]
+    B:"lostinfinity:witchspike"=false
+
+    #  [default: false]
+    B:"lostmagic:purifying_shovel"=false
+
+    #  [default: false]
+    B:"mahoutsukai:caliburn"=false
+
+    #  [default: false]
+    B:"mahoutsukai:weapon_projectile_bow"=false
+
+    #  [default: false]
+    B:"minecolonies:chiefsword"=false
+
+    #  [default: false]
+    B:"minecolonies:iron_scimitar"=false
+
+    #  [default: false]
+    B:"minecraft:bow"=true
+
+    #  [default: false]
+    B:"minecraft:diamond_axe=true
+
+    #  [default: false]
+    B:"minecraft:diamond_hoe"=true
+
+    #  [default: false]
+    B:"minecraft:diamond_pickaxe"=true
+
+    #  [default: false]
+    B:"minecraft:diamond_shovel"=true
+
+    #  [default: false]
+    B:"minecraft:diamond_sword"=true
+
+    #  [default: false]
+    B:"minecraft:golden_axe"=true
+
+    #  [default: false]
+    B:"minecraft:golden_hoe"=true
+
+    #  [default: false]
+    B:"minecraft:golden_pickaxe"=true
+
+    #  [default: false]
+    B:"minecraft:golden_shovel"=true
+
+    #  [default: false]
+    B:"minecraft:golden_sword"=true
+
+    #  [default: false]
+    B:"minecraft:iron_axe"=true
+
+    #  [default: false]
+    B:"minecraft:iron_hoe"=true
+
+    #  [default: false]
+    B:"minecraft:iron_pickaxe"=true
+
+    #  [default: false]
+    B:"minecraft:iron_shovel"=true
+
+    #  [default: false]
+    B:"minecraft:iron_sword"=true
+
+    #  [default: false]
+    B:"minecraft:stone_axe"=true
+
+    #  [default: false]
+    B:"minecraft:stone_hoe"=true
+
+    #  [default: false]
+    B:"minecraft:stone_pickaxe"=true
+
+    #  [default: false]
+    B:"minecraft:stone_shovel"=true
+
+    #  [default: false]
+    B:"minecraft:stone_sword"=true
+
+    #  [default: false]
+    B:"minecraft:wooden_axe"=true
+
+    #  [default: false]
+    B:"minecraft:wooden_hoe"=true
+
+    #  [default: false]
+    B:"minecraft:wooden_pickaxe"=true
+
+    #  [default: false]
+    B:"minecraft:wooden_shovel"=true
+
+    #  [default: false]
+    B:"minecraft:wooden_sword"=false
+    B:"moreplanets:alien_berry_wood_axe"=false
+    B:"moreplanets:alien_berry_wood_hoe"=false
+    B:"moreplanets:alien_berry_wood_pickaxe"=false
+    B:"moreplanets:alien_berry_wood_shovel"=false
+    B:"moreplanets:alien_berry_wood_sword"=false
+    B:"moreplanets:cheese_spore_wood_axe"=false
+    B:"moreplanets:cheese_spore_wood_hoe"=false
+    B:"moreplanets:cheese_spore_wood_pickaxe"=false
+    B:"moreplanets:cheese_spore_wood_shovel"=false
+    B:"moreplanets:cheese_spore_wood_sword"=false
+    B:"moreplanets:diremsium_axe"=false
+    B:"moreplanets:diremsium_hoe"=false
+    B:"moreplanets:diremsium_pickaxe"=false
+    B:"moreplanets:diremsium_shovel"=false
+    B:"moreplanets:diremsium_sword"=false
+    B:"moreplanets:illenium_axe"=false
+    B:"moreplanets:illenium_hoe"=false
+    B:"moreplanets:illenium_pickaxe"=false
+    B:"moreplanets:illenium_shovel"=false
+    B:"moreplanets:illenium_sword"=false
+    B:"moreplanets:infected_wood_axe"=false
+    B:"moreplanets:infected_wood_hoe"=false
+    B:"moreplanets:infected_wood_pickaxe"=false
+    B:"moreplanets:infected_wood_shovel"=false
+    B:"moreplanets:infected_wood_sword"=false
+    B:"moreplanets:multalic_crystal_axe"=false
+    B:"moreplanets:multalic_crystal_hoe"=false
+    B:"moreplanets:multalic_crystal_pickaxe"=false
+    B:"moreplanets:multalic_crystal_shovel"=false
+    B:"moreplanets:multalic_crystal_sword"=false
+    B:"moreplanets:nibiru_stone_axe"=false
+    B:"moreplanets:nibiru_stone_hoe"=false
+    B:"moreplanets:nibiru_stone_pickaxe"=false
+    B:"moreplanets:nibiru_stone_shovel"=false
+    B:"moreplanets:nibiru_stone_sword"=false
+    B:"moreplanets:space_bow"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:inferium_axe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:inferium_bow"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:inferium_hoe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:inferium_pickaxe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:inferium_shovel"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:inferium_sword"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:intermedium_axe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:intermedium_bow"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:intermedium_hoe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:intermedium_pickaxe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:intermedium_shovel"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:intermedium_sword"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:prudentium_axe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:prudentium_bow"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:prudentium_hoe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:prudentium_pickaxe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:prudentium_shovel"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:prudentium_sword"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:soulium_dagger"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:superium_axe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:superium_bow"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:superium_hoe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:superium_pickaxe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:superium_shovel"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:superium_sword"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:supremium_axe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:supremium_bow"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:supremium_hoe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:supremium_pickaxe"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:supremium_shovel"=false
+
+    #  [default: false]
+    B:"mysticalagriculture:supremium_sword"=false
+
+    #  [default: false]
+    B:"mysticalworld:amethyst_axe"=false
+
+    #  [default: false]
+    B:"mysticalworld:amethyst_hoe"=false
+
+    #  [default: false]
+    B:"mysticalworld:amethyst_pickaxe"=false
+
+    #  [default: false]
+    B:"mysticalworld:amethyst_shovel"=false
+
+    #  [default: false]
+    B:"mysticalworld:amethyst_sword"=false
+
+    #  [default: false]
+    B:"mysticalworld:copper_axe"=false
+
+    #  [default: false]
+    B:"mysticalworld:copper_hoe"=false
+
+    #  [default: false]
+    B:"mysticalworld:copper_pickaxe"=false
+
+    #  [default: false]
+    B:"mysticalworld:copper_shovel"=false
+
+    #  [default: false]
+    B:"mysticalworld:copper_sword"=false
+
+    #  [default: false]
+    B:"mysticalworld:silver_axe"=false
+
+    #  [default: false]
+    B:"mysticalworld:silver_hoe"=false
+
+    #  [default: false]
+    B:"mysticalworld:silver_pickaxe"=false
+
+    #  [default: false]
+    B:"mysticalworld:silver_shovel"=false
+
+    #  [default: false]
+    B:"mysticalworld:silver_sword"=false
+
+    #  [default: false]
+    B:"natura:bloodwood_axe"=false
+
+    #  [default: false]
+    B:"natura:bloodwood_bow"=false
+
+    #  [default: false]
+    B:"natura:bloodwood_kama"=false
+
+    #  [default: false]
+    B:"natura:bloodwood_pickaxe"=false
+
+    #  [default: false]
+    B:"natura:bloodwood_shovel"=false
+
+    #  [default: false]
+    B:"natura:bloodwood_sword"=false
+
+    #  [default: false]
+    B:"natura:darkwood_axe"=false
+
+    #  [default: false]
+    B:"natura:darkwood_bow"=false
+
+    #  [default: false]
+    B:"natura:darkwood_kama"=false
+
+    #  [default: false]
+    B:"natura:darkwood_pickaxe"=false
+
+    #  [default: false]
+    B:"natura:darkwood_shovel"=false
+
+    #  [default: false]
+    B:"natura:darkwood_sword"=false
+
+    #  [default: false]
+    B:"natura:fusewood_axe"=false
+
+    #  [default: false]
+    B:"natura:fusewood_bow"=false
+
+    #  [default: false]
+    B:"natura:fusewood_kama"=false
+
+    #  [default: false]
+    B:"natura:fusewood_pickaxe"=false
+
+    #  [default: false]
+    B:"natura:fusewood_shovel"=false
+
+    #  [default: false]
+    B:"natura:fusewood_sword"=false
+
+    #  [default: false]
+    B:"natura:ghostwood_axe"=false
+
+    #  [default: false]
+    B:"natura:ghostwood_bow"=false
+
+    #  [default: false]
+    B:"natura:ghostwood_kama"=false
+
+    #  [default: false]
+    B:"natura:ghostwood_pickaxe"=false
+
+    #  [default: false]
+    B:"natura:ghostwood_shovel"=false
+
+    #  [default: false]
+    B:"natura:ghostwood_sword"=false
+
+    #  [default: false]
+    B:"natura:netherquartz_axe"=false
+
+    #  [default: false]
+    B:"natura:netherquartz_kama"=false
+
+    #  [default: false]
+    B:"natura:netherquartz_pickaxe"=false
+
+    #  [default: false]
+    B:"natura:netherquartz_shovel"=false
+
+    #  [default: false]
+    B:"natura:netherquartz_sword"=false
+
+    #  [default: false]
+    B:"naturesaura:infused_iron_axe"=false
+
+    #  [default: false]
+    B:"naturesaura:infused_iron_hoe"=false
+
+    #  [default: false]
+    B:"naturesaura:infused_iron_pickaxe"=false
+
+    #  [default: false]
+    B:"naturesaura:infused_iron_shovel"=false
+
+    #  [default: false]
+    B:"naturesaura:infused_iron_sword"=false
+
+    #  [default: false]
+    B:"netherex:blazed_amedian_axe"=false
+
+    #  [default: false]
+    B:"netherex:blazed_amedian_hammer"=false
+
+    #  [default: false]
+    B:"netherex:blazed_amedian_hoe"=false
+
+    #  [default: false]
+    B:"netherex:blazed_amedian_pickaxe"=false
+
+    #  [default: false]
+    B:"netherex:blazed_amedian_shovel"=false
+
+    #  [default: false]
+    B:"netherex:blazed_amedian_sword"=false
+
+    #  [default: false]
+    B:"netherex:frosted_amedian_axe"=false
+
+    #  [default: false]
+    B:"netherex:frosted_amedian_hammer"=false
+
+    #  [default: false]
+    B:"netherex:frosted_amedian_hoe"=false
+
+    #  [default: false]
+    B:"netherex:frosted_amedian_pickaxe"=false
+
+    #  [default: false]
+    B:"netherex:frosted_amedian_shovel"=false
+
+    #  [default: false]
+    B:"netherex:frosted_amedian_sword"=false
+
+    #  [default: false]
+    B:"netherex:withered_amedian_axe"=false
+
+    #  [default: false]
+    B:"netherex:withered_amedian_hammer"=false
+
+    #  [default: false]
+    B:"netherex:withered_amedian_hoe"=false
+
+    #  [default: false]
+    B:"netherex:withered_amedian_pickaxe"=false
+
+    #  [default: false]
+    B:"netherex:withered_amedian_shovel"=false
+
+    #  [default: false]
+    B:"netherex:withered_amedian_sword"=false
+    B:"nocubessrparmory:bolsterclaw"=false
+    B:"nocubessrparmory:carapacebroadsword"=false
+    B:"nocubessrparmory:evolutionknife"=false
+    B:"nocubessrparmory:evolutionsickle"=false
+    B:"nocubessrparmory:gorerapier"=false
+    B:"nocubessrparmory:mimicbladegreen"=false
+    B:"nocubessrparmory:mimicbladepurple"=false
+    B:"nocubessrparmory:mimicbladered"=false
+    B:"nocubessrparmory:mimicbladeyellow"=false
+    B:"nocubessrparmory:pestilentknife"=false
+    B:"nocubessrparmory:pestilentscythe"=false
+    B:"nocubessrparmory:thereaper"=false
+    B:"nocubessrparmory:thereaperfalse"=false
+    B:"nocubessrparmory:twisteddagger"=false
+    B:"nocubessrparmory:twistedmallet"=false
+
+    #  [default: false]
+    B:"nocubessrpnests:wormtoothmachete"=false
+
+    #  [default: false]
+    B:"nocubessrpnests:wormtoothpickaxe"=false
+
+    #  [default: false]
+    B:"psi:psimetal_axe"=false
+
+    #  [default: false]
+    B:"psi:psimetal_pickaxe"=false
+
+    #  [default: false]
+    B:"psi:psimetal_shovel"=false
+
+    #  [default: false]
+    B:"psi:psimetal_sword"=false
+    B:"railcraft:tool_axe_steel"=false
+    B:"railcraft:tool_hoe_steel"=false
+    B:"railcraft:tool_pickaxe_steel"=false
+    B:"railcraft:tool_shovel_steel"=false
+    B:"railcraft:tool_sword_steel"=false
+
+    #  [default: false]
+    B:"randomthings:spectrepickaxe"=false
+
+    #  [default: false]
+    B:"randomthings:spectreshovel"=false
+
+    #  [default: false]
+    B:"randomthings:spectresword"=false
+
+    #  [default: false]
+    B:"roots:living_axe"=false
+
+    #  [default: false]
+    B:"roots:living_hoe"=false
+
+    #  [default: false]
+    B:"roots:living_pickaxe"=false
+
+    #  [default: false]
+    B:"roots:living_shovel"=false
+
+    #  [default: false]
+    B:"roots:living_sword"=false
+
+    #  [default: false]
+    B:"roots:runed_axe"=false
+
+    #  [default: false]
+    B:"roots:runed_hoe"=false
+
+    #  [default: false]
+    B:"roots:runed_pickaxe"=false
+
+    #  [default: false]
+    B:"roots:runed_shovel"=false
+
+    #  [default: false]
+    B:"roots:runed_sword"=false
+
+    #  [default: false]
+    B:"roots:terrastone_axe"=false
+
+    #  [default: false]
+    B:"roots:terrastone_hoe"=false
+
+    #  [default: false]
+    B:"roots:terrastone_pickaxe"=false
+
+    #  [default: false]
+    B:"roots:terrastone_shovel"=false
+
+    #  [default: false]
+    B:"roots:terrastone_sword"=false
+
+    #  [default: false]
+    B:"roots:wildwood_bow"=false
+
+    #  [default: false]
+    B:"rpsideas:ebony_sword"=false
+
+    #  [default: false]
+    B:"rpsideas:ivory_sword"=false
+    B:"rtm:crowbar"=false
+
+    #  [default: false]
+    B:"soot:eitr"=false
+
+    #  [default: false]
+    B:"srparasites:weapon_axe"=false
+
+    #  [default: false]
+    B:"srparasites:weapon_axe_sentient"=false
+
+    #  [default: false]
+    B:"srparasites:weapon_bow"=false
+
+    #  [default: false]
+    B:"srparasites:weapon_bow_sentient"=false
+
+    #  [default: false]
+    B:"srparasites:weapon_cleaver"=false
+
+    #  [default: false]
+    B:"srparasites:weapon_cleaver_sentient"=false
+
+    #  [default: false]
+    B:"srparasites:weapon_scythe"=false
+
+    #  [default: false]
+    B:"srparasites:weapon_scythe_sentient"=false
+
+    #  [default: false]
+    B:"srparasites:weapon_sword"=false
+
+    #  [default: false]
+    B:"srparasites:weapon_sword_sentient"=false
+
+    #  [default: false]
+    B:"thaumadditions:adaminite_sword"=false
+
+    #  [default: false]
+    B:"thaumadditions:void_elemental_axe"=false
+
+    #  [default: false]
+    B:"thaumadditions:void_elemental_hoe"=false
+
+    #  [default: false]
+    B:"thaumadditions:void_elemental_pickaxe"=false
+
+    #  [default: false]
+    B:"thaumadditions:void_elemental_shovel"=false
+
+    #  [default: false]
+    B:"thaumcraft:crimson_blade"=false
+
+    #  [default: false]
+    B:"thaumcraft:elemental_axe"=false
+
+    #  [default: false]
+    B:"thaumcraft:elemental_hoe"=false
+
+    #  [default: false]
+    B:"thaumcraft:elemental_pick"=false
+
+    #  [default: false]
+    B:"thaumcraft:elemental_shovel"=false
+
+    #  [default: false]
+    B:"thaumcraft:elemental_sword"=false
+
+    #  [default: false]
+    B:"thaumcraft:thaumium_axe"=false
+
+    #  [default: false]
+    B:"thaumcraft:thaumium_hoe"=false
+
+    #  [default: false]
+    B:"thaumcraft:thaumium_pick"=false
+
+    #  [default: false]
+    B:"thaumcraft:thaumium_shovel"=false
+
+    #  [default: false]
+    B:"thaumcraft:thaumium_sword"=false
+
+    #  [default: false]
+    B:"thaumcraft:void_axe"=false
+
+    #  [default: false]
+    B:"thaumcraft:void_hoe"=false
+
+    #  [default: false]
+    B:"thaumcraft:void_pick"=false
+
+    #  [default: false]
+    B:"thaumcraft:void_shovel"=false
+
+    #  [default: false]
+    B:"thaumcraft:void_sword"=false
+
+    #  [default: false]
+    B:"thaumictinkerer:blood_sword"=false
+
+    #  [default: false]
+    B:"thaumicwonders:bone_bow"=false
+
+    #  [default: false]
+    B:"thaumicwonders:primal_destroyer"=false
+
+    #  [default: false]
+    B:"theaurorian:aurorianiteaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:aurorianitepickaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:aurorianitesword"=false
+
+    #  [default: false]
+    B:"theaurorian:auroriansteelaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:auroriansteelhoe"=false
+
+    #  [default: false]
+    B:"theaurorian:auroriansteelpickaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:auroriansteelshovel"=false
+
+    #  [default: false]
+    B:"theaurorian:auroriansteelsword"=false
+
+    #  [default: false]
+    B:"theaurorian:aurorianstoneaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:aurorianstonehoe"=false
+
+    #  [default: false]
+    B:"theaurorian:aurorianstonepickaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:aurorianstoneshovel"=false
+
+    #  [default: false]
+    B:"theaurorian:aurorianstonesword"=false
+
+    #  [default: false]
+    B:"theaurorian:crystallinepickaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:crystallinesword"=false
+
+    #  [default: false]
+    B:"theaurorian:keepersbow"=false
+
+    #  [default: false]
+    B:"theaurorian:moonstoneaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:moonstonehoe"=false
+
+    #  [default: false]
+    B:"theaurorian:moonstonepickaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:moonstoneshovel"=false
+
+    #  [default: false]
+    B:"theaurorian:moonstonesword"=false
+
+    #  [default: false]
+    B:"theaurorian:queenschipper"=false
+
+    #  [default: false]
+    B:"theaurorian:silentwoodaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:silentwoodbow"=false
+
+    #  [default: false]
+    B:"theaurorian:silentwoodhoe"=false
+
+    #  [default: false]
+    B:"theaurorian:silentwoodpickaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:silentwoodshovel"=false
+
+    #  [default: false]
+    B:"theaurorian:silentwoodsword"=false
+
+    #  [default: false]
+    B:"theaurorian:umbrapickaxe"=false
+
+    #  [default: false]
+    B:"theaurorian:umbrasword"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_aluminum"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_bronze"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_constantan"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_copper"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_diamond"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_electrum"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_gold"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_invar"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_iron"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_lead"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_nickel"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_platinum"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_silver"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_steel"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_stone"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.bow_tin"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_aluminum"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_bronze"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_constantan"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_copper"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_electrum"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_invar"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_lead"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_nickel"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_platinum"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_silver"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_steel"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.hoe_tin"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_aluminum"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_bronze"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_constantan"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_copper"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_electrum"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_invar"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_lead"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_nickel"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_platinum"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_silver"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_steel"=false
+
+    #  [default: false]
+    B:"thermalfoundation:tool.sword_tin"=false
+
+    #  [default: false]
+    B:"totemic:baykok_bow"=false
+
+    #  [default: false]
+    B:"twilightforest:ender_bow"=false
+
+    #  [default: false]
+    B:"twilightforest:fiery_pickaxe"=false
+
+    #  [default: false]
+    B:"twilightforest:fiery_sword"=false
+
+    #  [default: false]
+    B:"twilightforest:giant_pickaxe"=false
+
+    #  [default: false]
+    B:"twilightforest:giant_sword"=false
+
+    #  [default: false]
+    B:"twilightforest:glass_sword"=false
+
+    #  [default: false]
+    B:"twilightforest:ice_bow"=false
+
+    #  [default: false]
+    B:"twilightforest:ice_sword"=false
+
+    #  [default: false]
+    B:"twilightforest:ironwood_axe"=false
+
+    #  [default: false]
+    B:"twilightforest:ironwood_hoe"=false
+
+    #  [default: false]
+    B:"twilightforest:ironwood_pickaxe"=false
+
+    #  [default: false]
+    B:"twilightforest:ironwood_shovel"=false
+
+    #  [default: false]
+    B:"twilightforest:ironwood_sword"=false
+
+    #  [default: false]
+    B:"twilightforest:knightmetal_axe"=false
+
+    #  [default: false]
+    B:"twilightforest:knightmetal_pickaxe"=false
+
+    #  [default: false]
+    B:"twilightforest:knightmetal_sword"=false
+
+    #  [default: false]
+    B:"twilightforest:mazebreaker_pickaxe"=false
+
+    #  [default: false]
+    B:"twilightforest:minotaur_axe"=false
+
+    #  [default: false]
+    B:"twilightforest:minotaur_axe_gold"=false
+
+    #  [default: false]
+    B:"twilightforest:seeker_bow"=false
+
+    #  [default: false]
+    B:"twilightforest:steeleaf_axe"=false
+
+    #  [default: false]
+    B:"twilightforest:steeleaf_hoe"=false
+
+    #  [default: false]
+    B:"twilightforest:steeleaf_pickaxe"=false
+
+    #  [default: false]
+    B:"twilightforest:steeleaf_shovel"=false
+
+    #  [default: false]
+    B:"twilightforest:steeleaf_sword"=false
+
+    #  [default: false]
+    B:"twilightforest:triple_bow"=false
+
+    #  [default: false]
+    B:"wizardry:unicorn_dagger"=false
+}
+
+
+disabledtypes {
+    #  [default: false]
+    B:axe=false
+
+    #  [default: false]
+    B:bow=false
+
+    #  [default: false]
+    B:hoe=false
+
+    #  [default: false]
+    B:pickaxe=false
+
+    #  [default: false]
+    B:shield=false
+
+    #  [default: false]
+    B:shovel=false
+
+    #  [default: false]
+    B:sword=false
+}
+
+
+general {
+    # Should vanilla item recipes be removed? [default: false]
+    B:performItemDisabling=false
+
+    # Should vanilla tool items be effectively nullified (maximum damage set to 1)? [default: false]
+    B:performItemNeutralizing=false
+
+    # Should Tinkers' Construct items be capable of replacing vanilla equivalents in recipes? [default: false]
+    B:performRecipePatchwork=false
+
+    # Should ingredients be replaced in compatible recipes? This will primarily affect recipe guides. [default: false]
+    B:performRecipeReplacement=false
+}
+
+
+jei {
+    # Should disabled items be hidden in JEI? [default: false]
+    B:hideDisabledItems=false
+
+    # If hideDisabledItems is enabled, should recipes which take in the disabled tool as input also be disabled? (f.e. smelting) [default: false]
+    B:hideInputRecipes=false
+
+    # If hideDisabledItems is enabled, should recipes which take in the disabled tool as output also be disabled? (f.e. anvil) [default: false]
+    B:hideOutputRecipes=false
+}
+
+
+materialmap {
+    # Will match any material on this list for the head, or all materials if empty. [default: [manyullyn]]
+    S:diamond <
+        manyullyn
+     >
+
+    # Will match any material on this list for the head, or all materials if empty. [default: [cobalt]]
+    S:gold <
+        cobalt
+     >
+
+    # Will match any material on this list for the head, or all materials if empty. [default: [iron]]
+    S:iron <
+        iron
+     >
+
+    # Will match any material on this list for the head, or all materials if empty. [default: [paper]]
+    S:leather <
+        paper
+     >
+
+    # Will match any material on this list for the head, or all materials if empty. [default: [stone]]
+    S:stone <
+        stone
+     >
+
+    # Will match any material on this list for the head, or all materials if empty. [default: [wood]]
+    S:wood <
+        wood
+     >
+}
+
+

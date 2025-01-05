@@ -1,0 +1,75 @@
+{
+  "name": "36bd8543-25af-49d5-a325-d595cc1f6f9b",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "57f73838-7e8f-4d8e-aa2e-2957939af4dd",
+      "duration": 12000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"actuallyadditions:item_water_bowl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"roots:unending_bowl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4e80eea8-c3aa-40b9-a618-c3fb079f5966",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"naturesaura:infused_iron\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "biome",
+          "condition": {
+            "biome": "twilightforest:enchanted_forest"
+          }
+        }
+      ]
+    }
+  ]
+}

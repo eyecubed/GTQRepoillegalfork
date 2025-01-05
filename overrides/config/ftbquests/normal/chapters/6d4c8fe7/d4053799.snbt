@@ -1,0 +1,21 @@
+{
+	x: 3.7d,
+	y: -1.7d,
+	description: ":LETSFUCKINGGOOOOGOGOGOGOG:",
+	text: [
+		"Masonry Bricks are the next big step in progression for Pyrotech, imagine LV Circuits for GT. These unlock something very special...",
+		"Machines! Yes, you can finally ease your hands from constant pain of microcrafting. Of course, you'll still have to microcraft....",
+		"",
+		"Now, there are about 5 machines you can make using these. This will be in the next chapter, focusing more on the other parts of Pyrotech."
+	],
+	dependencies: [
+		"6f9e1943"
+	],
+	tasks: [{
+		uid: "b75f76d8",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 16"
+		}]
+	}]
+}
