@@ -1,7 +1,0 @@
-{
-	title: "MV",
-	icon: "gregtech:machine 1 51",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

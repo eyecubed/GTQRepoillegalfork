@@ -1,7 +1,0 @@
-{
-	title: "Tools",
-	icon: "tconstruct:book",
-	always_invisible: false,
-	group: 1314124856,
-	default_quest_shape: ""
-}

@@ -1,7 +1,0 @@
-{
-	title: "Pyrotech: Challenge Mode",
-	icon: "pyrotech:crude_spear",
-	always_invisible: false,
-	group: 1833734119,
-	default_quest_shape: ""
-}
