@@ -3,6 +3,7 @@ asm
 mods
 cache
 caches
+config/BiomeTweaker
 saves
 coremods
 screenshots
@@ -26,3 +27,4 @@ OpenComputersMod-1.8.6-54-libjnlua54-windows-x86_64.dll
 patchouli_data.json
 roots.log
 fancymenu_data/last_world.fmdata
+
