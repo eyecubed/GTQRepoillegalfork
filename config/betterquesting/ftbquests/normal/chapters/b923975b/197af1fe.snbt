@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: -2.5d,
+	text: [
+		"This is basically a Robot Arm but for fluids. ",
+		"",
+		"Supply Exact will simply transfer only a specified amount per tick and will limit it from going any higher or lower.",
+		"",
+		"Keep Exact will keep the amount of fluid in a machine stocked."
+	],
+	dependencies: [
+		"70d30b1d"
+	],
+	tasks: [{
+		uid: "c043039d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 247"
+		}]
+	}]
+}

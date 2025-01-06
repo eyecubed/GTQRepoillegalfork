@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		"Stainless steel is an important component of the HV tier. It unlocks the distillation tower, and is useful for upgrading your EBF to",
+		"MV and HV tier."
+	],
+	dependencies: [
+		"bf360bf0"
+	],
+	tasks: [{
+		uid: "e097e0e0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 323"
+		}]
+	}]
+}

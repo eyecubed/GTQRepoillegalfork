@@ -1,0 +1,7 @@
+{
+	title: "Advanced Rocketry",
+	icon: "advancedrocketry:misc",
+	always_invisible: false,
+	group: -866533854,
+	default_quest_shape: ""
+}

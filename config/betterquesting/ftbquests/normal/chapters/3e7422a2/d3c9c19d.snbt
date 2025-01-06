@@ -1,0 +1,72 @@
+{
+	title: "Machines Go Vroom Vroom",
+	x: 0.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	text: [
+		"Thermionic Fabricator is used to make many Forestry items. The most useful ones are Electron Tubes. When soldered on Circuit Boards, they act as upgrades for machines.",
+		"There are many variants of Electron tubes, each with different effects on machines.",
+		"Check JEI for further info."
+	],
+	dependencies: [
+		"ce0d77f2"
+	],
+	tasks: [{
+		uid: "0e7dcfe9",
+		type: "item",
+		items: [{
+			item: "forestry:soldering_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fb2e39e5",
+		type: "item",
+		title: "Any Forestry Circuit Board",
+		items: [{
+			id: "forestry:chipsets",
+			tag: {
+				T: 0s
+			}
+		},
+		{
+			id: "forestry:chipsets",
+			Damage: 1s,
+			tag: {
+				T: 1s
+			}
+		},
+		{
+			id: "forestry:chipsets",
+			Damage: 2s,
+			tag: {
+				T: 2s
+			}
+		},
+		{
+			id: "forestry:chipsets",
+			Damage: 3s,
+			tag: {
+				T: 3s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4560c5ea",
+		type: "item",
+		item: {
+			id: "forestry:chipsets",
+			Damage: 3s,
+			tag: {
+				T: 3s
+			}
+		}
+	},
+	{
+		uid: "eb7188ce",
+		type: "item",
+		item: "forestry:thermionic_tubes 1 7",
+		count: 4
+	}]
+}

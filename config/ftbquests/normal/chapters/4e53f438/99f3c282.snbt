@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: 0.75d,
+	shape: "octagon",
+	dependencies: [
+		"30749f7d"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "9f121b20",
+		type: "item",
+		title: "Bronze",
+		icon: "gregtech:meta_dust 1 260",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustBronze"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"Essential for Battery Production."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9439d2bf",
+		"b15b80b0"
+	],
+	tasks: [{
+		uid: "bd4ab0e3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 170"
+		}]
+	}]
+}

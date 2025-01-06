@@ -1,0 +1,61 @@
+{
+	title: "HV Parts",
+	x: -0.825d,
+	y: 1.5d,
+	text: [
+		"You know the drill. Instead of flawless gems, these parts need eyes of ender."
+	],
+	dependencies: [
+		"9ac3b937"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "cd3a639a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 129"
+		}]
+	},
+	{
+		uid: "a9194791",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 144"
+		}]
+	},
+	{
+		uid: "b65ba402",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 189"
+		}]
+	},
+	{
+		uid: "48c7685f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 174"
+		}]
+	},
+	{
+		uid: "5b74ac48",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 204"
+		}]
+	},
+	{
+		uid: "f2aec0a7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 234"
+		}]
+	},
+	{
+		uid: "e8a86ff1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 249"
+		}]
+	}]
+}

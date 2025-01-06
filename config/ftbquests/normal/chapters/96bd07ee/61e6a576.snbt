@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	description: "Jesse i alloyed the alloy",
+	text: [
+		"Congrats! you have now unlocked the simple chassis of Ender IO as well as the Sturdy Machine casing from Forestry."
+	],
+	dependencies: [
+		"bf360bf0"
+	],
+	tasks: [{
+		uid: "20701e48",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2036"
+		}]
+	}]
+}

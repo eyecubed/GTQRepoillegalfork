@@ -1,0 +1,20 @@
+{
+	x: -6.05d,
+	y: 5.9d,
+	description: "Pint-sized Intelligent Caucasian",
+	text: [
+		"The PIC is the more advanced version of the HV PIC.",
+		"",
+		"It also requires the cleanroom, so i would recommend you enlargen your current one or make more."
+	],
+	dependencies: [
+		"06a6296f"
+	],
+	tasks: [{
+		uid: "32505048",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 604"
+		}]
+	}]
+}

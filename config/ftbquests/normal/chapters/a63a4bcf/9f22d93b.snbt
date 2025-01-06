@@ -1,0 +1,21 @@
+{
+	title: "The Reachable Beyond",
+	x: 0.375d,
+	y: -0.25d,
+	text: [
+		"After researching the technology of the forgotten Proximans, you have decided to embark on a journey of your own.",
+		"",
+		"Welcome to advanced rocketry! this is a large space exploration mod featuring custom planets, and customizable rockets and space",
+		"stations.",
+		"",
+		"You will eventually have to visit another planet for ores like Destabilized Redstone and whatnot. So let's get into it."
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "e4cc7afd",
+		type: "item",
+		items: [{
+			item: "libvulpes:holoprojector"
+		}]
+	}]
+}

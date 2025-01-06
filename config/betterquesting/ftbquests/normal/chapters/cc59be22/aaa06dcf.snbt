@@ -1,0 +1,17 @@
+{
+	x: 8.42933673469389d,
+	y: -1.2672619047619023d,
+	text: [
+		"A more efficient-to-make HV circuit, if you want to make some you can :P"
+	],
+	dependencies: [
+		"e658b4e9"
+	],
+	tasks: [{
+		uid: "0d0c0583",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 629"
+		}]
+	}]
+}

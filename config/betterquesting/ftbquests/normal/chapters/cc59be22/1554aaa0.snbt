@@ -1,0 +1,50 @@
+{
+	title: "SMD components",
+	x: -1.7d,
+	y: 2.9d,
+	text: [
+		"SMDs (surface mounted device) are required for EV circuits.",
+		"",
+		"The transistor, resistor and capacitor.",
+		"",
+		"The SMD diodes and inductors require Platinum in order to function."
+	],
+	dependencies: [
+		"d5a2415f"
+	],
+	tasks: [{
+		uid: "bca1534a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 523"
+		}]
+	},
+	{
+		uid: "534bb5c1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 527"
+		}]
+	},
+	{
+		uid: "8864e0ce",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 525"
+		}]
+	},
+	{
+		uid: "65228887",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 526"
+		}]
+	},
+	{
+		uid: "d0eb5399",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 524"
+		}]
+	}]
+}

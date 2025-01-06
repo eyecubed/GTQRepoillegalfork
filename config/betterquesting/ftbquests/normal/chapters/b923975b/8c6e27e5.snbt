@@ -1,0 +1,24 @@
+{
+	title: "Drills",
+	x: 2.0d,
+	y: -10.5d,
+	text: [
+		"Drills are basically convenient pickaxes. you can use these for mining.. obviously.",
+		"",
+		"A diamond drill tip is recommended."
+	],
+	dependencies: [
+		"597c63e3"
+	],
+	tasks: [{
+		uid: "f57565a0",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 446s,
+			tag: {
+				Charge: 0L
+			}
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 0.19464285714285268d,
+	y: 3.3602891156462675d,
+	text: [
+		"The digital interface cover, to be used in conjunction with the Central Monitor."
+	],
+	dependencies: [
+		"d5a2415f"
+	],
+	tasks: [{
+		uid: "230a6a61",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 312"
+		}]
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Programmed Circuits",
+	x: 3.826530612244909d,
+	y: -3.0025510204081627d,
+	shape: "square",
+	text: [
+		"Some recipes require Programmed Circuits: These cost precious LV circuits. So, to avoid making these, there is a \"Ghost Programmed Circuit\"",
+		"button inside of all Electric machines and input hatches/buses."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"dab0ce9a"
+	],
+	size: 0.7d,
+	optional: true,
+	tasks: [{
+		uid: "aa1e77a3",
+		type: "checkmark",
+		icon: {
+			id: "gregtech:meta_item_1",
+			Damage: 461s,
+			tag: {
+				Configuration: 0
+			}
+		}
+	}],
+	rewards: [{
+		uid: "796f90c0",
+		type: "item",
+		item: "gregtech:meta_nugget 1 335"
+	}]
+}

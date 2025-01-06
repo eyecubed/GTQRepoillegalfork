@@ -1,0 +1,17 @@
+{
+	x: 0.2d,
+	y: 1.7d,
+	text: [
+		"Contact your local Thaumonomicon for more detail."
+	],
+	dependencies: [
+		"539c6d55"
+	],
+	tasks: [{
+		uid: "b39aea2b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}]
+}

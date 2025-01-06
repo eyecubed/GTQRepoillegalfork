@@ -1,0 +1,23 @@
+{
+	title: "Bees",
+	x: 0.0d,
+	y: -3.5d,
+	text: [
+		"§2Rustic§f also has some options for §6Apiculture§f (bees)",
+		"",
+		"Finding a wild beehive and breaking it will get you some bees. Making an apiary and putting bees in it will slowly generate §5Beeswax§f and",
+		"Bees over time. ",
+		"",
+		"Keeping an apiary near your farms will §2boost§f the production!"
+	],
+	dependencies: [
+		"0f4a510b"
+	],
+	tasks: [{
+		uid: "c9781ef3",
+		type: "item",
+		items: [{
+			item: "rustic:apiary"
+		}]
+	}]
+}

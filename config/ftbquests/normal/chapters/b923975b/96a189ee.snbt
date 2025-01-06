@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -0.5d,
+	shape: "square",
+	text: [
+		"The autoclave is a machine used for converting some specific types of dusts back into their original form.",
+		"",
+		"Be advised though, it is very slow so ore processing of this level (especially for gems) is not recommended at this tier."
+	],
+	dependencies: [
+		"c7df8a8a"
+	],
+	tasks: [{
+		uid: "7c1477fb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 125"
+		}],
+		consume_items: false
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -4.723979591836724d,
+	y: 4.262585034013604d,
+	shape: "octagon",
+	description: "I googled this, and it showed the Tech Reborn ingot instead of the real life metal..",
+	text: [
+		"Tungstensteel is an essential alloy for IV. it also is used in DeepMobEvolution."
+	],
+	dependencies: [
+		"1fddd865",
+		"f0f791be"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5fbcc8e4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2013"
+		}]
+	}]
+}

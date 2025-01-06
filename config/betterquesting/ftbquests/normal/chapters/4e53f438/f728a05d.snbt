@@ -1,0 +1,40 @@
+{
+	title: "Steel",
+	icon: "gregtech:meta_ingot 1 324",
+	x: 4.0d,
+	y: 5.0d,
+	shape: "octagon",
+	description: "hot and cokey",
+	text: [
+		"Now that you've got steel, it is time to start progressing towards the LV circuit."
+	],
+	dependencies: [
+		"7d1c9eac"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e5bafa27",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotSteel"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "fd605304",
+		type: "item",
+		item: "thermalfoundation:material 1 802",
+		count: 12
+	}]
+}

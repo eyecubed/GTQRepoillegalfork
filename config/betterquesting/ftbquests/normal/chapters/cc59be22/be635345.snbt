@@ -1,0 +1,25 @@
+{
+	x: 3.4d,
+	y: 1.5d,
+	description: "Cleaning fluid",
+	text: [
+		"Ammonia can be used for a few chemical processes and Nitric Acid."
+	],
+	dependencies: [
+		"91125c2a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fb1e4aad",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ammonia",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

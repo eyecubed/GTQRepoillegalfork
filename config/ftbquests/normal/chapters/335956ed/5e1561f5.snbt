@@ -1,0 +1,24 @@
+{
+	title: "Charging and Inscribing Time!",
+	x: 0.0d,
+	y: -1.25d,
+	shape: "rsquare",
+	dependencies: [
+		"89476b52"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "2bc29946",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:charger"
+		}]
+	},
+	{
+		uid: "189f88ae",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}]
+}

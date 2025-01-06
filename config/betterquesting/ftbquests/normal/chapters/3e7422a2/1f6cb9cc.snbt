@@ -1,0 +1,25 @@
+{
+	title: "Honey",
+	x: 2.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"Makes honey. Honey is yummy."
+	],
+	dependencies: [
+		"ce0d77f2"
+	],
+	tasks: [{
+		uid: "60b4c4ec",
+		type: "item",
+		items: [{
+			item: "forestry:centrifuge"
+		}]
+	}],
+	rewards: [{
+		uid: "02a46aeb",
+		type: "item",
+		item: "forestry:bee_combs",
+		count: 5
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 2.0d,
+	y: -2.65d,
+	text: [
+		"Titanium requires you to process Bauxite into Titanium Tetrachloride. How? well, using the ore processing for Bauxite provides Rutile as an",
+		"extra byproduct. Rutile is then used for Titanium Tetrachloride, which is then used for Titanium.",
+		"",
+		"The waste products from this processing line can be recycled into the original components with zero loss, so making infinite rutile is",
+		"feasible."
+	],
+	dependencies: [
+		"01616c96"
+	],
+	tasks: [{
+		uid: "35c0a7b6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 286"
+		}]
+	},
+	{
+		uid: "ad66ef82",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 285"
+		}]
+	}]
+}

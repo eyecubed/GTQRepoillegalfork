@@ -1,0 +1,20 @@
+{
+	x: -2.0578231292516875d,
+	y: -12.012755102040806d,
+	shape: "gear",
+	description: "NYEH HEH HEH",
+	text: [
+		"Aluminium is the main component for MV, for HBM, and for a bit of Advanced Rocketry as well."
+	],
+	dependencies: [
+		"51b732c5"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "7987b16c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	shape: "square",
+	text: [
+		"The MV Mixer is the gate for a lot of mods; Ender IO, Forestry, and Modular Routers.",
+		"",
+		"Modular Routers is especially OP as it can do item and fluid logistics very easily which eliminates the need for pipes in most cases."
+	],
+	dependencies: [
+		"df4e943f"
+	],
+	tasks: [{
+		uid: "24bde155",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 471"
+		}]
+	}]
+}

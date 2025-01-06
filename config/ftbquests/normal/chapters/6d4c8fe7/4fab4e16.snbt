@@ -1,0 +1,43 @@
+{
+	title: "We All Start Somewhere",
+	x: -1.5d,
+	y: -2.6999999999999997d,
+	shape: "square",
+	text: [
+		"Welcome to GTQU! first of all, thanks for downloading, means a lot to me. second of all, welcome to the pack. ",
+		"",
+		"The first thing you'll be doing here is this questline. Basically, the earlygame uses Pyrotech, TiCon, and using those you have to get to Steam.",
+		"",
+		"Good Luck!"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a69db56d",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6ae058cc",
+		type: "item",
+		item: "harvestcraft:pecanpieitem",
+		count: 2
+	},
+	{
+		uid: "d037b3bd",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

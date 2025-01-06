@@ -1,0 +1,25 @@
+{
+	title: "Copy Paste",
+	x: 5.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"Duplicates your Gene Samples and Genetic Templates so you don't have to repeat yourself. Very handy."
+	],
+	dependencies: [
+		"98873a45"
+	],
+	tasks: [{
+		uid: "237bdbbd",
+		type: "item",
+		items: [{
+			item: "gendustry:transposer"
+		}]
+	}],
+	rewards: [{
+		uid: "b8bc3128",
+		type: "item",
+		item: "gendustry:labware",
+		count: 5
+	}]
+}

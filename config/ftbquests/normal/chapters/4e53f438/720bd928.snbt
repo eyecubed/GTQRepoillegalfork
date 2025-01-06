@@ -1,0 +1,27 @@
+{
+	title: "Forge Hammer",
+	x: 1.5d,
+	y: 0.0d,
+	shape: "square",
+	description: "smashing!",
+	text: [
+		"the Forge Hammer is able to convert Cobblestone into Gravel, and Gravel into Sand. it can also make making plates ",
+		"way more efficient, at 3 ingots for 2 plates."
+	],
+	dependencies: [
+		"2c8659bd"
+	],
+	tasks: [{
+		uid: "21cfb880",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "18040c26",
+		type: "item",
+		item: "gregtech:meta_plate 1 260",
+		count: 6
+	}]
+}

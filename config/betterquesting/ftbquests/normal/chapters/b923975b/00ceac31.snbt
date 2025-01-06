@@ -1,0 +1,26 @@
+{
+	title: "Cupronickel",
+	x: -4.5d,
+	y: -7.0d,
+	dependencies: [
+		"5125d397"
+	],
+	tasks: [{
+		uid: "23126257",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotCupronickel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotCupronickel"
+				}
+			}
+		}]
+	}]
+}

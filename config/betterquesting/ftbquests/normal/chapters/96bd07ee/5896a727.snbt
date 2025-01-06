@@ -1,0 +1,32 @@
+{
+	title: "Diesel",
+	x: -2.5d,
+	y: -8.0d,
+	text: [
+		"Diesel (or gasoline) is a very good fuel source for MV.",
+		"",
+		"It requires both light fuel and heavy fuel."
+	],
+	dependencies: [
+		"d9dc8be5"
+	],
+	tasks: [{
+		uid: "752be8f7",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fuel",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c52dc92",
+		type: "item",
+		item: "gregtech:ore_oilsands_0",
+		count: 12
+	}]
+}

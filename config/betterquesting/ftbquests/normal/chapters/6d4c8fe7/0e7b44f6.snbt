@@ -1,0 +1,17 @@
+{
+	x: -3.1d,
+	y: 1.1d,
+	text: [
+		"Once you have your Grove Stone ready, simply place your Fey Crafter near it. After that, you will be able to craft stuff using it. Nice innit?"
+	],
+	dependencies: [
+		"9535867a"
+	],
+	tasks: [{
+		uid: "3a7605a4",
+		type: "item",
+		items: [{
+			item: "roots:fey_crafter"
+		}]
+	}]
+}

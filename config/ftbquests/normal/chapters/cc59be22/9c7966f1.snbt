@@ -1,0 +1,18 @@
+{
+	x: 1.0364795918367236d,
+	y: -1.1958333333333258d,
+	text: [
+		"Used in conjunction with the EBF for a higher energy tier; not much to say here."
+	],
+	dependencies: [
+		"91514e4b",
+		"01616c96"
+	],
+	tasks: [{
+		uid: "ee4af20c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1213"
+		}]
+	}]
+}

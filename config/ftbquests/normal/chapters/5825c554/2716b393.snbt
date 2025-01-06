@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"With Tungstensteel, you can make the most peak multiblock in all of gregtech; The Processing Array. ",
+		"",
+		"It can do machine processes in parallel, and it can do multiple at once with the Machine Access Interface."
+	],
+	dependencies: [
+		"9f9d4b4b"
+	],
+	tasks: [{
+		uid: "ce09fc70",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1030"
+		}]
+	}]
+}

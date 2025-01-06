@@ -1,0 +1,33 @@
+{
+	title: "Getting Pregnant?",
+	x: 1.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"No, not like that.",
+		"Squeeze some seed oil out of stuff and use the oil to make casings."
+	],
+	dependencies: [
+		"ce0d77f2"
+	],
+	tasks: [{
+		uid: "27a58bcb",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	},
+	{
+		uid: "9fb84d07",
+		type: "item",
+		items: [{
+			item: "forestry:impregnated_casing"
+		}]
+	}],
+	rewards: [{
+		uid: "3e50491d",
+		type: "item",
+		item: "forestry:impregnated_casing",
+		count: 3
+	}]
+}

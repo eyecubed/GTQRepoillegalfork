@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	shape: "square",
+	text: [
+		"Separates some ores into other ores.. really not that used."
+	],
+	dependencies: [
+		"c7df8a8a"
+	],
+	tasks: [{
+		uid: "0371b913",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 290"
+		}]
+	}]
+}

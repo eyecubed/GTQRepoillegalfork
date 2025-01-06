@@ -1,0 +1,18 @@
+{
+	title: "Extracting from ingots",
+	x: -7.199999999999999d,
+	y: -1.65d,
+	shape: "square",
+	description: "Its gonna be useful later... so probably get both of them.",
+	dependencies: [
+		"b8d0280c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c284d91e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 321"
+		}]
+	}]
+}

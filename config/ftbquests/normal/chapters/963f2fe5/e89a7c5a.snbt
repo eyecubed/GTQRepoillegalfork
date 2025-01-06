@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: 1.9d,
+	dependencies: [
+		"b923975b",
+		"a04512df"
+	],
+	tasks: [{
+		uid: "ae04c3b0",
+		type: "checkmark",
+		title: "Reset 3 (LV)"
+	}]
+}

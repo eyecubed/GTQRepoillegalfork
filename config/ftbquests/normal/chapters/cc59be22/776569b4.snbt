@@ -1,0 +1,39 @@
+{
+	x: 4.241071428571438d,
+	y: -1.2702380952381098d,
+	description: "Why can i leave the door open?",
+	text: [
+		"The Cleanroom is a special multiblock structure that is required for a lot of recipes for HV and onwards.",
+		"For now we will just make a 5x5 cleanroom.",
+		"Machines have to be inside the Cleanroom for it to register the recipes.",
+		"",
+		"The Cleanroom controller block must always be in the middle. The frame needs to be of Plascrete but the rest can be cleanroom glass;",
+		"",
+		"Filter casings need to be in a 3x3 square around the controller block, in the top layer.",
+		"",
+		"once the cleanroom is secure, it begins drawing energy till it becomes fully sterilized. ",
+		"",
+		"To transport items/fluids in and out of the Cleanroom, Passthrough hatches/buses are used. For energy we can use Diodes.",
+		"",
+		"This also requires a maintenance hatch."
+	],
+	dependencies: [
+		"01616c96"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "fb5fc40c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1035"
+		}]
+	},
+	{
+		uid: "31730856",
+		type: "item",
+		items: [{
+			item: "gregtech:cleanroom_casing"
+		}],
+		count: 40L
+	}]
+}

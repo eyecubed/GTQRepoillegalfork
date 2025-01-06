@@ -1,0 +1,48 @@
+{
+	title: "Peas And Bees",
+	x: 4.5d,
+	y: -1.0d,
+	shape: "hexagon",
+	text: [
+		"Gregor Mendel was a Czech biologist whose pea plant experiments established the rules of heredity. Mainly recessive and dominant genes.",
+		"Get your desireble Gene Samples from bees and add them on a Genetic Template using a Crafting Table."
+	],
+	dependencies: [
+		"11c7588e"
+	],
+	tasks: [{
+		uid: "c690c9a2",
+		type: "item",
+		items: [{
+			item: "gendustry:gene_sample_blank"
+		}]
+	},
+	{
+		uid: "75f14ceb",
+		type: "item",
+		items: [{
+			item: "gendustry:sampler"
+		}]
+	},
+	{
+		uid: "0a64e225",
+		type: "item",
+		items: [{
+			item: "gendustry:gene_template"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f1554f69",
+		type: "item",
+		item: "gendustry:gene_template",
+		count: 5
+	},
+	{
+		uid: "71c85f23",
+		type: "item",
+		item: "gendustry:gene_sample_blank",
+		count: 10
+	}]
+}

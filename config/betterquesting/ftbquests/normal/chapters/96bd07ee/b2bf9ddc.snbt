@@ -1,0 +1,32 @@
+{
+	title: "Sulfuric Acid",
+	x: -3.5d,
+	y: -4.5d,
+	text: [
+		"Sulfuric acid is necessary for making Ethylene if you have decided to use Biomass.",
+		"",
+		"First step of making Sulfuric Acid is to get Hydrogen Sulfide; if you had done the Oil path it would be plentiful as it comes from desulfurizing",
+		"oil products. Next you have to combine the Hydrogen Sulfide with some Oxygen (gas collector + centrifuge) you will get Sulfur Dioxide.",
+		"",
+		"You can also use Sulfur Dust and Oxygen for the same effect.",
+		"",
+		"Next you just have to combine it with Oxygen again for Sulfur Trioxide, then just one last time with Water and boom, you have your",
+		"sulfuric acid."
+	],
+	dependencies: [
+		"e5d17496"
+	],
+	tasks: [{
+		uid: "58105894",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sulfuric_acid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

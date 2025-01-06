@@ -1,0 +1,26 @@
+{
+	title: "Flint and Steel v.01",
+	x: 3.6d,
+	y: 0.0d,
+	text: [
+		"You can use this for some easy heat and light. But i recommend you save this for later, keep it for the Pit Kiln. You need it to light it on fire",
+		"anyway."
+	],
+	dependencies: [
+		"03689261"
+	],
+	tasks: [{
+		uid: "7e24b2a3",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_and_tinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "877f3192",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

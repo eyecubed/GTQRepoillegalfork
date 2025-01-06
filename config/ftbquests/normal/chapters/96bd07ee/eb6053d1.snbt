@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	shape: "square",
+	description: "Minor",
+	text: [
+		"the Miner is basically a quarry and it can clear out ore veins easily."
+	],
+	dependencies: [
+		"df4e943f"
+	],
+	tasks: [{
+		uid: "bcde87ea",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 921"
+		}]
+	}],
+	rewards: [{
+		uid: "fe2c6f37",
+		type: "item",
+		item: "gregtech:ore_sapphire_0",
+		count: 12
+	}]
+}

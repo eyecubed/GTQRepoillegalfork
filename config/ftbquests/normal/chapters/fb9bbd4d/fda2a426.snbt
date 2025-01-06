@@ -1,0 +1,18 @@
+{
+	x: -0.3d,
+	y: 1.2d,
+	text: [
+		"Bronze. Finally. You're not done yet, though. ",
+		"If you have tools already, it's recommended you start with the Steam chapter already."
+	],
+	dependencies: [
+		"c8a306ad"
+	],
+	tasks: [{
+		uid: "5deb5d1c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 260"
+		}]
+	}]
+}

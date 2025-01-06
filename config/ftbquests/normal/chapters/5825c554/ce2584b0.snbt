@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: 1.1d,
+	text: [
+		"This is required for the new tier of circuits, Quantum Circuits! :D"
+	],
+	dependencies: [
+		"696b19dc"
+	],
+	tasks: [{
+		uid: "e3ee0e6e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 405"
+		}]
+	}]
+}

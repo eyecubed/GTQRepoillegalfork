@@ -1,0 +1,32 @@
+{
+	title: "Rustic",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "square",
+	description: "E2E Flashbacks",
+	text: [
+		"Rustic is a vintage themed medieval mod based on brewing beers, elixirs, and doing alchemy.",
+		"",
+		"The elixirs in question are very powerful and can grant III-IV level potion effects while also being a few minutes long! this is a massive",
+		"boon in bossfights.",
+		"",
+		"You can also make oils to season your food."
+	],
+	dependencies: [
+		"0f4a510b"
+	],
+	tasks: [{
+		uid: "c5a0e3b5",
+		type: "item",
+		items: [{
+			item: "rustic:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d706d040",
+		type: "item",
+		item: "rustic:sapling"
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	icon: "gregtech:machine 1 1023",
+	x: 3.419132653061226d,
+	y: 3.4959183673469525d,
+	text: [
+		"The Large Chemical Reactor or LCR is a multiblock that can do certain chemical-related recipes easier and also unlocks some exclusives",
+		"that would usually be unreachable with a normal Chemical Reactor.",
+		"",
+		"It is also a few degrees more efficient."
+	],
+	dependencies: [
+		"9519b734"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "197d9dc4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1023"
+		}]
+	},
+	{
+		uid: "aa8b5bc5",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 9"
+		}],
+		count: 10L
+	},
+	{
+		uid: "305a5bbb",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing 1 4"
+		}]
+	},
+	{
+		uid: "983f6eee",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}]
+	}],
+	rewards: [{
+		uid: "befb883d",
+		type: "item",
+		item: "gregtech:meta_plate 1 1016",
+		count: 8
+	}]
+}

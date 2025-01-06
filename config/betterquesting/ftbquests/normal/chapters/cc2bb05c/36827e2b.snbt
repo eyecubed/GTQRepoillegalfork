@@ -1,0 +1,38 @@
+{
+	title: "Ruthenium + Rhodium",
+	x: -5.9d,
+	y: -0.5d,
+	shape: "square",
+	description: "Rigged Tabloid Men Alloy",
+	text: [
+		"Rhodium is for the LuV age and the IV age. RTM Alloy is required for new coils."
+	],
+	dependencies: [
+		"ef25d51d"
+	],
+	tasks: [{
+		uid: "10ee81c2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 93"
+		}]
+	},
+	{
+		uid: "95b94cf6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 90"
+		}]
+	}],
+	rewards: [{
+		uid: "a94fd68b",
+		type: "item",
+		item: "hbm:gun_ks23"
+	},
+	{
+		uid: "cab2bee5",
+		type: "item",
+		item: "hbm:ammo_4gauge",
+		count: 12
+	}]
+}

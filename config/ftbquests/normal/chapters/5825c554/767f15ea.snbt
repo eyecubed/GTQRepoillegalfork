@@ -1,0 +1,19 @@
+{
+	x: 2.3d,
+	y: -0.5d,
+	description: "'Epic.' - Karma from ATMCord",
+	text: [
+		"The power substation is a power storage multiblock that is §3modular§f and can support a lot of energy storage. Useful for the center",
+		"of your power grid."
+	],
+	dependencies: [
+		"35cdb0c1"
+	],
+	tasks: [{
+		uid: "b3117dea",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1041"
+		}]
+	}]
+}

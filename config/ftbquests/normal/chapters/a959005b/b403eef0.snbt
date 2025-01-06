@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	shape: "square",
+	description: "Kepium",
+	text: [
+		"Trinium does not have an ore, but can be obtained by Trinium bees"
+	],
+	dependencies: [
+		"118bfc60"
+	],
+	tasks: [{
+		uid: "6c6ccbc2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 130"
+		}]
+	}]
+}

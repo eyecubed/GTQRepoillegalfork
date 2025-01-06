@@ -1,0 +1,34 @@
+{
+	title: "Magic",
+	x: -1.9d,
+	y: 1.0d,
+	text: [
+		"As a highly based person, i have decided to keep some magic early-game (similar to FTBI, not really tho) ",
+		"",
+		"First of all, you'll want to go to the Nether. Why? For all the different ores, and also for Sulfur which you will need in Steam.",
+		"Roots is the pathway to this. I suggest you start this as early as humanly possible, possibly just after starting.",
+		"",
+		"Along with the Nether, Roots also brings cool gear and useful rituals."
+	],
+	dependencies: [
+		"4fab4e16"
+	],
+	tasks: [{
+		uid: "8237dde5",
+		type: "item",
+		items: [{
+			item: "roots:wood_knife"
+		},
+		{
+			item: "roots:stone_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00815d0c",
+		type: "item",
+		item: "minecraft:mossy_cobblestone",
+		count: 3
+	}]
+}

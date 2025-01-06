@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		"The second machine you should make; it increases plate production to a 1:1 ratio, which is better than the forge hammer at least."
+	],
+	dependencies: [
+		"dab0ce9a"
+	],
+	tasks: [{
+		uid: "03b8eba1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 140"
+		}]
+	}],
+	rewards: [{
+		uid: "159d75e5",
+		type: "item",
+		item: "gregtech:meta_stick 1 324",
+		count: 4
+	}]
+}

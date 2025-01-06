@@ -1,0 +1,24 @@
+{
+	title: "RFTools",
+	x: -4.5d,
+	y: -4.5d,
+	text: [
+		"RFTools is an extremely versatile mod that can be used for many different utilities; Storage, Logic, Redstone, Displaying, Art, etc.",
+		"",
+		"This mod is mostly LV, with the OP parts like Dimensions locked behind higher tiers.",
+		"",
+		"To get started, you need to get a few Machine Frames and Machine Bases.",
+		"",
+		"Check out RFTools Subchapter for more."
+	],
+	dependencies: [
+		"b74dae8f"
+	],
+	tasks: [{
+		uid: "e4da850d",
+		type: "item",
+		items: [{
+			item: "rftools:machine_frame"
+		}]
+	}]
+}

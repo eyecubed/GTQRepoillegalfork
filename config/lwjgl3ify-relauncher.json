@@ -1,0 +1,22 @@
+{
+  "javaInstallationsCache": [
+    "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java",
+    "/Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/bin/java",
+    "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/java"
+  ],
+  "javaInstallation": 2,
+  "minMemoryMB": 8192,
+  "maxMemoryMB": 8192,
+  "garbageCollector": "G1GC",
+  "customOptions": [],
+  "hideSettingsOnLaunch": false,
+  "forwardLogs": false,
+  "allowDebugger": false,
+  "waitForDebugger": false,
+  "mixinDebug": false,
+  "mixinDebugExport": false,
+  "mixinDebugCount": false,
+  "fmlDebugAts": false,
+  "rfbDumpClasses": false,
+  "rfbDumpPerTransformer": false
+}

@@ -1,0 +1,26 @@
+{
+	title: "You Will Bee Assimilated",
+	x: 4.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	description: "Resistance is futile",
+	text: [
+		"Applies the Genetic Templates onto the bee and turns it into the template's bee. Collective would be proud of you."
+	],
+	dependencies: [
+		"e27387c2"
+	],
+	tasks: [{
+		uid: "58a7b113",
+		type: "item",
+		items: [{
+			item: "gendustry:imprinter"
+		}]
+	}],
+	rewards: [{
+		uid: "03b57488",
+		type: "item",
+		item: "gendustry:labware",
+		count: 5
+	}]
+}

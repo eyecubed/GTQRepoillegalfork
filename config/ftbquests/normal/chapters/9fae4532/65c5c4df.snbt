@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	description: "RLCraft is GREGGY",
+	text: [
+		"This modpack also contains §4Tough As Nails§f, which is a survival mod that adds a §6thirst§f and §4temperature§f bar.",
+		"",
+		"These bars are very difficult to maintain in the earlygame, so that is why i highly recommend getting the Canteen as soon as possible.",
+		"",
+		"Heat is also an issue earlygame, standing near a furnace or other machines in an enclosed cave will make it very hot and thus hard to",
+		"survive in.",
+		"",
+		"By MV you'll be able to create devices to maintain your temperature without any worries."
+	],
+	dependencies: [
+		"0f4a510b"
+	],
+	tasks: [{
+		uid: "c16b999e",
+		type: "item",
+		items: [{
+			item: "toughasnails:canteen"
+		}],
+		ignore_nbt: 1b
+	}]
+}

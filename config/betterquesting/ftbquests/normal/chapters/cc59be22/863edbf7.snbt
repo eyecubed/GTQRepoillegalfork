@@ -1,0 +1,26 @@
+{
+	x: -0.85d,
+	y: -0.75d,
+	shape: "diamond",
+	text: [
+		"The automatic maintenance hatch simply removes the need for maintenance, but the configurable maintenance hatch reduces the processing",
+		"time of recipes by 10% at the cost of 3x more maintenance requirements."
+	],
+	dependencies: [
+		"9ac3b937"
+	],
+	tasks: [{
+		uid: "4f83cafc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1655"
+		}]
+	},
+	{
+		uid: "f12e8952",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1656"
+		}]
+	}]
+}

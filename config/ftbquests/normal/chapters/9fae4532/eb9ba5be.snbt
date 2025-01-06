@@ -1,0 +1,24 @@
+{
+	title: "GT:FO",
+	x: 3.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "Greggy Techy Foodie Option",
+	text: [
+		"GTFO is a GTCEu Addon that provides you with a large amount of new foods to consume and manufacture. this mod also changes the recipes",
+		"of some other mods recipes.."
+	],
+	dependencies: [
+		"0f4a510b"
+	],
+	tasks: [{
+		uid: "719265a3",
+		type: "checkmark",
+		icon: "gregtechfoodoption:gtfo_meta_item 1 107"
+	}],
+	rewards: [{
+		uid: "9b36de3b",
+		type: "item",
+		item: "enderio:item_ender_food"
+	}]
+}

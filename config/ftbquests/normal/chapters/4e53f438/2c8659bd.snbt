@@ -1,0 +1,39 @@
+{
+	title: "Boilers.. But no water",
+	x: 1.4989795918367435d,
+	y: 2.2863945578231295d,
+	shape: "gear",
+	description: "where's my water!?",
+	text: [
+		"You may have access to steam boilers, but manually placing buckets of water is inefficient. You need the primitive pump in order to progress."
+	],
+	dependencies: [
+		"9b46339d"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "9d01c52b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		},
+		{
+			item: "gregtech:machine 1 5"
+		},
+		{
+			item: "gregtech:machine 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "f9fc339d",
+		type: "random",
+		icon: "gregtech:machine 1 1",
+		table: 0
+	},
+	{
+		uid: "b5dc4cd0",
+		type: "item",
+		item: "minecraft:clay",
+		count: 12
+	}]
+}

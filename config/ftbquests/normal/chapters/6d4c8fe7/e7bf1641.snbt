@@ -1,0 +1,18 @@
+{
+	x: 6.7d,
+	y: 3.5d,
+	text: [
+		"This not only allows new recipes, but also allows you to finally process Diamond. You can process the GT Variant through it, and you need",
+		"diamonds for Obsidian."
+	],
+	dependencies: [
+		"ad1b67e3"
+	],
+	tasks: [{
+		uid: "29e82093",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_iron_plated"
+		}]
+	}]
+}

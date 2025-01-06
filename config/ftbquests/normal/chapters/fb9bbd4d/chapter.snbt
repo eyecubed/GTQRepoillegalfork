@@ -1,0 +1,7 @@
+{
+	title: "Transitioning",
+	icon: "gregtech:meta_dust 1 260",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

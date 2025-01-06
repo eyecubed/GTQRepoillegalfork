@@ -1,0 +1,6 @@
+
+{
+  "Name": "deepmoblearning.trial_cave_spider",
+  "Registry ID": "deepmoblearning:trial_cave_spider",
+  "Class": "mustapelto.deepmoblearning.common.entities.EntityTrialCaveSpider"
+}

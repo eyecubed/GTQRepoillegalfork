@@ -1,0 +1,22 @@
+{
+	title: "Cooking For Blockheads",
+	x: 4.3d,
+	y: 0.0d,
+	shape: "square",
+	description: "All part of a regular diet",
+	text: [
+		"Cooking for Blockheads is a utility mod that helps you cook food easier. It can help you craft complex foods like Pizzas or Sausage rolls",
+		"in §2one click!§f essential for the time leading up to the midgame."
+	],
+	dependencies: [
+		"0f4a510b"
+	],
+	tasks: [{
+		uid: "b39fe273",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:recipe_book 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

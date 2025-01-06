@@ -1,0 +1,26 @@
+{
+	title: "Nether Access",
+	x: -9.6d,
+	y: -2.6999999999999997d,
+	shape: "octagon",
+	text: [
+		"Currently your only option for nether access is the cake and the apple. I suggest you make the cake, as it easier to make and can be made",
+		"earlier.",
+		"",
+		"Make sure you have an Overworld Cake/Apple so you won't get stuck inside."
+	],
+	dependencies: [
+		"932cc715"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "0b4d8b93",
+		type: "item",
+		items: [{
+			item: "dimensionaledibles:nether_apple"
+		},
+		{
+			item: "dimensionaledibles:nether_cake"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 1.05d,
+	y: -0.35d,
+	shape: "square",
+	text: [
+		"The LPIC requires the cutting machine to be in the Cleanroom, whose mechanics were explained in MV.",
+		"",
+		"The LPIC is going to be used for the HV energy hatch.",
+		"",
+		"I also recommend getting all the lenses since they will be used eventually."
+	],
+	dependencies: [
+		"5b780c5c"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "0cd3ea73",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 603"
+		}]
+	},
+	{
+		uid: "d71a9f23",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 821"
+		}]
+	}]
+}

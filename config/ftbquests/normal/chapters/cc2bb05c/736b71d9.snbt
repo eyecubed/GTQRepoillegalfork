@@ -1,0 +1,19 @@
+{
+	x: -4.717857142857142d,
+	y: 2.7071428571428626d,
+	shape: "square",
+	text: [
+		"The Advanced Assembler unlocks some utility recipes as usual and also unlocks ME buses and hatches."
+	],
+	dependencies: [
+		"dc8ab2e6"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "ca4e5f79",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 113"
+		}]
+	}]
+}

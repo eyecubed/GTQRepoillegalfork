@@ -1,0 +1,18 @@
+{
+	x: 2.05d,
+	y: 3.5d,
+	shape: "hexagon",
+	text: [
+		"PTFE is used for the walls of the LCR and also EV machine hulls, so automation is recommended."
+	],
+	dependencies: [
+		"91125c2a"
+	],
+	tasks: [{
+		uid: "9c3a7137",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1016"
+		}]
+	}]
+}
