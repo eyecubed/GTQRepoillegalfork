@@ -1,0 +1,69 @@
+{
+	title: "Ritual: Transmutation",
+	icon: "roots:ritual_transmutation",
+	x: 4.0d,
+	y: 6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"34ee1e38"
+	],
+	tasks: [{
+		uid: "1c7be12d",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any runestone"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "runestone"
+				}
+			}
+		}]
+	},
+	{
+		uid: "af53a687",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rootsBark"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "rootsBark"
+				}
+			}
+		}]
+	},
+	{
+		uid: "eee02e2a",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}]
+	},
+	{
+		uid: "f2b9b40d",
+		type: "item",
+		items: [{
+			item: "roots:cloud_berry"
+		}]
+	},
+	{
+		uid: "4c5ad65a",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

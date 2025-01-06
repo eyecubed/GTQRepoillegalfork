@@ -1,14 +1,14 @@
 {
-	x: 6.5d,
+	x: 10.5d,
 	y: 8.0d,
 	dependencies: [
-		"5385310b"
+		"6a62f933"
 	],
 	tasks: [{
-		uid: "db24c8dd",
+		uid: "2bb0458e",
 		type: "item",
 		items: [{
-			item: "roots:pyre"
+			item: "roots:runic_dust"
 		}]
 	}]
 }

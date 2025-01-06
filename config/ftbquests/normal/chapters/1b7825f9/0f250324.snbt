@@ -1,6 +1,10 @@
 {
-	x: 12.5d,
-	y: 3.5d,
+	x: -0.5d,
+	y: 2.0d,
+	description: "Money Spreader",
+	text: [
+		""
+	],
 	dependencies: [
 		"3cc237ef"
 	],
