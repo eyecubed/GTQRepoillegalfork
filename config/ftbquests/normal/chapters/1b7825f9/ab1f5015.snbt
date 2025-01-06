@@ -1,0 +1,18 @@
+{
+	title: "Tier 4",
+	x: 14.5d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4962b64c"
+	],
+	tasks: [{
+		uid: "b0a0bcd8",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 3"
+		}]
+	}]
+}

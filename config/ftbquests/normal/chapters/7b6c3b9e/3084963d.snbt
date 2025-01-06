@@ -1,7 +1,7 @@
 {
 	icon: "harvestcraft:hotcocoaitem",
-	x: -0.9d,
-	y: -1.5d,
+	x: -1.5d,
+	y: -2.0d,
 	shape: "hexagon",
 	text: [
 		"Rainbow Curry is one of the harder Pam's foods to make. Collect 16 of them for a nice reward.",

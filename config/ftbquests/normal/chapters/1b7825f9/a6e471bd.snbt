@@ -1,0 +1,21 @@
+{
+	title: "Storing Essence",
+	x: 2.5d,
+	y: 2.0d,
+	text: [
+		"To store dropped Essence you can craft an Essence Keeper and right click on the drop"
+	],
+	dependencies: [
+		"bc7e2403",
+		"6d7afe91"
+	],
+	tasks: [{
+		uid: "0ccff901",
+		type: "item",
+		items: [{
+			item: "harkenscythe:essence_keeper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	dependencies: [
+		"1be5c385"
+	],
+	tasks: [{
+		uid: "e67261ac",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}]
+	}]
+}

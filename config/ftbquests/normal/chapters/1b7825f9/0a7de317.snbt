@@ -1,0 +1,25 @@
+{
+	title: "Mana Pool",
+	x: 7.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"eaedc0dc"
+	],
+	tasks: [{
+		uid: "229c0975",
+		type: "item",
+		title: "Any Mana Pool",
+		items: [{
+			item: "botania:pool 1 2"
+		},
+		{
+			item: "botania:pool"
+		},
+		{
+			item: "botania:pool 1 3"
+		}]
+	}]
+}

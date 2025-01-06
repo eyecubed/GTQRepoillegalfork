@@ -1,0 +1,17 @@
+{
+	x: 2.6d,
+	y: 7.4d,
+	text: [
+		"Salis Mundus itself needs Wildwood bark, so you'll have to  trade for it from a Druid villager. "
+	],
+	dependencies: [
+		"539c6d55"
+	],
+	tasks: [{
+		uid: "1a161125",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "The Nether",
-	x: 0.8d,
-	y: -0.7d,
+	x: 1.0d,
+	y: -1.5d,
 	text: [
 		"The Nether in this pack is insufferable to go through with, requiring progression in both Roots and Gregtech to get here.",
 		"Once you are here though, there are a few things you will need;",
