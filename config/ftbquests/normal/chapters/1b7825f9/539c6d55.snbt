@@ -1,0 +1,15 @@
+{
+	x: 14.0d,
+	y: 8.0d,
+	dependencies: [
+		"5694c2bf"
+	],
+	tasks: [{
+		uid: "5bbda6b8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}]
+}

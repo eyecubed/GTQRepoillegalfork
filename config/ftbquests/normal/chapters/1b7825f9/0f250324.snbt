@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: 2.0d,
+	description: "Money Spreader",
+	text: [
+		""
+	],
+	dependencies: [
+		"3cc237ef"
+	],
+	tasks: [{
+		uid: "853eb9da",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}]
+}

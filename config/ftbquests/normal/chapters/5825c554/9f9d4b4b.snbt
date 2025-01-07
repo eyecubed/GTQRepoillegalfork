@@ -1,5 +1,5 @@
 {
-	x: -0.6d,
+	x: -1.0d,
 	y: 0.0d,
 	shape: "rsquare",
 	text: [
@@ -8,7 +8,7 @@
 		"",
 		"Iridium and Osmium are also required in high amounts."
 	],
-	size: 1.25d,
+	size: 2.0d,
 	tasks: [{
 		uid: "9eaa7978",
 		type: "item",

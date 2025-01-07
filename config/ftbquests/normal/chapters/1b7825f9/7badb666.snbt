@@ -1,0 +1,14 @@
+{
+	x: 9.5d,
+	y: 14.0d,
+	dependencies: [
+		"d4f61def"
+	],
+	tasks: [{
+		uid: "d55bf0ac",
+		type: "item",
+		items: [{
+			item: "harkenscythe:bloodweave_cloth"
+		}]
+	}]
+}

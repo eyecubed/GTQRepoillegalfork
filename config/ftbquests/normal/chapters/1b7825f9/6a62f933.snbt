@@ -1,0 +1,20 @@
+{
+	x: 9.0d,
+	y: 8.0d,
+	tasks: [{
+		uid: "cf04b32b",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	},
+	{
+		uid: "04515589",
+		type: "item",
+		items: [{
+			item: "roots:pestle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

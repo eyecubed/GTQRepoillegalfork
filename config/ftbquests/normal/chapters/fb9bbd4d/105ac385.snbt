@@ -1,7 +1,7 @@
 {
 	title: "The Start of something Greg",
-	x: 0.0d,
-	y: 0.0d,
+	x: 1.0d,
+	y: 1.0d,
 	description: "greg? Greg!",
 	text: [
 		"Using oreprocessing, you are able to turn Chalcopyrite/other copper-containing ores into their respective dusts; But this is not enough.",

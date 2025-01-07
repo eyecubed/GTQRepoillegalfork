@@ -1,0 +1,14 @@
+{
+	x: 9.5d,
+	y: 12.5d,
+	dependencies: [
+		"a6e471bd"
+	],
+	tasks: [{
+		uid: "5a4f049b",
+		type: "item",
+		items: [{
+			item: "harkenscythe:blood_altar"
+		}]
+	}]
+}

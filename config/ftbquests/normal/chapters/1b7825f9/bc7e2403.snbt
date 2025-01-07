@@ -1,0 +1,35 @@
+{
+	title: "Drawing Blood",
+	x: 9.0d,
+	y: 9.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "40845f73",
+		type: "item",
+		items: [{
+			item: "harkenscythe:wooden_glaive"
+		},
+		{
+			item: "harkenscythe:stone_glaive"
+		},
+		{
+			item: "harkenscythe:iron_glaive"
+		},
+		{
+			item: "harkenscythe:golden_glaive"
+		},
+		{
+			item: "harkenscythe:diamond_glaive"
+		},
+		{
+			item: "harkenscythe:biomass_glaive"
+		},
+		{
+			item: "harkenscythe:livingmetal_glaive"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

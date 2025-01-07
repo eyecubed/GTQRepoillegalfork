@@ -1,6 +1,6 @@
 {
-	x: -0.6d,
-	y: 1.1d,
+	x: -1.0d,
+	y: 1.5d,
 	description: "I have carpal tunnel",
 	text: [
 		"You know the drill. New voltage, new machines."

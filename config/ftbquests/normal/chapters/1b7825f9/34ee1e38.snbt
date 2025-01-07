@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 8.0d,
+	dependencies: [
+		"5385310b"
+	],
+	tasks: [{
+		uid: "db24c8dd",
+		type: "item",
+		items: [{
+			item: "roots:pyre"
+		}]
+	}]
+}

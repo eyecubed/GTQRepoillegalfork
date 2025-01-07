@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 5.5d,
+	description: "WIP: Missing recipe",
+	text: [
+		""
+	],
+	dependencies: [
+		"a7591590",
+		"0a7de317"
+	],
+	tasks: [{
+		uid: "724eeb52",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}],
+		consume_items: false
+	}]
+}

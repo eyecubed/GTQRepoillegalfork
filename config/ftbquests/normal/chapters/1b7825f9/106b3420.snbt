@@ -1,0 +1,18 @@
+{
+	x: 10.5d,
+	y: 20.5d,
+	dependencies: [
+		"ad0016d4"
+	],
+	tasks: [{
+		uid: "6bdfd1af",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}
