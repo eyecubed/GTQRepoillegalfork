@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gtaurora:items/schrabidium_neutronium_processing_module_component"
+  }
+}
