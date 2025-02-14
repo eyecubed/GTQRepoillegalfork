@@ -1,0 +1,23 @@
+{
+  "packName": "Gregtech Aurora",
+  "packId": "gtaurora",
+  "version": "1.0.0",
+  "debug": false,
+  "classes": [
+      "classes/MetaTileEntitySteamLargeHammer.groovy",
+      "classes/MetaTileEntityAlloyKiln.groovy",
+            "classes/MetaTileEntityBioreactor.groovy"
+],
+  "loaders": {
+    "preInit": [
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/multiblocks.groovy",
+      "postInit/"
+    ],
+    "init": [
+      "init/"
+    ]
+  }
+}
