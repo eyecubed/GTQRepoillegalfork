@@ -1,0 +1,5 @@
+recipemap('chemical_reactor').recipeBuilder()
+        .fluidInputs(fluid('hot_quark_mess') * 100)
+        .fluidInputs(fluid('supercoolant') * 25000)
+        .fluidOutputs(fluid('quark_mess') * 100)
+        .duration(400).EUt(200000).buildAndRegister()

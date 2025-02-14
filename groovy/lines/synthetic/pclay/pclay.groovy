@@ -1,0 +1,16 @@
+recipemap('chemical_reactor').recipeBuilder()
+        .inputs(item('forestry:crafting_material', 1))
+        .inputs(ore('dustRadioactiveClay') * 4)
+        .fluidOutputs(fluid('insentient_polymer_clay') * 144)
+        .duration(340).EUt(510).buildAndRegister()
+                 
+recipemap('mixer').recipeBuilder()
+        .inputs(ore('dustPlutonium'))
+        .inputs(ore('dustClay'))
+        .outputs(item('gregtech:meta_dust', 31300))
+        .duration(340).EUt(510).buildAndRegister()
+
+recipemap('fluid_solidifier').recipeBuilder()
+        .fluidInputs(fluid('insentient_polymer_clay') * 144)
+        .outputs(item('deepmoblearning:polymer_clay'))
+        .duration(340).EUt(510).buildAndRegister()
