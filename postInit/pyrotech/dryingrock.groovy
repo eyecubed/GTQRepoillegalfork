@@ -1,0 +1,13 @@
+mods.pyrotech.drying_rack.recipeBuilder()
+    .input(item('tconstruct:soil'))
+    .output(item('tconstruct:materials'))
+    .dryTime(1040)
+    .name('drying_jamogus')
+    .register()
+
+mods.pyrotech.drying_rack.recipeBuilder()
+    .input(item('gregtech:meta_item_1', 350))
+    .output(item('gregtech:meta_item_1', 353))
+    .dryTime(1040)
+    .name('1jamogus')
+    .register()
