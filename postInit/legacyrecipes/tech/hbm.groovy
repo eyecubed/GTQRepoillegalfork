@@ -10,24 +10,6 @@ recipemap('chemical_reactor').recipeBuilder()
         .fluidOutputs(fluid('kerosene') * 240 )
         .duration(400).EUt(120).buildAndRegister()
 
-// Chemical reactor recipe for HBM red copper ingot
-recipemap('chemical_reactor').recipeBuilder()
-        .inputs(ore('dustRedstone') * 8)
-        .inputs(ore('ingotCopper') * 16)
-        .fluidInputs(fluid('oxygen') * 120 )
-        .fluidInputs(fluid('nitrogen') * 120 )
-        .outputs(item('hbm:ingot_red_copper') * 4)
-        .duration(400).EUt(120).buildAndRegister()
-
-// Chemical reactor recipe for HBM advanced alloy ingot
-recipemap('chemical_reactor').recipeBuilder()
-        .inputs(item('hbm:ingot_red_copper') * 8)
-        .inputs(ore('ingotSteel') * 16)
-        .fluidInputs(fluid('oxygen') * 120 )
-        .fluidInputs(fluid('nitrogen') * 120 )
-        .outputs(item('hbm:ingot_advanced_alloy') * 4)
-        .duration(600).EUt(120).buildAndRegister()
-
 // Assembler recipe for HBM generic small warhead
 recipemap('assembler').recipeBuilder()
         .inputs(item('gregtech:meta_item_1', 498) * 2)
@@ -155,20 +137,21 @@ recipemap('electric_blast_furnace').recipeBuilder()
         .property("temperature", 2700)
         .duration(400).EUt(470).buildAndRegister()
 
-recipemap('electric_blast_furnace').recipeBuilder()
-        .inputs(ore('dustSteel') * 2)
-        .inputs(ore('dustRedPhosphorous') * 6)
-        .fluidInputs(fluid('mercury') * 250 )
-        .outputs(item('hbm:ingot_saturnite') * 2)
-        .property("temperature", 2200)
+recipemap('mixer').recipeBuilder()
+        .inputs(ore('dustPlatinum') * 4)
+        .inputs(ore('dustRedPhosphorus') * 1)
+        .inputs(ore('dustSignalum') * 1)
+        .inputs(ore('dustAdvancedAlloy') * 1)
+        .outputs(metaitem('dustSaturnite') * 1)
         .duration(900).EUt(470).buildAndRegister()
-// Desh recipe. HV.
-recipemap('electric_blast_furnace').recipeBuilder()
-        .inputs(item('hbm:powder_desh_mix') * 6)
-        .fluidInputs(fluid('mercury') * 500 )
-        .outputs(item('hbm:ingot_desh') * 2)
-        .property("temperature", 2700)
-        .duration(400).EUt(240).buildAndRegister()
+
+        
+recipemap('mixer').recipeBuilder()
+        .inputs(ore('dustRedstone') * 1)
+        .inputs(ore('dustStainlessSteel') * 1)
+        .inputs(ore('dustAnnealedCopper') * 1)
+        .outputs(metaitem('dustAdvancedAlloy') * 1)
+        .duration(420).EUt(120).buildAndRegister()
 
 // Idiot, i forgot the flroping missile comps :cry:
 
@@ -263,11 +246,6 @@ recipemap('implosion_compressor').recipeBuilder()
         .property("explosives", item('hbm:missile_generic'))
         .duration(400).EUt(120).buildAndRegister()
 
-recipemap('forge_hammer').recipeBuilder()
-         .inputs(ore('ingotAdvancedAlloy') * 2)
-         .outputs(item('hbm:plate_advanced_alloy'))
-         .duration(200).EUt(120).buildAndRegister()
-
 // H202, why does greg not have this>??!?!?!?
 
 recipemap('chemical_reactor').recipeBuilder()
@@ -275,3 +253,9 @@ recipemap('chemical_reactor').recipeBuilder()
         .fluidInputs(fluid('oxygen') * 200 )
         .fluidOutputs(fluid('acid') * 300 )
         .duration(400).EUt(32).buildAndRegister()
+
+        recipemap('chemical_reactor').recipeBuilder()
+        .inputs(ore('dustBoneAsh') * 3 )
+        .fluidInputs(fluid('oxygen') * 1000 )
+        .chancedOutput(metaitem('dustRedPhosphorus'), 10, 20)
+        .duration(1200).EUt(120).buildAndRegister()

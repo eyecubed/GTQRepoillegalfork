@@ -11,6 +11,6 @@ recipemap('mixer').recipeBuilder()
         .duration(340).EUt(510).buildAndRegister()
 
 recipemap('fluid_solidifier').recipeBuilder()
-        .fluidInputs(fluid('insentient_polymer_clay') * 100)
+        .fluidInputs(fluid('insentient_polymer_clay') * 144)
         .outputs(item('deepmoblearning:polymer_clay'))
         .duration(340).EUt(510).buildAndRegister()
