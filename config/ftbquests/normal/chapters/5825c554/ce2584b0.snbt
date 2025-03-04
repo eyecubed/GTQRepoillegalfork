@@ -1,6 +1,6 @@
 {
-	x: 1.0d,
-	y: 1.5d,
+	x: 0.5d,
+	y: 1.1d,
 	text: [
 		"This is required for the new tier of circuits, Quantum Circuits! :D"
 	],

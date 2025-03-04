@@ -30,7 +30,8 @@
 			id: "chiselsandbits:block_bit",
 			tag: {
 				id: 29941
-			}
+			},
+			Count: 1b
 		}
 	},
 	{

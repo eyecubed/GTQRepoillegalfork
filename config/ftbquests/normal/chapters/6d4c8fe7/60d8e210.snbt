@@ -4,7 +4,9 @@
 	description: "Cokey Dokey",
 	text: [
 		"Use your GT Knife to fashion a bunch of brick molds. Then, turn them all into these coke bricks. this will take a while to do, so i recommend",
-		"you start gathering sand piles, refractory clay, sand, all in advance."
+		"you start gathering sand piles, refractory clay, sand, all in advance.",
+		"",
+		"To get the smeltery, you need Coke! So might as well.."
 	],
 	dependencies: [
 		"219334ea"

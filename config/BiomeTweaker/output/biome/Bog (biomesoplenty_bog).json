@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "COLD",
+    "WET",
     "SWAMP",
-    "WET"
+    "FOREST",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -126,6 +126,12 @@
       "Max Group Count": 3
     },
     {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "mod.emt.harkenscythe.entity.HSEntityHarbinger",
       "Weight": 5,
       "Min Group Count": 1,
@@ -154,18 +160,6 @@
       "Weight": 7,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",

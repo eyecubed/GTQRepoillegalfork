@@ -86,7 +86,6 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
-        "abyssalcraft:tile.abycopore",
         "forestry:tile.for.resources.copper",
         "gregtech:tile.ore_block",
         "hbm:tile.cluster_copper",
@@ -116,7 +115,6 @@
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
-        "abyssalcraft:tile.abygolore",
         "gregtech:tile.ore_block",
         "hbm:tile.ore_gneiss_gold",
         "minecraft:tile.oreGold"
@@ -158,7 +156,6 @@
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
-        "abyssalcraft:tile.abyiroore",
         "gregtech:tile.ore_block",
         "hbm:tile.cluster_depth_iron",
         "hbm:tile.cluster_iron",
@@ -307,7 +304,6 @@
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
-        "abyssalcraft:tile.abytinore",
         "forestry:tile.for.resources.tin",
         "gregtech:tile.ore_block",
         "libvulpes:material.Tin",

@@ -1,6 +1,6 @@
 {
-	x: 0.0d,
-	y: 1.0d,
+	x: 0.9d,
+	y: -1.6d,
 	text: [
 		"The Tool Station is used to actually build the tools you make using the parts you make using the Part Builder.",
 		"The next step after this is the Tool Forge, to make more kinds of tools."
@@ -13,6 +13,7 @@
 		type: "item",
 		items: [{
 			item: "tconstruct:tooltables 1 3"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

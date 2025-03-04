@@ -20,8 +20,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "HOT",
+    "DRY",
     "NETHER"
   ],
   "BiomeManager Entries": {},
@@ -99,30 +99,6 @@
       "Weight": 1,
       "Min Group Count": 0,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityDemonPig",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityDemonCow",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityDemonChicken",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityDemonSheep",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     },
     {
       "Entity Class": "thaumcraft.common.entities.monster.EntityFireBat",

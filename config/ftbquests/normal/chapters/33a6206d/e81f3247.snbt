@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	description: "Hurt someone else!",
+	text: [
+		""
+	],
+	dependencies: [
+		"4a78518c",
+		"a0d3bf0b"
+	],
+	tasks: [{
+		uid: "fccfe73f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:dagger_of_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

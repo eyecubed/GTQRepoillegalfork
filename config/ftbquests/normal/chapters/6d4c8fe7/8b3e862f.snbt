@@ -17,5 +17,10 @@
 		items: [{
 			item: "pyrotech:worktable"
 		}]
+	}],
+	rewards: [{
+		uid: "b5b208f6",
+		type: "item",
+		item: "twilightforest:charm_of_keeping_3"
 	}]
 }

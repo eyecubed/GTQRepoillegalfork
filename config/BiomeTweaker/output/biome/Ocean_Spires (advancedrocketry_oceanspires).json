@@ -1,6 +1,6 @@
 
 {
-  "ID": 194,
+  "ID": 176,
   "Name": "Ocean Spires",
   "Resource Location": "advancedrocketry:oceanspires",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenOceanSpires",
@@ -110,18 +110,6 @@
       "Weight": 7,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",

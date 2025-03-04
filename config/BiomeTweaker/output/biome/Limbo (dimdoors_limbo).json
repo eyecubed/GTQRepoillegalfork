@@ -1,6 +1,6 @@
 
 {
-  "ID": 198,
+  "ID": 180,
   "Name": "Limbo",
   "Resource Location": "dimdoors:limbo",
   "Class": "org.dimdev.dimdoors.shared.world.limbo.BiomeLimbo",
