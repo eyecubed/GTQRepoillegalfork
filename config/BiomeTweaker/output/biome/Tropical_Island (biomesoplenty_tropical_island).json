@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "JUNGLE",
-    "LUSH",
-    "WATER",
     "WET",
-    "DENSE"
+    "DENSE",
+    "WATER",
+    "LUSH",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -60,18 +60,6 @@
     }
   ],
   "Spawnable Monsters": [
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
     {
       "Entity Class": "matteroverdrive.entity.monster.EntityRangedRogueAndroidMob",
       "Weight": 0,

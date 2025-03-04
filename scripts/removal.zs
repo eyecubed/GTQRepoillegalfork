@@ -35,6 +35,7 @@ recipes.removeByRecipeName("gregtech:axe_flint");
 recipes.removeByRecipeName("gregtech:crafting_table");
 
 recipes.removeByRecipeName("extrautils2:shortcut_chest");
+recipes.removeByRecipeName("pyrotech:chest");
 recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
 recipes.removeByRecipeName("extrautils2:shortcut_stick");
 recipes.removeByRecipeName("enderio:tweak_stick_from_wood");

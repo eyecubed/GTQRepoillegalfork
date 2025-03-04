@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WET",
+    "PLAINS",
     "FOREST",
     "LUSH",
     "SPARSE",
-    "COLD",
-    "WET",
-    "PLAINS"
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -144,6 +144,12 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "mod.emt.harkenscythe.entity.HSEntityHarbinger",
@@ -298,8 +304,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COOL_TEMPERATE": 3,
-    "BOREAL": 7
+    "BOREAL": 7,
+    "COOL_TEMPERATE": 3
   },
   "BOP Climate Weights": {
     "BOREAL": [

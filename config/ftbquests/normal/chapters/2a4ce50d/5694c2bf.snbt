@@ -1,0 +1,22 @@
+{
+	x: 0.8d,
+	y: -0.1d,
+	shape: "octagon",
+	description: "Salt Of World",
+	text: [
+		"What are those crystals? they seem to pulse, resonate, or *ebb* with the flow of a certain energy.. Though this is no normal energy. ",
+		"This energy is different. This energy is.. *Magic?*..."
+	],
+	tasks: [{
+		uid: "40cf2039",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "70c29337",
+		type: "item",
+		item: "harvestcraft:zucchinibakeitem"
+	}]
+}

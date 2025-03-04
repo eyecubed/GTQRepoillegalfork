@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "JUNGLE",
-    "HOT",
     "WET",
-    "DENSE"
+    "DENSE",
+    "HOT",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -196,30 +196,6 @@
       "Weight": 7,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilpig",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilCow",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilChicken",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilSheep",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",

@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "HILLS"
+    "HILLS",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -212,12 +212,6 @@
       "Weight": 7,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityShubOffspring",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",

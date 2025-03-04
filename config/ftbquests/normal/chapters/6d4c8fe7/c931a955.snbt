@@ -6,8 +6,7 @@
 		"Amethyst tools are as good as diamond. To craft them you need to use the Fey Crafter."
 	],
 	dependencies: [
-		"0e7b44f6",
-		"e006fb53"
+		"0e7b44f6"
 	],
 	dependency_requirement: "all_started",
 	tasks: [{

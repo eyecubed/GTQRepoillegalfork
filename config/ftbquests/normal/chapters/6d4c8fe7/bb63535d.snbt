@@ -1,0 +1,28 @@
+{
+	title: "Ingotries",
+	x: -1.5d,
+	y: 5.7d,
+	text: [
+		"Now that you have access to proper oreproc, you can finally make iron ingots and other metals in large amounts.",
+		"Note that you can't process all ores directly, you need to make a Furnace."
+	],
+	dependencies: [
+		"bdb4f3f5"
+	],
+	tasks: [{
+		uid: "f0947302",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 16L
+	},
+	{
+		uid: "80987be1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 260"
+		}],
+		count: 16L
+	}]
+}

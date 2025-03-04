@@ -11,6 +11,8 @@
 //     Removes come first, then stuff is added.
 //
 //#MARKER REMOVE
+recipes.remove(<toughasnails:rain_collector>);
+recipes.remove(<bonsaitrees:bonsaipot:1>);
 recipes.remove(<natura:netherrack_furnace>);
 recipes.remove(<botania:fertilizer>);
 recipes.remove(<hbm:sat_dock>);
@@ -417,7 +419,6 @@ recipes.remove(<advancedrocketry:advbipropellantrocketmotor>);
 recipes.remove(<advancedrocketry:advrocketmotor>);
 recipes.remove(<advancedrocketry:bipropellantrocketmotor>);
 recipes.remove(<advancedrocketry:rocketmotor>);
-recipes.remove(<abyssalcraft:necronomicon>);
 recipes.remove(<hbm:machine_cyclotron>);
 recipes.remove(<botania:runealtar>);
 recipes.remove(<bloodmagic:altar>);
@@ -579,11 +580,19 @@ recipes.removeShaped(<forestry:ingot_bronze> * 4, [[<ore:ingotTin>, <ore:ingotCo
 recipes.removeShaped(<pneumaticcraft:drone>, [[<gregtech:meta_plate:1012>, null, <ore:platePlastic>], [null, <pneumaticcraft:pressure_tube>, null], [<gregtech:meta_plate_dense:31011>, null, <ore:plateDenseIronCompressed>]]);
 //#MARKER ADD
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<rustic:beeswax>, [<ore:materialWaxcomb>, <ore:toolKnife>.reuse()]);
 recipes.addShapeless(<pyrotech:material:12> * 3, [<cuisine:bamboo>]);
 recipes.addShapeless(<pyrotech:material:12> * 5, [<ore:treeSapling>]);
 recipes.addShapeless(<pyrotech:material:12> * 2, [<roots:wildroot>, <ore:wildroot>]);
 recipes.addShapeless(<gregtech:meta_dust:260> * 4, [<gregtech:meta_dust:25>, <gregtech:meta_dust:112>, <gregtech:meta_dust:25>, <gregtech:meta_dust:25>]);
 //#MARKER ADD SHAPED
+recipes.addShaped(<toughasnails:rain_collector>, [[<ore:stoneCobble>, <ore:string>, <ore:stoneCobble>], [<ore:stoneCobble>, null, <ore:stoneCobble>], [<ore:stoneCobble>, <pyrotech:masonry_brick_block>, <ore:stoneCobble>]]);
+recipes.addShaped(<bonsaitrees:bonsaipot:1>, [[<bonsaitrees:bonsaipot>], [<tconstruct:wooden_hopper>]]);
+recipes.addShaped(<pyrotech:slag> * 4, [[null, <pyrotech:material:15>, null], [<pyrotech:material:15>, <ore:cobblestone>, <pyrotech:material:15>], [null, <pyrotech:material:15>, null]]);
+recipes.addShaped(<toughasnails:purified_water_bottle>, [[<actuallyadditions:item_misc>], [<minecraft:potion>]]);
+recipes.addShaped(<gregtech:machine:1017>, [[<gregtech:metal_casing:1>, <pyrotech:material:5>, <gregtech:metal_casing:1>], [<pyrotech:cog_flint>, <pyrotech:cog_flint>, <pyrotech:cog_flint>], [<gregtech:metal_casing:1>, <pyrotech:material:5>, <gregtech:metal_casing:1>]]);
+recipes.addShaped(<aquaculture:fishing_rod>, [[null, null, <ore:stickWood>], [null, <ore:stickWood>, <ore:string>], [<ore:stickWood>, null, <ore:string>]]);
+recipes.addShaped(<hbm:plate_polymer> * 12, [[<ore:ingotAsbestos>, <ore:ingotAsbestos>, <ore:ingotAsbestos>]]);
 recipes.addShaped(<natura:netherrack_furnace>, [[<ore:netherrack>, <ore:netherrack>, <ore:netherrack>], [<ore:netherrack>, <pyrotech:furnace_core>, <ore:netherrack>], [<ore:netherrack>, <ore:netherrack>, <ore:netherrack>]]);
 recipes.addShaped(<bloodmagic:sacrificial_dagger>, [[null, null, <harkenscythe:livingmetal_sword>], [<harkenscythe:essence_keeper_blood>, <harkenscythe:harken_athame>, null], [<harkenscythe:livingmetal_ingot>, <harkenscythe:essence_keeper_blood>, null]]);
 recipes.addShaped(<bloodmagic:soul_snare> * 4, [[null, <harkenscythe:spectral_glass_pane>, <harkenscythe:essence_keeper>], [null, <ore:string>, <harkenscythe:spectral_glass_pane>], [<harkenscythe:soulweave_cloth>, null, null]]);

@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: -3.5d,
+	description: "WIP: Missing recipe",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "724eeb52",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}],
+		consume_items: false
+	}]
+}

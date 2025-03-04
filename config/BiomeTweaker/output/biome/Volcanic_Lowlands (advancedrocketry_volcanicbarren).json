@@ -1,6 +1,6 @@
 
 {
-  "ID": 197,
+  "ID": 179,
   "Name": "Volcanic Lowlands",
   "Resource Location": "advancedrocketry:volcanicbarren",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenBarrenVolcanic",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MOUNTAIN",
-    "DRY",
     "WASTELAND",
-    "HOT"
+    "MOUNTAIN",
+    "HOT",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

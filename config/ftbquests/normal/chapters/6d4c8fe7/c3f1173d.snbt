@@ -1,0 +1,99 @@
+{
+	title: "Basic Tools",
+	x: -1.5d,
+	y: 7.0d,
+	text: [
+		"To begin making the Good Stuff, you need some basic tools. "
+	],
+	dependencies: [
+		"bb63535d"
+	],
+	tasks: [{
+		uid: "e9b42d13",
+		type: "item",
+		items: [{
+			id: "gregtech:hammer",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:iron",
+					MaxDurability: 255,
+					Durability: 0,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 2,
+					AttackDamage: 3.0f,
+					AttackSpeed: -2.8f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e4c8c76",
+		type: "item",
+		items: [{
+			id: "gregtech:screwdriver",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:iron",
+					MaxDurability: 255,
+					Durability: 0,
+					AttackDamage: 1.0f,
+					AttackSpeed: 3.0f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b658762e",
+		type: "item",
+		items: [{
+			id: "gregtech:file",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:iron",
+					MaxDurability: 255,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "29f4d4fd",
+		type: "item",
+		items: [{
+			id: "gregtech:saw",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:iron",
+					MaxDurability: 255,
+					Durability: 0,
+					AttackDamage: 1.0f,
+					AttackSpeed: -2.6f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					HarvestIce: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -23,8 +23,8 @@
         <generateGeodes>false</generateGeodes>
         <craterFrequencyMultiplier>10.0</craterFrequencyMultiplier>
         <seaLevel>63</seaLevel>
+        <fillerBlock>minecraft:stone</fillerBlock>
         <biomeIds>advancedrocketry:moon;30</biomeIds>
-        <fillerBlock>advancedrocketry:moonturf</fillerBlock>
       </planet>
     </planet>
   <planet DIMID="103" customIcon="GasGiantRed" name="Taintaer">

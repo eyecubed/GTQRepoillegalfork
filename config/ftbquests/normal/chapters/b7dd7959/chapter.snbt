@@ -1,7 +1,0 @@
-{
-	title: "UV",
-	icon: "gregtech:machine 1 57",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

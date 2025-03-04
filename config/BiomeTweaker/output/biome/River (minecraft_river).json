@@ -124,18 +124,6 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
       "Entity Class": "com.codetaylor.mc.pyrotech.modules.hunting.entity.EntityMud",
       "Weight": 100,
       "Min Group Count": 1,
