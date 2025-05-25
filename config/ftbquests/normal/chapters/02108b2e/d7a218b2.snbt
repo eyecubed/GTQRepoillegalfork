@@ -1,0 +1,38 @@
+{
+	title: "Modems",
+	x: 0.0d,
+	y: 2.6d,
+	text: [
+		"Wired modems are used to connect peripherals to computers.",
+		"They also inherit the functionality of wireless modems, being able to send network messages."
+	],
+	dependencies: [
+		"c3b4523e"
+	],
+	tasks: [{
+		uid: "d6ae77b9",
+		type: "item",
+		items: [{
+			item: "computercraft:cable 1 1"
+		}]
+	},
+	{
+		uid: "51b4c79a",
+		type: "item",
+		items: [{
+			item: "computercraft:peripheral 1 1"
+		}]
+	},
+	{
+		uid: "87fbeb46",
+		type: "item",
+		items: [{
+			item: "computercraft:advanced_modem"
+		}]
+	}],
+	rewards: [{
+		uid: "9b67f5cf",
+		type: "random",
+		table: 7
+	}]
+}

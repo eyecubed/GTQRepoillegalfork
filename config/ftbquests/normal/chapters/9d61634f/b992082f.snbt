@@ -1,0 +1,31 @@
+{
+	title: "Resources: Amethyst",
+	icon: "gregtech:meta_gem 1 2006",
+	x: 10.2d,
+	y: 4.8d,
+	text: [
+		"Amethyst is required for many Roots recipes.. it is found mostly in loot chests but can be refined later on. It ALSO makes some pretty OP tools which",
+		"are worth checking out."
+	],
+	dependencies: [
+		"fe389c22"
+	],
+	tasks: [{
+		uid: "88bdb966",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemAmethyst"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gemAmethyst"
+				}
+			}
+		}]
+	}]
+}

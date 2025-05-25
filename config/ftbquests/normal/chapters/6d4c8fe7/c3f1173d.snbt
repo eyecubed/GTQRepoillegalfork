@@ -1,12 +1,9 @@
 {
 	title: "Basic Tools",
 	x: -1.5d,
-	y: 7.0d,
+	y: -0.9000000000000004d,
 	text: [
 		"To begin making the Good Stuff, you need some basic tools. "
-	],
-	dependencies: [
-		"bb63535d"
 	],
 	tasks: [{
 		uid: "e9b42d13",
@@ -16,13 +13,13 @@
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:iron",
-					MaxDurability: 255,
-					Durability: 0,
+					AttackDamage: 3.0f,
 					ToolSpeed: 6.0f,
 					HarvestLevel: 2,
-					AttackDamage: 3.0f,
-					AttackSpeed: -2.8f
+					MaxDurability: 255,
+					AttackSpeed: -2.8f,
+					Material: "gregtech:iron",
+					Durability: 0
 				},
 				HideFlags: 2,
 				GT.Behaviours: {}

@@ -1,0 +1,23 @@
+{
+	title: "Arcane Archives",
+	x: 3.2d,
+	y: 2.5d,
+	text: [
+		"A little roots is enough to unlock a superior storage solution.. xd"
+	],
+	dependencies: [
+		"54df3672"
+	],
+	tasks: [{
+		uid: "63b63f74",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "d6691d5a",
+		type: "item",
+		item: "gregtech:machine 1 1647"
+	}]
+}

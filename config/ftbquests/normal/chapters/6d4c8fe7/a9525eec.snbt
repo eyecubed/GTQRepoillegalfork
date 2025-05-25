@@ -1,0 +1,17 @@
+{
+	x: -0.4d,
+	y: -0.9000000000000004d,
+	text: [
+		"Pipes are used to connect stuff, and this pack has Curvy Pipes! Which allows you to make.. Curvy pipes! Yeah!!!"
+	],
+	dependencies: [
+		"c3f1173d"
+	],
+	tasks: [{
+		uid: "e6d6b551",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe_normal 1 1617"
+		}]
+	}]
+}

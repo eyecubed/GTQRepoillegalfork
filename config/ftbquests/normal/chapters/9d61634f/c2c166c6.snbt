@@ -1,0 +1,31 @@
+{
+	title: "Resources: Redstone",
+	x: 10.2d,
+	y: 2.8d,
+	text: [
+		"In early game, redstone cannot be easily refined from ore.",
+		"You could find redstone ore, process it with a hammer/granite anvil, soak it, and finally smash it back into dust, but this is highly inefficient.",
+		"There are redstone deposits deep in the world, with redstone crystals and ore. They should contain all the redstone you need for early game."
+	],
+	dependencies: [
+		"fe389c22"
+	],
+	tasks: [{
+		uid: "d4a2a343",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustRedstone"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustRedstone"
+				}
+			}
+		}]
+	}]
+}

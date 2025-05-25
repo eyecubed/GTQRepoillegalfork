@@ -1,0 +1,24 @@
+{
+	x: 10.5d,
+	y: -1.6d,
+	text: [
+		"Another machine.",
+		"This is your key to unlocking Masonry, a very useful new material made by turning stone brick slabs into masonry bricks.. and, to do that, you need this",
+		"anvil."
+	],
+	dependencies: [
+		"537996c9"
+	],
+	tasks: [{
+		uid: "d96ee6b2",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_granite"
+		}]
+	}],
+	rewards: [{
+		uid: "7b459cb8",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

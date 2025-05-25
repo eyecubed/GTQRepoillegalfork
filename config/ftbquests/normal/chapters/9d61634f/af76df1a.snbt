@@ -1,0 +1,30 @@
+{
+	title: "More Resources",
+	icon: "pyrotech:material 1 13",
+	x: 2.7d,
+	y: -2.2d,
+	shape: "square",
+	text: [
+		"After you acquire your first few tools and resources, the time begins to start making Dried Fibers.",
+		"They are required for Twine, Straw, etc. which are how you smelt your resources in the beginning as well as the way to get beds, bows, tools, etc.",
+		"",
+		"Also, you can gather Flint Shards from mining gravel with a Shovel- a crude one specifically. Gather as many as you can."
+	],
+	dependencies: [
+		"d3bffe65"
+	],
+	tasks: [{
+		uid: "00fa615e",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 13"
+		}]
+	},
+	{
+		uid: "f6d6727b",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 10"
+		}]
+	}]
+}

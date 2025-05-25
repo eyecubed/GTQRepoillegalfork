@@ -1,7 +1,6 @@
 #reloadable
 
 recipes.addShaped(<rftools:charged_porter>, [[<draconicevolution:dislocator_advanced>, <ore:batteryEv>], [<hbm:ducttape>, <hbm:ducttape>]]);
-recipes.addShaped(<rftoolsdim:empty_dimension_tab>, [[<dimdoors:world_thread>, <dimdoors:stable_fabric>, <dimdoors:world_thread>], [<gtaurora:hume_field_regulation_component>, <dimdoors:stabilized_rift_signature>, <gtaurora:starmetal_cobalt_processing_module_component>], [<dimdoors:world_thread>, <gtaurora:schrabidium_neutronium_processing_module_component>, <dimdoors:world_thread>]]);
 recipes.addShaped(<rftoolsdim:time_absorber>, [[<ore:screwNaquadahAlloy>, null, <gregtech:meta_screw:2042>], [<hbm:battery_spark_cell_10000>, <hbm:singularity_spark>, <hbm:battery_spark_cell_10000>], [<gregtech:meta_screw:2042>, null, <ore:screwNaquadahAlloy>]]);
 recipes.addShaped(<rftoolsdim:feature_absorber>, [[null, <rftoolsdim:liquid_absorber>, null], [<rftoolsdim:biome_absorber>, <rftoolsdim:terrain_absorber>, <rftoolsdim:time_absorber>], [null, <rftoolsdim:material_absorber>, null]]);
 recipes.addShaped(<rftoolsdim:liquid_absorber>, [[<gregtech:meta_item_1:149>, <industrialforegoing:black_hole_tank>, <gregtech:meta_item_1:149>], [<industrialforegoing:black_hole_tank>, <rftools:machine_frame>, <industrialforegoing:black_hole_tank>], [<gregtech:meta_item_1:149>, <industrialforegoing:black_hole_tank>, <gregtech:meta_item_1:149>]]);
@@ -60,3 +59,9 @@ recipes.addShaped(<advancedrocketry:vacuumlaser>, [[<ore:screwTungstenCarbide>, 
 recipes.addShaped(<advancedrocketry:forcefieldprojector>, [[<gregtech:meta_item_1:219>, <gregtech:meta_item_1:219>, <gregtech:meta_item_1:219>], [<ore:gearSmallTitanium>, <hbm:circuit_targeting_tier5>, <ore:gearSmallTitanium>], [<gregtech:cable_single:113>, <ore:plateDenseTitanium>, <gregtech:cable_single:113>]]);
 recipes.addShaped(<advancedrocketry:spacelaser>, [[<ore:billetSchrabidium>, <ore:circuitEv>, <ore:billetSchrabidium>], [<ore:wireGtSingleTungsten>, <advancedrocketry:misc>, <ore:wireGtSingleTungsten>], [<gregtech:meta_item_1:235>, <gregtech:machine:989>, <gregtech:meta_item_1:235>]]);
 recipes.addShaped(<gtaurora:magic.arcane_vat>, [[<pyrotech:material:16>, <ore:blockGlass>, <pyrotech:material:16>], [<pyrotech:material:16>, <ore:blockGlass>, <pyrotech:material:16>], [<pyrotech:material:16>, <pyrotech:masonry_brick_block>, <pyrotech:material:16>]]);
+recipes.addShaped(<cuisine:wok>, [[<pyrotech:material:16>, null, <cuisine:material:1>], [<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>]]);
+recipes.addShaped(<cuisine:wooden_basin>, [[<pyrotech:material:16>, null, <pyrotech:material:16>], [<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>]]);
+recipes.addShaped(<cuisine:jar> * 2, [[null, <pyrotech:material:16>, null], [<pyrotech:material:16>, null, <pyrotech:material:16>], [<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>]]);
+recipes.addShaped(<cuisine:kitchen_knife>, [[<ore:shard>, <pyrotech:material:16>], [<ore:shard>, <pyrotech:flint_butchers_knife>], [null, <cuisine:material:1>]]);
+recipes.addShaped(<cuisine:earthen_basin>, [[<pyrotech:material:16>, null, <pyrotech:material:16>], [<pyrotech:material:20>, <pyrotech:material:16>, <pyrotech:material:20>]]);
+recipes.addShaped(<minecraft:speckled_melon>, [[<minecraft:golden_carrot>], [<roots:runic_dust>]]);

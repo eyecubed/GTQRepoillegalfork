@@ -1,0 +1,32 @@
+{
+	x: 5.1d,
+	y: -0.9d,
+	description: "Crafting Table v0.0.1 Beta",
+	text: [
+		"This is your first means of crafting. You will need to keep a few things in mind.",
+		"",
+		"First of all, this block requires you to right-click it with a Hammer to work.",
+		"Second, this block has durability. You can see it in WAILA.",
+		"Finally, this block has a few storage slots for tools underneath the main crafting area."
+	],
+	dependencies: [
+		"8ad6cae5"
+	],
+	tasks: [{
+		uid: "17fda603",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable"
+		}]
+	}],
+	rewards: [{
+		uid: "887cb2f1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d98f2bf6",
+		type: "item",
+		item: "rosatech:rt_item 1 1"
+	}]
+}

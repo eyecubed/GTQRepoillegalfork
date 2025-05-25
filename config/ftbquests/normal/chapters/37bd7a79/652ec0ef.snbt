@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Don't want to eat? Want to fly at insane speeds? Want to do insane amounts of damage in one hit?",
+		"This mod is for you!",
+		"Vampirism is a mod about being either a Vampire or a Vampire Hunter; each with its own detriments and benefits."
+	],
+	tasks: [{
+		uid: "e5fb2aba",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_fang"
+		}]
+	}],
+	rewards: [{
+		uid: "48fb1a55",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

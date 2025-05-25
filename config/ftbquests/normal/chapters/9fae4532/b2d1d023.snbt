@@ -1,0 +1,20 @@
+{
+	x: 4.7d,
+	y: -5.3d,
+	text: [
+		"The more you cook, your level gets higher. Which means you get a lower chance of bad effects, and generally your food is more nutritious."
+	],
+	dependencies: [
+		"fdf7c973"
+	],
+	tasks: [{
+		uid: "86b1d028",
+		type: "checkmark",
+		title: "Skill"
+	}],
+	rewards: [{
+		uid: "25adf160",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,346 @@
+
+// listen to gregtech material event
+mods.gregtech.materialEvent {
+
+materialBuilder(31010, 'fluixresidue')
+    .dust()
+    .colorAverage()
+    .components(material('fluix'), material('quartzite'))
+.build()
+
+materialBuilder(31011, 'iron_compressed')
+    .ingot().fluid()
+    .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+    .colorAverage()
+    .blastTemp(1920, "MID")
+    .components(material('iron'), material('iron'))
+.build()
+
+materialBuilder(31013, 'endogenic_coating')
+        .liquid(fluidBuilder())
+        .colorAverage()
+        .components(material('ender_pearl'), material('aluminium'))
+        .build()
+    
+materialBuilder(31014, 'chorus')
+        .liquid(fluidBuilder())
+        .color(0xc4a5c3)
+        .components(material('ender_pearl'), material('aluminium'))
+        .build()
+
+materialBuilder(31020, 'space_grade_steel')
+    .ingot().fluid()
+    .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+    .colorAverage()
+    .blastTemp(1920, "MID")
+    .components(material('endstone'), material('black_steel'), material('aluminium'))
+.build()
+
+materialBuilder(31300, 'radioactive_clay')
+    .dust()
+        .flags()
+    .colorAverage()
+    .components(material('clay'), material('stone'), material('plutonium'))
+.build()
+
+materialBuilder(31301, 'insentient_polymer_clay')
+    .liquid(fluidBuilder())
+    .flags()
+    .colorAverage()
+    .components(material('clay'), material('stone'), material('plutonium'), material('ender_pearl'))
+.build()
+
+materialBuilder(31700, 'mithglar')
+    .ingot().fluid()
+    .color(0xAB8C5E).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(256, 1, 0, true)
+    .element("Mithglar")
+.build();
+
+materialBuilder(31701, 'skadiite')
+    .ingot().fluid()
+    .color(0x3A4B6E).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(128, 2, 0, true)
+    .element("Skadiite")
+.build();
+
+materialBuilder(31702, 'geldrun')
+    .ingot().fluid()
+    .color(0xFFD700).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(512, 1, 1, true)
+    .element("Geldrun")
+.build();
+
+materialBuilder(31703, 'vidium')
+    .ingot().fluid()
+    .color(0x4F8A10).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(256, 1, 0, true)
+    .element("Vidium")
+.build();
+
+materialBuilder(31704, 'freyrite')
+    .ingot().fluid()
+    .color(0x6E0F0F).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(128, 2, 0, true)
+    .element("Freyrite")
+.build();
+
+materialBuilder(31705, 'swartim')
+    .ingot().fluid()
+    .color(0x2F4F4F).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(128, 1, 0, true)
+    .element("Swartim")
+.build();
+
+materialBuilder(31706, 'trimla')
+    .ingot().fluid()
+    .color(0x7A4B3B).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(256, 1, 0, true)
+    .element("Trimla")
+.build();
+
+materialBuilder(31707, 'rodanil')
+    .ingot().fluid()
+    .color(0x7C7A7A).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(512, 1, 1, true)
+    .element("Rodanil")
+.build();
+
+materialBuilder(31708, 'drustins')
+    .ingot().fluid()
+    .color(0x3E9B77).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(64, 1, 0, true)
+    .element("Drustins")
+.build();
+
+materialBuilder(31709, 'dowmandir')
+    .ingot().fluid()
+    .color(0x5F4B3C).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(128, 1, 0, true)
+    .element("Dowmandir")
+.build();
+
+materialBuilder(31710, 'breytir')
+    .ingot().fluid()
+    .color(0xBA5A31).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(256, 1, 0, true)
+    .element("Breytir")
+.build();
+
+materialBuilder(31711, 'geadris')
+    .ingot().fluid()
+    .color(0x9E3D3D).iconSet('METALLIC')
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .cableProperties(512, 1, 1, true)
+    .element("Geadris")
+.build();
+
+materialBuilder(31750, 'hydrolysed_fluix')
+    .gem()
+    .colorAverage().iconSet('CERTUS')
+    .cableProperties(512, 1, 1, true)
+    .components(material('water'), material('fluix'))
+.build();
+
+materialBuilder(31751, 'rootmetal')
+    .ingot().fluid()
+    .rotorStats(110, 90, 125000)
+    .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+    .color(0x028500)
+    .components(material('iron'), material('rare_earth'))
+.build()
+
+materialBuilder(31752, 'dawnstone')
+    .ingot().fluid()
+    .rotorStats(400, 120, 400000)
+    .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+    .color(0xffe650)
+    .fluidPipeProperties(10400, 200, true, true, true, true)
+    .components(material('copper'), material('gold'), material('manasteel'))
+.build()
+
+materialBuilder(31753, 'carved_masonry')
+    .ingot()
+    .flags('generate_plate', 'generate_rod')
+    .colorAverage()
+    .components(material('stone'))
+     .toolStats(toolBuilder(1, 4, 150, 1))
+     .itemPipeProperties(1, 1)
+.build()
+
+
+materialBuilder(31754, 'silverwood')
+    .ingot()
+    .wood()
+    .flags('generate_plate', 'generate_rod')
+    .color(0xe2d3b4)
+    .components(material('wood'), material('silver'))
+     .toolStats(toolBuilder(2, 6, 360, 1))
+.build()
+
+materialBuilder(31755, 'greatwood')
+    .ingot()
+    .wood()
+    .flags('generate_plate', 'generate_rod')
+    .color(0x1b1410)
+    .components(material('wood'))
+     .toolStats(toolBuilder(2, 4, 550, 1))
+.build()
+
+materialBuilder(31756, 'arcanum')
+    .ingot()
+    .flags('generate_plate', 'generate_rod', 'generate_frame')
+    .color(0xc7eaff)
+    .components(material('manasteel'), material('dawnstone'), material('void'))
+     .toolStats(toolBuilder(8, 9, 10450, 5))
+.build()
+
+materialBuilder(31757, 'mingrade')
+    .ingot()
+    .flags('generate_plate', 'generate_rod', 'generate_frame', 'generate_fine_wire')
+    .colorAverage()
+    .components(material('annealed_copper'), material('redstone'))
+     .toolStats(toolBuilder(8, 9, 10450, 5))
+.build()
+
+materialBuilder(31758, 'quartz_soldering_mixture')
+        .liquid(fluidBuilder())
+        .colorAverage()
+        .components(material('quartzite'), material('soldering_alloy'))
+        .build()
+    
+materialBuilder(31759, 'quartz_soldering_mixture_2')
+        .liquid(fluidBuilder())
+        .colorAverage()
+        .components(material('nether_quartz'), material('fluix'))
+        .build()
+    
+    materialBuilder(31760, 'quartz_soldering_mixture_3')
+        .liquid(fluidBuilder())
+        .colorAverage()
+        .components(material('nether_quartz'), material('radon'))
+        .build()
+
+    materialBuilder(31761, 'quartz_soldering_mixture_4')
+        .liquid(fluidBuilder())
+        .colorAverage()
+        .components(material('schrabidium'), material('certus_quartz'))
+        .build()
+
+    materialBuilder(31762, 'electrotine_alloy')
+        .ingot()
+        .fluid()
+        .colorAverage()
+        .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+        .components(material('electrotine'), material('iron'))
+        .build()
+
+        materialBuilder(31784, 'licium')
+        .ingot()
+        .fluid()
+        .color(0x84ff69)
+        .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+        .element("Licium")
+        .build()
+
+        materialBuilder(31795, 'cerulean')
+        .ingot()
+        .fluid()
+        .color(0x379ae1)
+                .iconSet('SHINY')
+
+        .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+        .element("Cerulean")
+        .build()
+
+        materialBuilder(31797, 'aurorianite')
+        .ingot()
+        .fluid()
+        .iconSet('SHINY')
+        .color(0x4949e5)
+        .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+        .element("Aurorian")
+        .build()
+
+        materialBuilder(31798, 'moonstone')
+        .ingot()
+        .fluid()
+        .color(0xb4bcc4)
+            .iconSet('SHINY')
+
+        .flags('generate_plate', 'generate_rod', 'generate_gear', 'generate_dense', 'generate_spring', "generate_ring", "generate_bolt_screw", "generate_round")
+        .components(material('stone'), material('arcanum'), material('aurorianite'))
+        .build()
+        
+    
+   materialBuilder(31787, 'thauminite')
+            .ingot()
+            .color(0x6262FF).iconSet('SHINY')
+            .flags('generate_plate', 'generate_rod')
+            .build()
+
+    // Thaumic Tinkerer
+     materialBuilder(31792,'ichorium')
+            .ingot()
+            .color(0xD37806).iconSet('SHINY')
+            .flags('generate_plate', 'generate_rod')
+            .components(material("dawnimythrkite"), material("void") * 2, material("skadiite"))
+            .build()
+
+
+     materialBuilder(31791,'knightslime')
+            .ingot()
+            .color(0xfac0fa).iconSet('DULL')
+            .flags('generate_plate', 'generate_rod')
+            .build()
+
+     materialBuilder(31793, 'pigiron')
+            .ingot()
+            .color(0xF0A8A4).iconSet('DULL')
+            .flags('generate_plate', 'generate_rod')
+            .build()
+
+         materialBuilder(31796, 'duraluminium')
+            .ingot()
+            .colorAverage().iconSet('DULL')
+            .flags('generate_plate', 'generate_rod')
+            .components(material("aluminium"), material("silicon"), material("copper"), material("zinc"))
+            .build()
+
+         materialBuilder(31794, 'constantan')
+            .ingot()
+            .color(0xfc997c).iconSet('SHINY')
+            .flags('generate_plate', 'generate_rod')
+            .components(material("nickel"), material("copper"))
+            .build()
+        
+        materialBuilder(31799, 'dawnimythrkite')
+            .ingot()
+            .colorAverage().iconSet('SHINY')
+            .flags('generate_plate', 'generate_rod')
+            .components(material("dawnstone"), material("mythril") * 9, material("trimla"), material("swartim") * 18, material("freyrite") * 12, material("skadiite"))
+                 .toolStats(toolBuilder(12, 12, 125895, 12))
+            .build()
+
+            // Thaumic Tinkerer
+     materialBuilder(31800,'ichorium')
+            .ingot()
+            .color(0xD37806).iconSet('SHINY')
+            .flags('generate_plate', 'generate_rod')
+            .components(material("dawnimythrkite"), material("void") * 2, material("skadiite"))
+            .build()
+
+    
+}
+

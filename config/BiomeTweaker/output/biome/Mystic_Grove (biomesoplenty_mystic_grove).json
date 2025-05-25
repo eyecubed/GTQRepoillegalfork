@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "DENSE",
     "FOREST",
+    "DENSE",
+    "RARE",
+    "WET",
     "LUSH",
-    "MAGICAL",
-    "RARE"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -126,12 +126,6 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "mod.emt.harkenscythe.entity.HSEntityHarbinger",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     },
     {
       "Entity Class": "mod.emt.harkenscythe.entity.HSEntitySpectralHuman",

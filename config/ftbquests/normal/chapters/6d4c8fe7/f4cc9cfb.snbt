@@ -1,0 +1,31 @@
+{
+	x: 4.35d,
+	y: 0.0d,
+	shape: "octagon",
+	text: [
+		"Circuits! Get atleast 2 of them, or more, to get started in LV."
+	],
+	dependencies: [
+		"c0d6266b",
+		"ff4f4875",
+		"ac134e11"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "f74fcd3c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}]
+	}],
+	rewards: [{
+		uid: "a9020505",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621"
+	},
+	{
+		uid: "97c0a2a1",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

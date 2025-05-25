@@ -1,6 +1,6 @@
 
 {
-  "ID": 169,
+  "ID": 141,
   "Name": "Alien Forest",
   "Resource Location": "advancedrocketry:alien_forest",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenAlienForest",
@@ -101,12 +101,6 @@
     },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "mod.emt.harkenscythe.entity.HSEntityHarbinger",
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1

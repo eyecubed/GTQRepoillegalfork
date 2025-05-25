@@ -1,0 +1,23 @@
+{
+	x: 3.6d,
+	y: -4.3d,
+	text: [
+		"You need the mill to make many things, like Flour, Rice, but it can also be used to make Edible Oil, which is a great seasoning for food."
+	],
+	dependencies: [
+		"fdf7c973"
+	],
+	tasks: [{
+		uid: "d6c07953",
+		type: "item",
+		items: [{
+			item: "cuisine:mill"
+		}]
+	}],
+	rewards: [{
+		uid: "ef0b9c3e",
+		type: "item",
+		item: "harvestcraft:riceitem",
+		count: 3
+	}]
+}

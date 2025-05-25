@@ -1,0 +1,35 @@
+{
+	title: "Resources: Diamond",
+	x: 9.6d,
+	y: 3.8d,
+	text: [
+		"Now this is probably the most essential resource here.",
+		"Diamond is required for the Smeltery, which is your ticket to finally getting a good source of iron and an inbuilt alloy smelter.",
+		"So now, how do you get diamond?",
+		"",
+		"The Aurorian has Astral Sorcery structures which may contain diamonds.",
+		"Blacksmiths may also have diamonds.",
+		"Diamonds can also be obtained by painfully ore-processing them.. the choice is yours."
+	],
+	dependencies: [
+		"fe389c22"
+	],
+	tasks: [{
+		uid: "5f0b8635",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemDiamond"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gemDiamond"
+				}
+			}
+		}]
+	}]
+}

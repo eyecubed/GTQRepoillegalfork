@@ -1,0 +1,49 @@
+{
+	title: "Flint Set",
+	x: 2.1d,
+	y: -1.7d,
+	text: [
+		"As soon as you can mine gravel, switch to these. These tools will be able to get you till Masonry. They also give §2better drops§f from Gravel and other blocks."
+	],
+	dependencies: [
+		"91d5b27f"
+	],
+	tasks: [{
+		uid: "8c2840f0",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a684345d",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0578e60f",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9161a199",
+		type: "item",
+		item: "pyrotech:material 1 10",
+		count: 3
+	},
+	{
+		uid: "a3607475",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

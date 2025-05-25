@@ -1,0 +1,26 @@
+{
+	x: 2.3d,
+	y: 1.0999999999999996d,
+	shape: "square",
+	text: [
+		"The Primitive Blast Furnace is a multiblock that makes Steel. Steel is required a LOT in LV, and in small amounts in Steam as well.",
+		"Steel is Iron and Coke, or Charcoal. Pit Burning/Refractory Burning allows you to mass produce this.",
+		"",
+		"The real issue is getting the PBF Itself. Get a LOT of clay, bricks, and more clay."
+	],
+	dependencies: [
+		"709fb3aa"
+	],
+	tasks: [{
+		uid: "b7d418e1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1000"
+		}]
+	}],
+	rewards: [{
+		uid: "4ae9c56d",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

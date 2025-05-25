@@ -25,5 +25,10 @@
 				}
 			}
 		}
+	}],
+	rewards: [{
+		uid: "52a9b1e6",
+		type: "item",
+		item: "minecraft:sapling 1 4"
 	}]
 }

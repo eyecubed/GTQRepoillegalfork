@@ -42,3 +42,22 @@ recipes.removeByRecipeName("enderio:tweak_stick_from_wood");
 
 val blockSteel = <ore:blockSteel>;
 blockSteel.remove(<lucraftcore:block_steel>); 
+
+recipes.removeByRecipeName("advancedrocketry:stickiron");
+recipes.removeByRecipeName("advancedrocketry:sticksteel");
+
+recipes.removeByRecipeName("advancedrocketry:sticktitanium");
+recipes.removeByRecipeName("advancedrocketry:stickcopper");
+recipes.removeByRecipeName("advancedrocketry:stickiridium");
+
+recipes.removeByRecipeName("roots:paper");
+recipes.removeByRecipeName("endercore:shapeless_paper");
+recipes.removeByRecipeName("endercore:book_to_paper");
+recipes.removeByRecipeName("actuallyadditions:recipes23");
+
+recipes.remove(<hbm:coil_tungsten>);
+recipes.remove(<hbm:motor>);
+recipes.remove(<hbm:steel_scaffold>);
+recipes.remove(<hbm:deco_pipe>);
+recipes.remove(<hbm:hull_small_steel>);
+recipes.remove(<hbm:brick_compound> * 8);

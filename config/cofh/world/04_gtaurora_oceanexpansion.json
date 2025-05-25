@@ -1,0 +1,30 @@
+{
+
+"erebus_stalagmite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "type": "stalagmite",
+                "block": [
+                    {"name": "minecraft:stone", "weight": 5}
+                ],
+                "gen-body": ["air", "dirt", "grass"],
+                "min-height": 15,
+                "material": "erebus:umberstone",
+                "cluster-size": 4
+            },
+            "cluster-count": 1,
+            "chunk-chance": 1,
+            "min-height": 2,
+            "max-height": 120,
+            "retrogen": "true",
+            "biome": "minecraft:ocean",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        }
+
+}

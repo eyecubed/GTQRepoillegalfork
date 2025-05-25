@@ -1,0 +1,26 @@
+{
+	title: "Turtles",
+	x: 1.0d,
+	y: 2.6d,
+	text: [
+		"Turtles can be used to mine ores, chop trees, farm, etc.",
+		"",
+		"They require fuel to run, which is the main thing stopping them from taking over the world.."
+	],
+	dependencies: [
+		"c3b4523e"
+	],
+	tasks: [{
+		uid: "3d6615d1",
+		type: "item",
+		items: [{
+			id: "computercraft:turtle_expanded",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "9400a8e4",
+		type: "random",
+		table: 7
+	}]
+}

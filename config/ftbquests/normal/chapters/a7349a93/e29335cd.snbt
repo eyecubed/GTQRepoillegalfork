@@ -1,0 +1,22 @@
+{
+	x: -1.6d,
+	y: -0.5d,
+	text: [
+		"This is Post-Iron, but arguably even better than crates, and MODULAR! how cool is that?"
+	],
+	dependencies: [
+		"c22d8096"
+	],
+	tasks: [{
+		uid: "0061eee7",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:storage_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "181b5001",
+		type: "item",
+		item: "industrialrenewal:storage_rack"
+	}]
+}

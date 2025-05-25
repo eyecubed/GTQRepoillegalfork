@@ -1,0 +1,49 @@
+{
+	title: "Stone Set",
+	x: 3.0d,
+	y: -1.7d,
+	text: [
+		"Vanilla stone tools."
+	],
+	dependencies: [
+		"91d5b27f"
+	],
+	tasks: [{
+		uid: "1c891b76",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3a6214c7",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2cd43f3e",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9daee263",
+		type: "item",
+		item: "pyrotech:material 1 16",
+		count: 3
+	},
+	{
+		uid: "f755f0d9",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

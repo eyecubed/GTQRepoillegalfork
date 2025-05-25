@@ -1,0 +1,19 @@
+{
+	title: "Resources: Ash",
+	x: 12.2d,
+	y: 2.8d,
+	text: [
+		"Ash is acquired from pit kilns, failed byproducts, pile burning, etc. as a byproduct.",
+		"On its own, it is not very useful. But it is an essential component for Refractory Clay. which is a big part of this era."
+	],
+	dependencies: [
+		"fe389c22"
+	],
+	tasks: [{
+		uid: "4369c206",
+		type: "item",
+		items: [{
+			item: "pyrotech:material"
+		}]
+	}]
+}

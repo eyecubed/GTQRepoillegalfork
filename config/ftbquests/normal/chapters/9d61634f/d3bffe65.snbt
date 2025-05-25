@@ -1,0 +1,50 @@
+{
+	title: "Crude Tools",
+	icon: "pyrotech:crude_axe",
+	disable_toast: true,
+	x: 2.7d,
+	y: -0.9d,
+	shape: "square",
+	text: [
+		"Crude Tools! Not very pretty or durable, but it'll get the job done.",
+		"",
+		"First agenda is to mine as much logs as possible and make a Chopping Block. Explained more later.",
+		"Next, mine as much Gravel as you can, mentioned later too.",
+		"Finally, the Hammer, which is good to make right now, as it will be required for 3x3 crafting later."
+	],
+	dependencies: [
+		"d7172183"
+	],
+	tasks: [{
+		uid: "2ac7d899",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "314fccd9",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "08a274b5",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e4b4b068",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

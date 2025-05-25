@@ -1,6 +1,6 @@
 
 {
-  "ID": 175,
+  "ID": 147,
   "Name": "Marsh",
   "Resource Location": "advancedrocketry:marsh",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenMarsh",
@@ -77,12 +77,6 @@
     },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "mod.emt.harkenscythe.entity.HSEntityHarbinger",
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1

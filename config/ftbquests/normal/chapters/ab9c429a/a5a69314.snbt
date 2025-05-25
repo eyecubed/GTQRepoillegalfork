@@ -1,0 +1,56 @@
+{
+	title: "Iron TiCon Tools",
+	x: 2.1d,
+	y: -2.9d,
+	text: [
+		"This quest only contains the parts."
+	],
+	dependencies: [
+		"2eaa0579"
+	],
+	tasks: [{
+		uid: "42d8a4f5",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	},
+	{
+		uid: "37cd2d80",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	},
+	{
+		uid: "5ba467eb",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bd1588fc",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "obsidian"
+			}
+		}
+	},
+	{
+		uid: "705c7d48",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

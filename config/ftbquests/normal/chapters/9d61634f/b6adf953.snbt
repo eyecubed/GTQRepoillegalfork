@@ -1,0 +1,23 @@
+{
+	x: 5.1d,
+	y: 3.7d,
+	text: [
+		"This unlocks quite a few good recipes, and also allows you to create Runestone. Runestone can be crushed into Runic Dust."
+	],
+	dependencies: [
+		"ec6380d5"
+	],
+	tasks: [{
+		uid: "5136181d",
+		type: "item",
+		items: [{
+			item: "roots:fey_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "0c60c498",
+		type: "item",
+		item: "minecraft:lapis_block",
+		count: 3
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	icon: "roots:mortar",
+	x: 3.9d,
+	y: 1.5d,
+	description: "Pestle not included",
+	text: [
+		"Though not a distinct part of Roots, you will need the Mortar for formulating many types of spells."
+	],
+	dependencies: [
+		"9dbdd9db"
+	],
+	tasks: [{
+		uid: "404914a3",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	},
+	{
+		uid: "d628b609",
+		type: "item",
+		items: [{
+			item: "roots:pestle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bae6fe69",
+		type: "item",
+		item: "minecraft:beetroot",
+		count: 3
+	}]
+}

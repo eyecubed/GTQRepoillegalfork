@@ -1,0 +1,27 @@
+{
+	icon: "pyrotech:material 1 16",
+	x: 11.7d,
+	y: -2.4d,
+	text: [
+		"Masonry Brick! It comes in 2 main forms.",
+		"First, we have our Pyrotech ones. These will be required to create many different machines.",
+		"Next, we have our GregTech ones. These are gonna be your first GT Tools."
+	],
+	dependencies: [
+		"34ea5295"
+	],
+	tasks: [{
+		uid: "28eb2935",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 16"
+		}]
+	},
+	{
+		uid: "4b942f96",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 31753"
+		}]
+	}]
+}

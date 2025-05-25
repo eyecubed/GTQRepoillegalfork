@@ -1,0 +1,36 @@
+{
+  "name": "gregtech.veins.ore.pegmatite",
+  "weight": 40,
+  "density": 0.10,
+  "max_height": 40,
+  "min_height": 10,
+  "dimension_filter": ["dimension_id:0"],
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "pegmatite"
+  },
+  "generator": {
+    "type": "layered",
+    "radius": [
+      14,
+      16
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:pegmatite"
+      },
+      {
+        "secondary": "ore:kimberlite"
+      },
+      {
+        "between": "ore:carbonatite"
+      },
+      {
+        "sporadic": "ore:ragnokaldite"
+      }
+    ]
+  }
+}

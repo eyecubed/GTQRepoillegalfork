@@ -1,0 +1,20 @@
+{
+	title: "Resources: Runic Dust",
+	x: 12.2d,
+	y: 4.8d,
+	text: [
+		"Now, this is more leaning into magic, and is not.. strictly required.",
+		"Though, if you want to head into the Nether anytime soon, Runic Dust and Runestone is a MUST.",
+		"First, this is used for quite a lot of magic items, as you can imagine. Secondly, it is required to start Thaumcraft (Along with some other refined dusts)"
+	],
+	dependencies: [
+		"fe389c22"
+	],
+	tasks: [{
+		uid: "c3f6f118",
+		type: "item",
+		items: [{
+			item: "roots:runic_dust"
+		}]
+	}]
+}

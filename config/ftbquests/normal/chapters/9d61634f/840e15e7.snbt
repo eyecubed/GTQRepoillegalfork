@@ -1,0 +1,25 @@
+{
+	x: 7.7d,
+	y: -0.2d,
+	description: "Flint and Steelv0.0- okay this joke is getting old.",
+	text: [
+		"The Flint and Tinder is a primitive variant of the Flint and Steel. It has 8 durability and must be held with RMB to use."
+	],
+	dependencies: [
+		"720f2075"
+	],
+	tasks: [{
+		uid: "c9073cb7",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_and_tinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c74e1f5b",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

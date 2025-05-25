@@ -1,0 +1,51 @@
+{
+	title: "Flint Tools",
+	icon: "pyrotech:flint_axe",
+	x: 6.3d,
+	y: -0.2d,
+	text: [
+		"Flint Tools, which are the next step in tools.. of course they are.",
+		"",
+		"They have around 130~ durability more than crude tools, so its a worthwhile investment."
+	],
+	dependencies: [
+		"6054ef05"
+	],
+	tasks: [{
+		uid: "48db6b45",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "458430a7",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c681def2",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ccbff502",
+		type: "item",
+		item: "pyrotech:flint_shovel_durable"
+	},
+	{
+		uid: "5f74f006",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

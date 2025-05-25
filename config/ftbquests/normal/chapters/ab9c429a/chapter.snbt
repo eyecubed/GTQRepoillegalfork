@@ -1,0 +1,7 @@
+{
+	title: "Tools, Weapons, Armor",
+	icon: "minecraft:iron_chestplate",
+	always_invisible: false,
+	group: 1833734119,
+	default_quest_shape: ""
+}

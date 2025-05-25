@@ -1,0 +1,23 @@
+{
+	x: 5.1d,
+	y: 3.8000000000000007d,
+	text: [
+		"Allows you to get Rubber Pulp from Sticky Resin!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4a8bd376"
+	],
+	tasks: [{
+		uid: "85440523",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "b784c20d",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

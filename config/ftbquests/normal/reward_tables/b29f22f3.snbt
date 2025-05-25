@@ -1,0 +1,48 @@
+{
+	title: "Computer",
+	icon: "computercraft:computer",
+	loot_size: 1,
+	rewards: [{
+		item: "opencomputers:material 1 1"
+	},
+	{
+		item: "computercraft:cable",
+		count: 12
+	},
+	{
+		item: "projectred-transmission:wire",
+		count: 6
+	},
+	{
+		xp_levels: 9,
+		type: "xp_levels"
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 25L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 50L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: "projectred-integration:gate 1 11"
+	},
+	{
+		item: "computercraft:computer"
+	},
+	{
+		item: "computercraft:peripheral 1 5"
+	},
+	{
+		item: "computercraft:pocket_computer"
+	},
+	{
+		item: "gregtech:wire_single 1 2517",
+		count: 12
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	title: "Smeltery",
+	icon: "tconstruct:smeltery_controller",
+	x: 14.3d,
+	y: -1.0d,
+	text: [
+		"This is the bare minimum for a smeltery (Not including base bricks)",
+		"Good luck!"
+	],
+	dependencies: [
+		"c71c10d7"
+	],
+	tasks: [{
+		uid: "0850f34d",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "7532cbdd",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "fd076f73",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "4fe2777b",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "4a2e50db",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	}],
+	rewards: [{
+		uid: "ce747798",
+		type: "item",
+		item: "tconstruct:seared 1 3",
+		count: 32
+	},
+	{
+		uid: "b894c98e",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

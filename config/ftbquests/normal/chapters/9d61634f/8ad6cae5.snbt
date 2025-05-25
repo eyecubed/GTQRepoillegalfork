@@ -1,0 +1,27 @@
+{
+	x: 3.9d,
+	y: -0.9d,
+	shape: "square",
+	text: [
+		"This world isn't that hostile. Trees, Oxygen.. you're way better off than a lot of people in other survival situations..",
+		"Anyway, now, it is time to acquire your first \"Machine\". This is the Chopping Block.",
+		"",
+		"The chopping block is used mainly to cut down planks into slabs. It can also be used to convert logs into planks, which is a deprecated recipe by the ",
+		"courtesy of Greg."
+	],
+	dependencies: [
+		"d3bffe65"
+	],
+	tasks: [{
+		uid: "260e6c7e",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	}],
+	rewards: [{
+		uid: "07721fa5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

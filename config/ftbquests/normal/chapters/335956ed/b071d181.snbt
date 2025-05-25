@@ -2,9 +2,6 @@
 	x: 3.2d,
 	y: -0.96d,
 	shape: "rsquare",
-	dependencies: [
-		"e18a7cd0"
-	],
 	size: 0.8d,
 	tasks: [{
 		uid: "595b628e",

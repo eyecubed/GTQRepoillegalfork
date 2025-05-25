@@ -1,0 +1,40 @@
+{
+	x: -2.8d,
+	y: -1.7d,
+	description: "Keeps you both!",
+	text: [
+		"This only works on VANILLA ARMORS! sucks."
+	],
+	dependencies: [
+		"91d5b27f"
+	],
+	tasks: [{
+		uid: "93643b54",
+		type: "item",
+		items: [{
+			item: "armorunder:auto_chestplate_liner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f1199894",
+		type: "item",
+		items: [{
+			item: "armorunder:auto_leggings_liner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a326bb08",
+		type: "item",
+		item: "armorunder:flipflop_liner_material",
+		count: 3
+	},
+	{
+		uid: "008c3b00",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

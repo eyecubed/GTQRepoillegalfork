@@ -1,0 +1,200 @@
+{
+	x: 5.7d,
+	y: -1.7d,
+	text: [
+		"§5Tinkers Construct§f tools are acquired quite late, but are worth the investment. These are the final tools for this tier."
+	],
+	dependencies: [
+		"91d5b27f"
+	],
+	tasks: [{
+		uid: "fe3aa2b0",
+		type: "item",
+		items: [{
+			id: "tconstruct:pickaxe",
+			tag: {
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				Stats: {
+					FreeModifiers: 3,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					Durability: 75
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				StatsOriginal: {
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					Durability: 75
+				},
+				Traits: [
+					"ecological",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41e990a0",
+		type: "item",
+		items: [{
+			id: "tconstruct:hatchet",
+			tag: {
+				Special: {
+					Categories: [
+						"aoe",
+						"weapon",
+						"tool",
+						"harvest"
+					]
+				},
+				Stats: {
+					FreeModifiers: 3,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.5f,
+					Durability: 75
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				StatsOriginal: {
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.5f,
+					Durability: 75
+				},
+				Traits: [
+					"ecological",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3030b180",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel",
+			tag: {
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				Stats: {
+					FreeModifiers: 3,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					Durability: 75
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				StatsOriginal: {
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					Durability: 75
+				},
+				Traits: [
+					"ecological",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "37827f8f",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		uid: "d903e8b0",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

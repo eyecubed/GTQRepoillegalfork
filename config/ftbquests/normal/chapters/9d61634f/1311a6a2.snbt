@@ -1,0 +1,27 @@
+{
+	title: "End of the Primitive Age",
+	x: 15.7d,
+	y: 3.8d,
+	shape: "heart",
+	text: [
+		"Finally! It has ended.",
+		"Now you may start GT!"
+	],
+	dependencies: [
+		"eb761038"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "f2735b21",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 260"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "c492da97",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

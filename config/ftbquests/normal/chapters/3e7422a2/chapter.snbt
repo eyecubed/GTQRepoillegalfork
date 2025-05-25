@@ -2,7 +2,7 @@
 	title: "Forestry",
 	icon: "forestry:apiary",
 	always_invisible: false,
-	group: 1314124856,
+	group: 0,
 	default_quest_shape: "",
 	images: [{
 		x: -2.0d,

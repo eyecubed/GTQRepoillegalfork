@@ -1,0 +1,39 @@
+{
+	icon: "roots:runestone",
+	x: 5.1d,
+	y: 4.9d,
+	text: [
+		"The root of.. most of magic.",
+		"",
+		"Now, the rest of this questline is to get the Nether Cake from Dimensional Edibles. It is your key to completing this era.",
+		"Why? Nether portal is disabled!!"
+	],
+	dependencies: [
+		"b6adf953"
+	],
+	tasks: [{
+		uid: "17371fd3",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any runestone"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "runestone"
+				}
+			}
+		}]
+	},
+	{
+		uid: "a8377499",
+		type: "item",
+		items: [{
+			item: "roots:runic_dust"
+		}]
+	}]
+}

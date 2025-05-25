@@ -1,0 +1,50 @@
+{
+	x: 6.6d,
+	y: -1.7d,
+	description: "Magic Only",
+	text: [
+		"Or, if you're a magic mod main, you can also craft Amethyst Tools, which are the BEST for this tier."
+	],
+	dependencies: [
+		"91d5b27f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "039f8c9f",
+		type: "item",
+		items: [{
+			item: "mysticalworld:amethyst_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b045b815",
+		type: "item",
+		items: [{
+			item: "mysticalworld:amethyst_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a5409025",
+		type: "item",
+		items: [{
+			item: "mysticalworld:amethyst_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a080312a",
+		type: "item",
+		item: "gregtech:meta_gem 1 2006",
+		count: 3
+	},
+	{
+		uid: "896f3ec2",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

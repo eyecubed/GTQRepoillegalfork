@@ -1,0 +1,25 @@
+{
+	x: 15.7d,
+	y: 1.1d,
+	text: [
+		"Iron! With this we can almost end the Stone Age.",
+		"But first, we shall need 2 basic machines; the Crafting Table and Furnace.",
+		"",
+		"Note: TiCon Smeltery may replace the Furnace for steam age, so the acquisition of the furnace/crafting table is not documented."
+	],
+	dependencies: [
+		"f4feee71"
+	],
+	tasks: [{
+		uid: "57faf5df",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "1932a9c9",
+		type: "item",
+		item: "rusticthaumaturgy:cindermote_seeds"
+	}]
+}

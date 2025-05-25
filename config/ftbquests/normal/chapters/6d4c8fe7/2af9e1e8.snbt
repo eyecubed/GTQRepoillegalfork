@@ -1,0 +1,31 @@
+{
+	icon: "gregtech:meta_ingot 1 1068",
+	x: 5.1d,
+	y: 2.5d,
+	text: [
+		"Rubber is an important material for LV. It's mainly used for making sheets to coat wires."
+	],
+	dependencies: [
+		"a8445638",
+		"a65137a4"
+	],
+	tasks: [{
+		uid: "a66d8875",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1002"
+		}]
+	},
+	{
+		uid: "06e77c4e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1068"
+		}]
+	}],
+	rewards: [{
+		uid: "38f81459",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

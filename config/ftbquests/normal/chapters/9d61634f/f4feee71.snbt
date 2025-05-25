@@ -1,0 +1,45 @@
+{
+	icon: "pyrotech:bloomery",
+	x: 14.3d,
+	y: 0.8d,
+	text: [
+		"Congrats! If you complete this quest you're well on your way to the smeltery, and getting actual useful ore processing setup.",
+		"Now, i suggest you start magic and head to the Aurorian to find some diamonds in the structures, or loot blacksmiths, or whatevers- diamonds are your",
+		"next most important project. You need them to unlock the smeltery, after all!"
+	],
+	dependencies: [
+		"45e7d083"
+	],
+	tasks: [{
+		uid: "0ce9c1fc",
+		type: "item",
+		items: [{
+			item: "pyrotech:bloomery"
+		}]
+	},
+	{
+		uid: "09e27f92",
+		type: "item",
+		items: [{
+			item: "pyrotech:tongs_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ef16399",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "66ff65a3",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 466s,
+			tag: {
+				Charge: 25000L
+			}
+		}
+	}]
+}

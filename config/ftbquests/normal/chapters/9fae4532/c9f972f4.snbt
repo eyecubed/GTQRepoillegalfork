@@ -1,0 +1,17 @@
+{
+	x: 2.6d,
+	y: -4.3d,
+	text: [
+		"The mortar is used to crush down things. Obviously. Pestle included!"
+	],
+	dependencies: [
+		"fdf7c973"
+	],
+	tasks: [{
+		uid: "86fd7713",
+		type: "item",
+		items: [{
+			item: "cuisine:mortar"
+		}]
+	}]
+}

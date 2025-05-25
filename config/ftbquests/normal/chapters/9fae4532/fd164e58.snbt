@@ -1,0 +1,23 @@
+{
+	x: 5.8d,
+	y: -5.3d,
+	text: [
+		"Spices generally increase the chance of making your food more nutritious and reduce the chances of making it harmful (i.e giving you harmful effects)"
+	],
+	dependencies: [
+		"fdf7c973"
+	],
+	tasks: [{
+		uid: "b2495bf1",
+		type: "item",
+		items: [{
+			item: "cuisine:spice_bottle"
+		}]
+	}],
+	rewards: [{
+		uid: "50082367",
+		type: "item",
+		item: "cuisine:crops 1 8",
+		count: 3
+	}]
+}

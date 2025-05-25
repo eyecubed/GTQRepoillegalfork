@@ -1,0 +1,23 @@
+{
+	x: 2.3d,
+	y: -0.5d,
+	text: [
+		"To progress in LV, you need atleast 6 LV Motors to make the basic stuff. (i.e your first machine, so and so)"
+	],
+	dependencies: [
+		"3b32626e"
+	],
+	tasks: [{
+		uid: "327ed1b4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 127"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "b6adfd65",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

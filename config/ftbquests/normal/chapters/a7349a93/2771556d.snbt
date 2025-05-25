@@ -1,0 +1,46 @@
+{
+	x: 0.0d,
+	y: 1.6d,
+	text: [
+		"Drawers are an excellent storage solution, till way into lategame. They are very modular, and can be upgraded easily. You can use a Drawer Controller",
+		"to control large amounts of drawers at once."
+	],
+	dependencies: [
+		"c22d8096"
+	],
+	tasks: [{
+		uid: "4a95a587",
+		type: "item",
+		title: "Drawers",
+		icon: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any drawerBasic"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "drawerBasic"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "22e665e3",
+		type: "item",
+		item: "storagedrawers:drawer_key"
+	},
+	{
+		uid: "107cffef",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

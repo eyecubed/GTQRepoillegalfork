@@ -1,0 +1,13 @@
+<Def debug = false>
+<VerticalGroup>
+    <Text uid = "biome">
+    <Text uid = "tps/mtps">
+    <HorizontalGroup>
+        <Text text = "Memory: ">
+        <ProgressBar uid = "memoryBar" width = 30 height = 5 alignment = CENTER pivot = CENTER padding = {"right": 5}>
+        <Text uid = "memory">
+    </Group>
+    <Text uid = "fps">
+</Group>
+<HorizontalGroup>
+     <Text text = "GTQU v1.0.7">

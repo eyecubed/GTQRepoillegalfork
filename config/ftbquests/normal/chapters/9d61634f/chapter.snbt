@@ -1,0 +1,7 @@
+{
+	title: "Welcome",
+	icon: "biomesoplenty:sapling_1 1 7",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

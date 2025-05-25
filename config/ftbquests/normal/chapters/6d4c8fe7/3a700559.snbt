@@ -1,0 +1,34 @@
+{
+	title: "Wirecutters",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"Wirecutters are gonna be used a decent amount in Pre-LV, so get them."
+	],
+	dependencies: [
+		"4a8bd376"
+	],
+	tasks: [{
+		uid: "173fd0c4",
+		type: "item",
+		items: [{
+			id: "gregtech:wire_cutter",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 1.0f,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 2,
+					MaxDurability: 255,
+					AttackSpeed: -2.4f,
+					Material: "gregtech:iron",
+					Durability: 0
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

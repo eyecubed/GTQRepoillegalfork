@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: 4.8d,
+	text: [
+		"Look how far you've come! from waiting 8 minutes for smelting stone, to doing 8 recipes in parallel!",
+		"",
+		"Anyway, the Steam Oven is an incredibly useful multiblock that can parallel 8 furnace recipes at once! How cool is that?"
+	],
+	dependencies: [
+		"0f5cf3ca"
+	],
+	tasks: [{
+		uid: "9957874e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1024"
+		}]
+	}],
+	rewards: [{
+		uid: "fe8d8b10",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

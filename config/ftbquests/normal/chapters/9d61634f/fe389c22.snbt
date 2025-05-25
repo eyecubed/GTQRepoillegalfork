@@ -1,0 +1,9 @@
+{
+	x: 11.2d,
+	y: 3.8d,
+	tasks: [{
+		uid: "ebdd942b",
+		type: "checkmark",
+		title: "Resource Guides"
+	}]
+}
