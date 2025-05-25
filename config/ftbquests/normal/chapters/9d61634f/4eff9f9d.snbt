@@ -1,0 +1,40 @@
+{
+	x: 6.4d,
+	y: 1.5d,
+	text: [
+		"The Pyre is the main machine of this mod. To properly use it with Pyrotech, you need to use the igniters (i.e Flint and Tinder or Bow Drill) NEAR the",
+		"pyre, not ON it."
+	],
+	dependencies: [
+		"9dbdd9db"
+	],
+	tasks: [{
+		uid: "e7d5ff0e",
+		type: "item",
+		items: [{
+			item: "roots:pyre"
+		}]
+	}],
+	rewards: [{
+		uid: "9cdc402e",
+		type: "item",
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				id: "thaumcraft:cultistportallesser",
+				Generic: 1b
+			}
+		}
+	},
+	{
+		uid: "b0ecadbf",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "12548b00",
+		type: "item",
+		item: "minecraft:wooden_door",
+		count: 3
+	}]
+}

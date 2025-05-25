@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 115,
   "Name": "Magical Forest",
   "Resource Location": "thaumcraft:magical_forest",
   "Class": "thaumcraft.common.world.biomes.BiomeGenMagicalForest",
@@ -153,12 +153,6 @@
       "Weight": 20,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "mod.emt.harkenscythe.entity.HSEntityHarbinger",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     },
     {
       "Entity Class": "mod.emt.harkenscythe.entity.HSEntitySpectralHuman",

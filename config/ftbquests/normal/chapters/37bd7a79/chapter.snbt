@@ -1,0 +1,7 @@
+{
+	title: "Vampirism",
+	icon: "vampirism:vampire_fang",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

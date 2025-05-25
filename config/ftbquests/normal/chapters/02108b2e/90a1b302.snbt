@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Computers Questline, ",
+		"",
+		"80% By ChanesawWhatever and 20% by iris...",
+		"",
+		"This questline covers OC, CC, and most other programming-related mods."
+	],
+	tasks: [{
+		uid: "c21da579",
+		type: "checkmark",
+		title: "Computers"
+	}]
+}

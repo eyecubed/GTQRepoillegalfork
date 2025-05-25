@@ -1,6 +1,6 @@
 
 {
-  "ID": 148,
+  "ID": 120,
   "Name": "Tent",
   "Resource Location": "yurtmod:tent",
   "Class": "com.yurtmod.dimension.BiomeTent",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
-    "PLAINS"
+    "PLAINS",
+    "VOID"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

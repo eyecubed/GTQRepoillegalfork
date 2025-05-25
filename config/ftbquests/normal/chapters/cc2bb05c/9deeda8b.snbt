@@ -29,8 +29,7 @@
 					FluidName: "soldering_alloy",
 					Amount: 1000
 				}
-			},
-			Count: 1b
+			}
 		}
 	}]
 }

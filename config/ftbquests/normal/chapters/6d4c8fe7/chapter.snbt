@@ -1,6 +1,6 @@
 {
-	title: "Introduction",
-	icon: "minecraft:sapling",
+	title: "Steam Age",
+	icon: "gregtech:machine 1 15",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -1,0 +1,131 @@
+{
+	title: "GT Tools",
+	x: 1.2d,
+	y: -2.9d,
+	text: [
+		"Advanced GT Tools."
+	],
+	dependencies: [
+		"2eaa0579"
+	],
+	tasks: [{
+		uid: "ebf11ff1",
+		type: "item",
+		items: [{
+			id: "gregtech:hammer",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 3.0f,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 2,
+					MaxDurability: 255,
+					AttackSpeed: -2.8f,
+					Material: "gregtech:iron",
+					Durability: 0
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f4a36253",
+		type: "item",
+		items: [{
+			id: "gregtech:mortar",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:iron",
+					MaxDurability: 255,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c94b9038",
+		type: "item",
+		items: [{
+			id: "gregtech:file",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:iron",
+					MaxDurability: 255,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8a3d43ac",
+		type: "item",
+		items: [{
+			id: "gregtech:screwdriver",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:iron",
+					MaxDurability: 255,
+					Durability: 0,
+					AttackDamage: 1.0f,
+					AttackSpeed: 3.0f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a0234c54",
+		type: "item",
+		items: [{
+			id: "gregtech:saw",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:iron",
+					MaxDurability: 255,
+					Durability: 0,
+					AttackDamage: 1.0f,
+					AttackSpeed: -2.6f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					HarvestIce: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8a0998c",
+		type: "item",
+		item: "gregtech:meta_screw 1 51",
+		count: 9
+	},
+	{
+		uid: "1f40568e",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

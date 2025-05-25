@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"This chapter is all about §2Gear§f. This will include Guns and stuff too."
+	],
+	tasks: [{
+		uid: "17e6dbb8",
+		type: "checkmark",
+		title: "Welcome"
+	}],
+	rewards: [{
+		uid: "5b16a335",
+		type: "item",
+		item: "minecraft:cactus"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -2.6d,
+	y: -0.9000000000000004d,
+	text: [
+		"BEST Storage method, similar to AE2, and modular! Stack it ontop of each other for more space.",
+		"",
+		"Chest is like a.. well, chest, and Crate is similar to Storage Drawers."
+	],
+	dependencies: [
+		"c3f1173d"
+	],
+	tasks: [{
+		uid: "5531bb36",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:storage_rack"
+		}]
+	},
+	{
+		uid: "8c9fd29a",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:storage_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "3b5cc074",
+		type: "item",
+		item: "gregtechfoodoption:gtfo_meta_item 1 286"
+	}]
+}

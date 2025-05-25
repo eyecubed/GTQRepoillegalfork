@@ -14,15 +14,7 @@
     "tabGroup": "multiblocked"
   },
   "status": {
-    "unformed": {
-      "renderer": {
-        "state": {
-          "id": "gregtech:metal_casing",
-          "meta": 4
-        },
-        "type": "blockstate"
-      }
-    },
+    "unformed": {},
     "idle": {
       "renderer": {
         "baseTexture": "multiblocked:blocks/gregtech_base",

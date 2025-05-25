@@ -1,0 +1,23 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	text: [
+		"Sheets are gonna be used to coat wires manually."
+	],
+	dependencies: [
+		"2af9e1e8",
+		"c8a81a66"
+	],
+	tasks: [{
+		uid: "fc92462a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1068"
+		}]
+	}],
+	rewards: [{
+		uid: "55f9baa7",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

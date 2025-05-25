@@ -1,0 +1,22 @@
+{
+	x: 12.9d,
+	y: -1.0d,
+	text: [
+		"First steps toward the Smeltery!"
+	],
+	dependencies: [
+		"af238b9f"
+	],
+	tasks: [{
+		uid: "a57149d1",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}]
+	}],
+	rewards: [{
+		uid: "45349cbd",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

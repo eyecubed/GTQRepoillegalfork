@@ -1,0 +1,30 @@
+{
+	title: "Alloys",
+	x: 3.5d,
+	y: 3.8000000000000007d,
+	text: [
+		"Red Alloy and Invar are some important alloys to make. Invar will be used for the steam multiblocks, and Red Alloy is an essential component of LV Circuits."
+	],
+	dependencies: [
+		"a49c33eb"
+	],
+	tasks: [{
+		uid: "935442a4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2517"
+		}]
+	},
+	{
+		uid: "4055a993",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 287"
+		}]
+	}],
+	rewards: [{
+		uid: "79352a50",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

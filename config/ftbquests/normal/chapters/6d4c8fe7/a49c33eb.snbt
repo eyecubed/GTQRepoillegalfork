@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 3.8000000000000007d,
+	text: [
+		"Alloys materials w/o need for dust/melting."
+	],
+	dependencies: [
+		"4a8bd376"
+	],
+	tasks: [{
+		uid: "c1e53353",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "9559988f",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

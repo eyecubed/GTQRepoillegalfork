@@ -1,0 +1,45 @@
+{
+  "name": "d517d53f-c3fc-4320-8ccb-9a6b444ad05e",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "cff3469c-81b7-4c7d-867c-44b7b3cb3b5c",
+      "duration": 1800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "logWood"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"actuallyadditions:item_misc\",Count:3,Damage:11s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.75,
+            "content": "{FluidName:\"creosote\",Amount:50}"
+          },
+          {
+            "chance": 0.5,
+            "content": "{FluidName:\"wood_tar\",Amount:25}"
+          }
+        ]
+      }
+    }
+  ]
+}

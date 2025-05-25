@@ -1,0 +1,22 @@
+{
+	x: 4.7d,
+	y: -3.3d,
+	text: [
+		"RIGHTCLICK ON THE WOK TO GET YOUR FOOD. THE RENDERING IS A BIT BORKED."
+	],
+	dependencies: [
+		"fdf7c973"
+	],
+	tasks: [{
+		uid: "214093c6",
+		type: "item",
+		items: [{
+			item: "cuisine:placed_dish"
+		}]
+	}],
+	rewards: [{
+		uid: "b8dcf097",
+		type: "item",
+		item: "minecraft:golden_apple"
+	}]
+}

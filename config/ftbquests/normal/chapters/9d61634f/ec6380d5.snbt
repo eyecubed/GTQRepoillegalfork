@@ -1,0 +1,23 @@
+{
+	x: 5.1d,
+	y: 2.5d,
+	text: [
+		"the Grove Supplication ritual is required before you use the Grove. The Grove is used to power the Fey Crafter."
+	],
+	dependencies: [
+		"bf5b4e3b",
+		"4eff9f9d"
+	],
+	tasks: [{
+		uid: "3a3dbd40",
+		type: "item",
+		items: [{
+			item: "roots:grove_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "5bb80e1b",
+		type: "item",
+		item: "roots:petals"
+	}]
+}

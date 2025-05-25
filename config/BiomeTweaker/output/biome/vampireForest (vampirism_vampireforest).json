@@ -1,6 +1,6 @@
 
 {
-  "ID": 159,
+  "ID": 137,
   "Name": "vampireForest",
   "Resource Location": "vampirism:vampireforest",
   "Class": "de.teamlapen.vampirism.biome.BiomeGenVampireForest",
@@ -20,16 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
     "FOREST",
-    "MAGICAL",
-    "SPOOKY"
+    "DENSE",
+    "SPOOKY",
+    "MAGICAL"
   ],
-  "BiomeManager Entries": {
-    "WARM Weights": [
-      10
-    ]
-  },
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityDummyBittenAnimal",
@@ -66,12 +62,6 @@
     {
       "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityAdvancedVampire",
       "Weight": 7,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-      "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
@@ -117,22 +107,6 @@
   },
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {
-    "WET_TEMPERATE": [
-      10
-    ],
-    "DRY_TEMPERATE": [
-      10
-    ],
-    "WARM_TEMPERATE": [
-      10
-    ],
-    "HOT_SWAMP": [
-      10
-    ],
-    "MEDITERANEAN": [
-      10
-    ]
-  },
+  "BOP Climate Weights": {},
   "BOP Island Weight": 0
 }

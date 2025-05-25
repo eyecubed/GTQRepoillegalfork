@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "SNOWY",
     "COLD",
-    "BEACH",
-    "SNOWY"
+    "BEACH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -129,12 +129,6 @@
       "Weight": 1,
       "Min Group Count": 0,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "mod.emt.harkenscythe.entity.HSEntityHarbinger",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     },
     {
       "Entity Class": "mod.emt.harkenscythe.entity.HSEntitySpectralHuman",

@@ -1,0 +1,198 @@
+{
+  "version": 2,
+  "location": "gtaurora:gt_aurora.tech.environmental_catalytic_forge",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/gregtech_base",
+        "frontTexture": "multiblocked:overlay_1",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "8ad088d2-9303-4f58-a8cc-27eb814db697",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "                    ",
+        "AB  BABBABABBAB  BA ",
+        "AB  BABBA@ABBAB  BA ",
+        "AB  BABBABABBAB  BA ",
+        "                    "
+      ],
+      [
+        "AB  BABBABABBAB  BA ",
+        "CDCCDCCDCDCCDCDCCDC ",
+        "CDEEDEEDCDEEDCDEEDC ",
+        "CDCCDCCDCDCCDCDCCDC ",
+        "AB  BABBABABBAB  BA "
+      ],
+      [
+        "AE  EAEEAEAEEAE  EA ",
+        "CFCCFCCFCFCCFCFCCFC ",
+        "C    C  C C  C    C ",
+        "CFCCFCCFCFCCFCFCCFC ",
+        "AE  EAEEAEAEEAE  EA "
+      ],
+      [
+        "AB  BABBABABBAB  BA ",
+        "CDCCDCCDCDCCDCDCCDC ",
+        "CDEEDEEDCDEEDCDEEDC ",
+        "CDCCDCCDCDCCDCDCCDC ",
+        "AB  BABBABABBAB  BA "
+      ],
+      [
+        "                    ",
+        "AB  BABBABABBAB  BA ",
+        "AB  BABBAAABBAB  BA ",
+        "AB  BABBABABBAB  BA ",
+        "                    "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gtaurora:gt_aurora.tech.environmental_catalytic_forge",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gcym:large_multiblock_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "hbm:glass_polonium",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gregtech:boiler_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          },
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          },
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_1981",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  }
+}

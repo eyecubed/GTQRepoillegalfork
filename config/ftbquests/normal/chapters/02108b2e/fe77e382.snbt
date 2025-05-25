@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 2.6d,
+	text: [
+		"The disk drive is useful when you need to store more than your computer's internal storage can store. It also allows you to play music discs."
+	],
+	dependencies: [
+		"c3b4523e"
+	],
+	tasks: [{
+		uid: "e2b8da4e",
+		type: "item",
+		items: [{
+			item: "computercraft:peripheral"
+		}]
+	}],
+	rewards: [{
+		uid: "d8e02a60",
+		type: "random",
+		table: 7
+	}]
+}

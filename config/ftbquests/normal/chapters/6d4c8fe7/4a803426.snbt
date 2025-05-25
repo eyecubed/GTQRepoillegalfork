@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: 5.8d,
+	text: [
+		"The Steam Grinder is a multiblock that is a Steam Macerator, and processes 8 recipes in parallel. It's a bit slower but the parallels are worth it."
+	],
+	dependencies: [
+		"0f5cf3ca"
+	],
+	tasks: [{
+		uid: "35f8cdf7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1025"
+		}]
+	}],
+	rewards: [{
+		uid: "a88843e8",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

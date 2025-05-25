@@ -1,0 +1,24 @@
+{
+	x: 2.5d,
+	y: 3.5d,
+	text: [
+		"After you get your first batch of Floral Fertiliser, you can dupe it in the Mortar with Runic Dust!",
+		"Anyway, this is your key to Botania."
+	],
+	dependencies: [
+		"54df3672",
+		"b6adf953"
+	],
+	tasks: [{
+		uid: "f9c12c92",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "2ebcf7ed",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

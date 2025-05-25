@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "PLAINS",
     "FOREST",
+    "WET",
     "LUSH",
+    "PLAINS",
     "SPARSE"
   ],
   "BiomeManager Entries": {},
@@ -134,12 +134,6 @@
     },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "mod.emt.harkenscythe.entity.HSEntityHarbinger",
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1

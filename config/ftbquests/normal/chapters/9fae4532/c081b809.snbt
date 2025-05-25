@@ -1,0 +1,29 @@
+{
+	x: 5.8d,
+	y: -3.3d,
+	text: [
+		"The Spatula is unlocked after Iron, and it helps in stir-frying the food to make it more cooked. Get it? No? Sigh."
+	],
+	dependencies: [
+		"fdf7c973"
+	],
+	tasks: [{
+		uid: "6f9dc1ed",
+		type: "item",
+		items: [{
+			item: "cuisine:iron_spatula"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c1c630ad",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "13b5b09a",
+		type: "item",
+		item: "hbm:spongebob_macaroni"
+	}]
+}

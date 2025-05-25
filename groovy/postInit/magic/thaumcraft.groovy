@@ -64,7 +64,7 @@ mods.thaumcraft.dust_trigger.triggerBuilder()
 mods.thaumcraft.infusion_crafting.recipeBuilder()
     .researchKey('VITALIUM')
     .mainInput(item('bloodarsenal:blood_diamond', 3))
-    .output(item('gregtech:meta_dust_tiny', 32107))
+    .output(item('gregtech:meta_dust', 32107))
     .aspect('mortuus', 150)
     .aspect('victus', 150)
     .input(item('bewitchment:contract'))
@@ -121,3 +121,7 @@ mods.thaumcraft.crucible.recipeBuilder()
     .output(item('gregtech:meta_gem', 31750))
     .aspect(aspect('aqua') * 2)
     .register()
+
+mods.thaumcraft.arcane_workbench.removeByOutput(item('thaumictinkerer:kamiresource', 3))
+
+

@@ -1,6 +1,6 @@
 
 {
-  "ID": 170,
+  "ID": 142,
   "Name": "Ferric Regolith Wasteland",
   "Resource Location": "advancedrocketry:hotdryrock",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenHotDryRock",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WASTELAND",
-    "HOT",
-    "DRY"
+    "DRY",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -102,12 +102,6 @@
     },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "mod.emt.harkenscythe.entity.HSEntityHarbinger",
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1

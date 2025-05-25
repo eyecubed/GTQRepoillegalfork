@@ -1,0 +1,61 @@
+{
+	title: "Basic Resources",
+	icon: "pyrotech:material 1 12",
+	x: 1.5d,
+	y: 0.0d,
+	shape: "square",
+	description: "DTPF V.0.0.1a",
+	text: [
+		"Some basic resources you will need to get are Fiber, Stone (Or any type of) rocks, and Sticks.",
+		"These are used for various purposes throughout the early game, but for now, they're the main way to make Tools.",
+		"First, punch grass/tall grass for Fiber. This process has a small chance to drop Dried fiber, which is important for later on, so remember to hoard as much of it",
+		"as you can.",
+		"",
+		"Next, rocks can be found in the ground or be mined via gravel. Finally, sticks are acquired from leaves."
+	],
+	dependencies: [
+		"d3348dac"
+	],
+	tasks: [{
+		uid: "56229aef",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	},
+	{
+		uid: "16699333",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 12"
+		}]
+	},
+	{
+		uid: "f350f225",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rock"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "rock"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9949112e",
+		type: "item",
+		item: "projectred-exploration:backpack"
+	},
+	{
+		uid: "93471a1b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

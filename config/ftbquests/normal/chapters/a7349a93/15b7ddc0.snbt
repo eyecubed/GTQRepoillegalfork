@@ -1,0 +1,22 @@
+{
+	x: -0.9d,
+	y: -1.2d,
+	text: [
+		"Filing Cabinets are a useful method to sort and do automatic storage. I recommend these for Bonsai Pot tree farms."
+	],
+	dependencies: [
+		"c22d8096"
+	],
+	tasks: [{
+		uid: "985bed95",
+		type: "item",
+		items: [{
+			item: "realfilingcabinet:modelcabinet"
+		}]
+	}],
+	rewards: [{
+		uid: "7f56b262",
+		type: "item",
+		item: "realfilingcabinet:emptyfolder"
+	}]
+}

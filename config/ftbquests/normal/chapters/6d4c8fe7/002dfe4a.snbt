@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	shape: "square",
+	text: [
+		"A small tip with boilers, solid ones in particular; If you have a bonsai pot, you can place one ontop of the boiler, for free energy!"
+	],
+	dependencies: [
+		"c49c4c02"
+	],
+	tasks: [{
+		uid: "eb000c51",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3e59af33",
+		type: "item",
+		item: "extrautils2:ingredients 1 4",
+		count: 10
+	}]
+}

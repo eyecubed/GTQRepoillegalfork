@@ -1,4 +1,4 @@
-ignoreUpdate:0
+ignoreUpdate:181
 updateNotification:true
 allowInternetAccess:true
 differentiateByServerAddress:true
@@ -74,7 +74,6 @@ globalVersion:1
 [XP] WDL Highlight:false
 [XP] WDL Opacity:100.0
 [XP] WDL Color:1
-[XP] Prefer Overworld Waypoints:true
 [XP] Show Waypoint Distances:true
 [XP] null OW Dim Dir:true
 [XP] Data Dir Mode:0

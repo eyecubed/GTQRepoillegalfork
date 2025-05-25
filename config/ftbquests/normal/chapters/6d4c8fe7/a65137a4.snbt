@@ -1,0 +1,20 @@
+{
+	x: 6.3d,
+	y: 2.5d,
+	text: [
+		"You can get Sulfur from a number of miscallenous sources, but by far the best one is the Nether, in the form of Sulfur Ore."
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "179b98a0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 103"
+		}]
+	}],
+	rewards: [{
+		uid: "0ff28004",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

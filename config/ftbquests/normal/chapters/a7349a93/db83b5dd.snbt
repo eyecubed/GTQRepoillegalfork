@@ -1,0 +1,30 @@
+{
+	title: "Pyrotech",
+	x: 0.9d,
+	y: 1.2d,
+	text: [
+		"Barely the most convenient, but it's early-game and decent for it."
+	],
+	dependencies: [
+		"c22d8096"
+	],
+	tasks: [{
+		uid: "dd925a80",
+		type: "item",
+		items: [{
+			item: "pyrotech:crate"
+		}]
+	},
+	{
+		uid: "1977f4ae",
+		type: "item",
+		items: [{
+			item: "pyrotech:shelf"
+		}]
+	}],
+	rewards: [{
+		uid: "0641f60a",
+		type: "item",
+		item: "minecraft:sapling 1 3"
+	}]
+}

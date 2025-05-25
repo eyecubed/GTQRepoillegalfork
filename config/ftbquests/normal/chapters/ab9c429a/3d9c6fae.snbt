@@ -1,0 +1,18 @@
+{
+	x: 1.2d,
+	y: 0.0d,
+	text: [
+		"Most gear has a Rarity attached to it. Basic, Uncommon, Rare, Epic, etc. with their own buffs. (Similar to apotheosis)",
+		"",
+		"Gear also has Experience, which levels up to how much you use it. You can spend the experience points on Abilities, which grant you passive buffs unique",
+		"to the tool."
+	],
+	dependencies: [
+		"c69ef721"
+	],
+	tasks: [{
+		uid: "177b8731",
+		type: "checkmark",
+		title: "Note"
+	}]
+}

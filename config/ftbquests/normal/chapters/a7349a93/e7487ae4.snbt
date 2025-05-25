@@ -1,0 +1,29 @@
+{
+	title: "Strongboxes",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Strongboxes are USUALLY impractical for storage, but they can be secured against intruders using a Lock."
+	],
+	dependencies: [
+		"c22d8096"
+	],
+	tasks: [{
+		uid: "b230fb23",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:strongbox",
+			tag: {
+				Facing: 3b,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ab3d3c7",
+		type: "item",
+		item: "thermalfoundation:security",
+		count: 4
+	}]
+}

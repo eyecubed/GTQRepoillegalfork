@@ -1,5 +1,5 @@
 {
-  "name": "f08be9f5-8fab-4074-a761-cafd390d7ba9",
+  "name": "Stone Blasting Recipes",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
@@ -187,7 +187,7 @@
   "fuelRecipes": [
     {
       "uid": "c22cef39-b2ee-4313-84a6-1227823ce7f2",
-      "duration": 120,
+      "duration": 1200,
       "inputs": {
         "item": [
           {
@@ -201,6 +201,27 @@
           }
         ]
       }
+    },
+    {
+      "uid": "faa61f20-0c8f-47a5-afa9-6db6582a141b",
+      "duration": 1600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f6dbbf51-165a-47f4-8e98-fc543d2acad9",
+      "duration": 1
     }
   ]
 }

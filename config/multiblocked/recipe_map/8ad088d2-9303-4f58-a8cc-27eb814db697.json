@@ -1,0 +1,50 @@
+{
+  "name": "8ad088d2-9303-4f58-a8cc-27eb814db697",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "26d9cfd9-21c1-4f3e-8d71-fed70c38e3ed",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"bewitchment:demonic_elixir\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluorohaemathaumic_solution\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"pyrotheum\",Amount:10000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"infernal_fluorohaemathaumic_solution\",Amount:1000}"
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "Nether"
+          }
+        }
+      ]
+    }
+  ]
+}

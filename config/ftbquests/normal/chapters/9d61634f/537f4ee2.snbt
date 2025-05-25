@@ -1,0 +1,23 @@
+{
+	x: 6.3d,
+	y: -1.6d,
+	text: [
+		"As you might have read before, a Drying rack is quintessential to getting further in Pyrotech. It can process up to 4 items at a time, and requires some ",
+		"specific plants."
+	],
+	dependencies: [
+		"6054ef05"
+	],
+	tasks: [{
+		uid: "0d9ad410",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6ccf63f5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

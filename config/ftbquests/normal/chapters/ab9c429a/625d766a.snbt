@@ -1,0 +1,179 @@
+{
+	title: "Thaumcraft Sets",
+	x: 4.8d,
+	y: -1.7d,
+	text: [
+		"§2Greatwood§f and §6Silverwood§f are both wood types found in-world, from Thaumcraft. They can be used to make a wide variety of GT Tools.",
+		"These are both stronger and faster than Carved Masonry and acquired earlier so, if you can, why not?"
+	],
+	dependencies: [
+		"91d5b27f"
+	],
+	tasks: [{
+		uid: "d8700511",
+		type: "item",
+		items: [{
+			id: "gregtech:pickaxe",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 5.0f,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 1,
+					MaxDurability: 549,
+					AttackSpeed: -2.8f,
+					Material: "gtaurora:greatwood",
+					Durability: 0
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					TorchPlacing: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "67745d15",
+		type: "item",
+		items: [{
+			id: "gregtech:axe",
+			tag: {
+				EA_ENABLED: 1b,
+				GT.Behaviours: {
+					DisableShields: 1b,
+					TreeFelling: 1b
+				},
+				GT.Tool: {
+					AttackDamage: 9.0f,
+					ToolSpeed: 4.0f,
+					HarvestLevel: 1,
+					MaxDurability: 549,
+					AttackSpeed: -3.2f,
+					Material: "gtaurora:greatwood",
+					Durability: 0
+				},
+				DisallowContainerItem: 0b,
+				HideFlags: 2,
+				RARITY: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e4b73c7e",
+		type: "item",
+		items: [{
+			id: "gregtech:shovel",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 5.5f,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 1,
+					MaxDurability: 549,
+					AttackSpeed: -3.0f,
+					Material: "gtaurora:greatwood",
+					Durability: 0
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5e21f82f",
+		type: "item",
+		items: [{
+			id: "gregtech:pickaxe",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 7.0f,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 1,
+					MaxDurability: 359,
+					AttackSpeed: -2.8f,
+					Material: "gtaurora:silverwood",
+					Durability: 0
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					TorchPlacing: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "87339f47",
+		type: "item",
+		items: [{
+			id: "gregtech:axe",
+			tag: {
+				EA_ENABLED: 1b,
+				GT.Behaviours: {
+					DisableShields: 1b,
+					TreeFelling: 1b
+				},
+				GT.Tool: {
+					AttackDamage: 11.0f,
+					ToolSpeed: 4.0f,
+					HarvestLevel: 1,
+					MaxDurability: 359,
+					AttackSpeed: -3.2f,
+					Material: "gtaurora:silverwood",
+					Durability: 0
+				},
+				DisallowContainerItem: 0b,
+				HideFlags: 2,
+				RARITY: 3
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c5b402ff",
+		type: "item",
+		items: [{
+			id: "gregtech:shovel",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 7.5f,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 1,
+					MaxDurability: 359,
+					AttackSpeed: -3.0f,
+					Material: "gtaurora:silverwood",
+					Durability: 0
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "105ff36a",
+		type: "item",
+		item: "thaumcraft:sapling_silverwood"
+	},
+	{
+		uid: "ef5be3b9",
+		type: "item",
+		item: "thaumcraft:sapling_greatwood"
+	},
+	{
+		uid: "d584483a",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

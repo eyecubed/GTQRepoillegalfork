@@ -1,0 +1,49 @@
+{
+	title: "Crude Set",
+	x: 1.2d,
+	y: -1.7d,
+	text: [
+		"Quite literally the first tools you'll get. The only weapon here is the §2Spear§f, so make one as soon as you can!"
+	],
+	dependencies: [
+		"91d5b27f"
+	],
+	tasks: [{
+		uid: "57fc3e1a",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0c7353a1",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "358fac88",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "21d59116",
+		type: "item",
+		item: "pyrotech:material 1 12",
+		count: 3
+	},
+	{
+		uid: "a5e812f4",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

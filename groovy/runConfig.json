@@ -1,0 +1,17 @@
+{
+  "packName": "Gregtech Aurora",
+  "packId": "gtaurora",
+  "version": "1.0.0",
+  "debug": false,
+  "loaders": {
+    "preInit": [
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/"
+    ],
+    "init": [
+      "init/"
+    ]
+  }
+}

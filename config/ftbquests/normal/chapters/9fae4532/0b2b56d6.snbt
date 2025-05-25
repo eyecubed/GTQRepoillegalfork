@@ -1,0 +1,23 @@
+{
+	x: 3.6d,
+	y: -3.3d,
+	text: [
+		"Can be used to cook meats. I generally recommend you process your meat here."
+	],
+	dependencies: [
+		"fdf7c973"
+	],
+	tasks: [{
+		uid: "e65e97db",
+		type: "item",
+		items: [{
+			item: "cuisine:fire_pit 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "8c0300d9",
+		type: "item",
+		item: "minecraft:chicken",
+		count: 3
+	}]
+}

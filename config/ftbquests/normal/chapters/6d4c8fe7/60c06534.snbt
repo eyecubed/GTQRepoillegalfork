@@ -1,0 +1,29 @@
+{
+	title: "High Pressure",
+	x: 1.0d,
+	y: -0.7999999999999998d,
+	text: [
+		"HP Boilers and machines are useful and are recommended to meet the production needs of LV."
+	],
+	dependencies: [
+		"3b32626e"
+	],
+	tasks: [{
+		uid: "73b69202",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2"
+		},
+		{
+			item: "gregtech:machine 1 4"
+		},
+		{
+			item: "gregtech:machine 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "25097bba",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

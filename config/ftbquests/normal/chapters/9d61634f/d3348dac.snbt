@@ -1,0 +1,44 @@
+{
+	title: "The Beginning",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "Thanks for installing!",
+	text: [
+		"Where are you? Who are you? ",
+		"",
+		"Welcome to this pack. I am going to be guiding you throughout the progression.",
+		"",
+		"First, we all start somewhere- which, in your case, is wood.",
+		"Chop down a tree with your hands to get wood."
+	],
+	tasks: [{
+		uid: "cc34588b",
+		type: "item",
+		icon: "minecraft:log",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0ba56d7b",
+		type: "item",
+		item: "extrautils2:trashchest"
+	},
+	{
+		uid: "f9dc190b",
+		type: "item",
+		item: "gregtechfoodoption:gtfo_meta_item 1 54"
+	}]
+}

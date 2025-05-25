@@ -1,0 +1,101 @@
+{
+	title: "Carved Masonry Set",
+	x: 3.9d,
+	y: -1.7d,
+	description: "Modpack Exclusive",
+	text: [
+		"After you get Masonry bricks, you can carve those on a chopping block to get Carved Masonry. ",
+		"",
+		"These are your FIRST §2GT Tools!§f They will be very useful for making plates, rods, bolts, screws, etc."
+	],
+	dependencies: [
+		"91d5b27f"
+	],
+	tasks: [{
+		uid: "14dfcd89",
+		type: "item",
+		items: [{
+			id: "gregtech:pickaxe",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 5.0f,
+					ToolSpeed: 5.0f,
+					HarvestLevel: 1,
+					MaxDurability: 149,
+					AttackSpeed: -2.8f,
+					Material: "gtaurora:carved_masonry",
+					Durability: 0
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					TorchPlacing: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c2283852",
+		type: "item",
+		items: [{
+			id: "gregtech:axe",
+			tag: {
+				EA_ENABLED: 1b,
+				GT.Behaviours: {
+					DisableShields: 1b,
+					TreeFelling: 1b
+				},
+				GT.Tool: {
+					AttackDamage: 9.0f,
+					ToolSpeed: 3.0f,
+					HarvestLevel: 1,
+					MaxDurability: 149,
+					AttackSpeed: -3.2f,
+					Material: "gtaurora:carved_masonry",
+					Durability: 0
+				},
+				DisallowContainerItem: 0b,
+				HideFlags: 2,
+				RARITY: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0761612e",
+		type: "item",
+		items: [{
+			id: "gregtech:shovel",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 5.5f,
+					ToolSpeed: 5.0f,
+					HarvestLevel: 1,
+					MaxDurability: 149,
+					AttackSpeed: -3.0f,
+					Material: "gtaurora:carved_masonry",
+					Durability: 0
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7aae58ae",
+		type: "item",
+		item: "gregtech:meta_ingot 1 31753",
+		count: 3
+	},
+	{
+		uid: "1c1a39ab",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

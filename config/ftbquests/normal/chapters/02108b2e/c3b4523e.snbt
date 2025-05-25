@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"CC: Tweaked is a continuation of the mod Computercraft. The base unit in this mod is the Computer, which run programs in Lua."
+	],
+	dependencies: [
+		"90a1b302"
+	],
+	tasks: [{
+		uid: "db8052a8",
+		type: "item",
+		items: [{
+			item: "computercraft:computer"
+		}]
+	}],
+	rewards: [{
+		uid: "b8d89066",
+		type: "item",
+		item: "vampirism:garlic_bread"
+	}]
+}

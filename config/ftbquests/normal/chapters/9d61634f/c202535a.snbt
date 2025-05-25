@@ -1,0 +1,23 @@
+{
+	x: 7.7d,
+	y: -2.9d,
+	text: [
+		"If you somehow cannot manage to find a bed, i suggest you make a Straw Bed. these are incredibly cheap costing about 9 dried fiber in total and come",
+		"with only one use!",
+		"",
+		"This is an important place to mention that the day/night cycle has been changed. Day now lasts MUCH longer (Think around 30 minutes!) while night",
+		"is around 15 minutes."
+	],
+	dependencies: [
+		"537f4ee2"
+	],
+	tasks: [{
+		uid: "a17a39c5",
+		type: "item",
+		items: [{
+			item: "pyrotech:straw_bed"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

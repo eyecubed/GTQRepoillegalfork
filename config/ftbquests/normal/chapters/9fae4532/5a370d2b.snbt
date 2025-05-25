@@ -1,0 +1,30 @@
+{
+	x: 6.8d,
+	y: -4.3d,
+	text: [
+		"The jar can be used to make Pickles, which are a very good source of nutrition + negate bad effects! Love to see it."
+	],
+	dependencies: [
+		"fdf7c973"
+	],
+	tasks: [{
+		uid: "03343f3d",
+		type: "item",
+		items: [{
+			item: "cuisine:jar"
+		}]
+	}],
+	rewards: [{
+		uid: "4920435e",
+		type: "item",
+		item: {
+			id: "cuisine:spice_bottle",
+			tag: {
+				Fluid: {
+					FluidName: "soy_sauce",
+					Amount: 1000
+				}
+			}
+		}
+	}]
+}

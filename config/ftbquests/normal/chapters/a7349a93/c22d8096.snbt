@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"Welcome to Storage! Storage is an essential part of any playthrough. ",
+		"This chapter deals with Physical storage methods specifically, though digital methods will be dealt with later on."
+	],
+	tasks: [{
+		uid: "1883fca6",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "3d16b2a5",
+		type: "item",
+		item: "binniecore:storage 1 1"
+	}]
+}

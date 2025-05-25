@@ -1,0 +1,59 @@
+{
+	title: "Wool Set",
+	x: -1.0d,
+	y: -1.7d,
+	description: "Keeps you warm.",
+	text: [
+		""
+	],
+	dependencies: [
+		"91d5b27f"
+	],
+	tasks: [{
+		uid: "ee786032",
+		type: "item",
+		items: [{
+			item: "toughasnails:wool_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "08158032",
+		type: "item",
+		items: [{
+			item: "toughasnails:wool_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f6e6e158",
+		type: "item",
+		items: [{
+			item: "toughasnails:wool_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5e08c11b",
+		type: "item",
+		items: [{
+			item: "toughasnails:wool_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "956363a7",
+		type: "item",
+		item: "minecraft:wool",
+		count: 3
+	},
+	{
+		uid: "90d07cff",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

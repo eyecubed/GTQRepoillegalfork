@@ -1,0 +1,37 @@
+{
+	title: "Arcane Archives",
+	x: 1.6d,
+	y: -0.5d,
+	description: "FTBI",
+	text: [
+		"For early-game, one of the best storage solutions is Arcane Archives. It has convenient storage, as well as the ability to manage storage easily, and you",
+		"can make a pseudo-ae2 system as well!"
+	],
+	dependencies: [
+		"c22d8096"
+	],
+	tasks: [{
+		uid: "02bafde9",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_resonator"
+		}]
+	},
+	{
+		uid: "59e013da",
+		type: "item",
+		items: [{
+			item: "arcanearchives:gemcutters_table"
+		}]
+	}],
+	rewards: [{
+		uid: "a91a9151",
+		type: "item",
+		item: "arcanearchives:raw_quartz"
+	},
+	{
+		uid: "b53cb56d",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

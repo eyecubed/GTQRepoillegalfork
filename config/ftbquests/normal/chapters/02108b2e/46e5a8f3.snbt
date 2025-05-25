@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 2.6d,
+	text: [
+		"The printer is your go-to tool for §millegally photocopying newspapers§f publishing your own newspapers, without copying expensive books!",
+		"You can access a simplified form of printing through the in-built `edit` command."
+	],
+	dependencies: [
+		"c3b4523e"
+	],
+	tasks: [{
+		uid: "b4a489d8",
+		type: "item",
+		items: [{
+			item: "computercraft:peripheral 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "a313236b",
+		type: "random",
+		table: 7
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	x: -1.5d,
+	y: 0.09999999999999964d,
+	text: [
+		"Now that you have your basic GT Tools, it's time to get started with GT, finally!",
+		"First of all, i expect you've got the Coke Oven already. Use the Creosote to make some Treated Wood, and use the Iron to finally make yourself a Pump.",
+		"Infinite Water. What'd you expect?"
+	],
+	dependencies: [
+		"c3f1173d"
+	],
+	tasks: [{
+		uid: "7ba159cb",
+		type: "item",
+		items: [{
+			item: "gregtech:planks 1 1"
+		}]
+	},
+	{
+		uid: "9720f216",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "e471d796",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1648"
+		}]
+	},
+	{
+		uid: "6523d514",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1649"
+		}]
+	},
+	{
+		uid: "e6eb9a3f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_frame_103"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "604839a4",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"Steam Machines! They are wonderful but they have a few drawbacks. They can only run recipes up to 32 EU/t, and are twice as slow.",
+		"You need to wrench a free side to allow them to vent the used steam, or they will stop working."
+	],
+	dependencies: [
+		"0a96414b",
+		"002dfe4a"
+	],
+	tasks: [{
+		uid: "0467e058",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing"
+		}]
+	},
+	{
+		uid: "221faa85",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "54363214",
+		type: "item",
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "bronze"
+			}
+		}
+	},
+	{
+		uid: "589e8e14",
+		type: "item",
+		item: "gregtech:fluid_pipe_normal 1 260",
+		count: 3
+	}]
+}

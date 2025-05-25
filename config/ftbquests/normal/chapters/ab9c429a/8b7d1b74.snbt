@@ -1,0 +1,59 @@
+{
+	title: "Jelled Slime Set",
+	x: -1.9d,
+	y: -1.7d,
+	description: "Keeps you cool..",
+	text: [
+		""
+	],
+	dependencies: [
+		"91d5b27f"
+	],
+	tasks: [{
+		uid: "52b8b715",
+		type: "item",
+		items: [{
+			item: "toughasnails:jelled_slime_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f7315e1f",
+		type: "item",
+		items: [{
+			item: "toughasnails:jelled_slime_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa75025b",
+		type: "item",
+		items: [{
+			item: "toughasnails:jelled_slime_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a10a7c2d",
+		type: "item",
+		items: [{
+			item: "toughasnails:jelled_slime_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41a44019",
+		type: "item",
+		item: "toughasnails:jelled_slime",
+		count: 3
+	},
+	{
+		uid: "a7a29d4c",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

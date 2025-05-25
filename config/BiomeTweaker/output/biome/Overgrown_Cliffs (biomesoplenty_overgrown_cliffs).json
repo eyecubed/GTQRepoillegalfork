@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
-    "WET",
-    "MOUNTAIN",
+    "JUNGLE",
     "DENSE",
+    "WET",
     "LUSH",
-    "JUNGLE"
+    "HILLS",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -118,18 +118,6 @@
     {
       "Entity Class": "net.minecraft.entity.passive.EntityOcelot",
       "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "mod.emt.harkenscythe.entity.HSEntityHarbinger",
-      "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

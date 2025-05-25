@@ -1,0 +1,41 @@
+{
+	x: 4.7d,
+	y: -4.3d,
+	text: [
+		"Welcome to Cuisine! This mod is incredibly useful for early-game food and is HIGHLY recommended *by me, the packdev!~*",
+		"",
+		"To get started, you need a Wok. This needs a heat source, so craft the Firepit and combine them to get your finished station.",
+		"You can input fluids and items in this, and when you get Iron you can make a Spatula to stir-fry it."
+	],
+	tasks: [{
+		uid: "747b24ce",
+		type: "item",
+		items: [{
+			item: "cuisine:fire_pit 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ca8f1161",
+		type: "item",
+		item: "pyrotech:material 1 16",
+		count: 3
+	},
+	{
+		uid: "f8e761d8",
+		type: "item",
+		item: {
+			id: "cuisine:spice_bottle",
+			Damage: 1s,
+			tag: {
+				Items: [{
+					Slot: 0,
+					id: "cuisine:material",
+					Count: 1,
+					Damage: 2s
+				}],
+				Size: 1,
+				volume: 10
+			}
+		}
+	}]
+}

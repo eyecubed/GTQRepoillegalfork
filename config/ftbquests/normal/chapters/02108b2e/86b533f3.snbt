@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 2.6d,
+	text: [
+		"The monitor is like the GUI of a computer, except you cannot type in it. It can be expanded up to 8x6 blocks.",
+		"Like the Advanced, computer, the Advanced monitor also has touch capapabilities."
+	],
+	dependencies: [
+		"c3b4523e"
+	],
+	tasks: [{
+		uid: "c429b39c",
+		type: "item",
+		items: [{
+			item: "computercraft:peripheral 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "6f45e5bc",
+		type: "random",
+		table: 7
+	}]
+}

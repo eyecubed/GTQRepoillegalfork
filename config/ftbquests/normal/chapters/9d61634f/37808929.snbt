@@ -1,0 +1,41 @@
+{
+	title: "Resources: Coal and Charcoal",
+	icon: "minecraft:coal 1 1",
+	x: 11.2d,
+	y: 2.2d,
+	text: [
+		"Coal in itself is not easy to get. Your best bet is in the Nether, where you can find tons of dense coal deposits. These drop nominal amounts of coal.",
+		"Once you get the furnace, you can easily process overworld coal ore as well.",
+		"",
+		"Charcoal is the main fuel source for the Stone and Refractory eras. The best way to get it is burning Log Piles in Pile Burning. This produces insane",
+		"amounts of charcoal, along with flakes and ash."
+	],
+	dependencies: [
+		"fe389c22"
+	],
+	tasks: [{
+		uid: "b58dec9e",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any coal"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "coal"
+				}
+			}
+		}]
+	},
+	{
+		uid: "131dcf79",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}]
+	}]
+}

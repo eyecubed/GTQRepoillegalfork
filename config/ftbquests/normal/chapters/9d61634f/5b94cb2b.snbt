@@ -1,0 +1,19 @@
+{
+	title: "Cuisine",
+	x: 13.0d,
+	y: -3.2d,
+	text: [
+		"Cuisine is a useful food mod that helps nullify hunger early on. Its foods depend on your knowledge of the mod, and how much you cook food in the mod",
+		"too! Read the food questline for mroe info."
+	],
+	dependencies: [
+		"af238b9f"
+	],
+	tasks: [{
+		uid: "42d2c1c2",
+		type: "item",
+		items: [{
+			item: "cuisine:placed_dish"
+		}]
+	}]
+}

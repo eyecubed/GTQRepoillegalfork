@@ -1,0 +1,24 @@
+{
+	x: 7.2d,
+	y: 2.5d,
+	text: [
+		"To actually get this cake, you need Runed Obsidian, and Fey Leather. Runed Obsidian is quite simple, but Fey Leather is not. It requires you to enchant",
+		"regular minecraft Shears with special properties to turn them into Runic Shears, then shearing any creature will give Fey Leather."
+	],
+	dependencies: [
+		"54df3672"
+	],
+	tasks: [{
+		uid: "c70ce8c4",
+		type: "item",
+		items: [{
+			item: "dimensionaledibles:nether_cake"
+		}]
+	}],
+	rewards: [{
+		uid: "ead8af3d",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 12
+	}]
+}

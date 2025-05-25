@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"Traveller's Backpacks may be used for sleeping, crafting, and also containing fluid."
+	],
+	dependencies: [
+		"c22d8096"
+	],
+	tasks: [{
+		uid: "e64b1559",
+		type: "item",
+		items: [{
+			item: "travelersbackpack:travelers_backpack"
+		}],
+		ignore_nbt: 1b
+	}]
+}

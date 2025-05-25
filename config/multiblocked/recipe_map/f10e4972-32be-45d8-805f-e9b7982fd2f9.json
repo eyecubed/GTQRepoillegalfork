@@ -1,0 +1,37 @@
+{
+  "name": "f10e4972-32be-45d8-805f-e9b7982fd2f9",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "b60d9b4b-6a8b-4d4a-b70f-0ea7c50d6328",
+      "duration": 1800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"pyrotech:material\",Count:64,Damage:12s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"pyrotech:material\",Count:64,Damage:13s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

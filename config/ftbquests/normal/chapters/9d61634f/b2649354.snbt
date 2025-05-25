@@ -1,0 +1,27 @@
+{
+	title: "Pit Kilns and Fuel",
+	x: 7.7d,
+	y: -1.6d,
+	description: "Furnace v0.0.1a",
+	text: [
+		"This is your first method of smelting. To use, place it down in the ground, then, add your desired item to it. Up to 8 of these can be smelted at once.",
+		"Next, add a block of Straw. Straw can be made by drying wheat or with dried fiber and twine/string.",
+		"",
+		"Next, add 3 logs to your kiln and light with a Flint and Tinder."
+	],
+	dependencies: [
+		"537f4ee2"
+	],
+	tasks: [{
+		uid: "a499a652",
+		type: "item",
+		items: [{
+			item: "pyrotech:kiln_pit"
+		}]
+	}],
+	rewards: [{
+		uid: "86cf485e",
+		type: "item",
+		item: "pyrotech:thatch"
+	}]
+}

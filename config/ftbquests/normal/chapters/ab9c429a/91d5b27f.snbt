@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -1.7d,
+	text: [
+		"These include starter gear you can make earlygame."
+	],
+	dependencies: [
+		"c69ef721"
+	],
+	tasks: [{
+		uid: "51b654f8",
+		type: "checkmark",
+		title: "The Beginning"
+	}],
+	rewards: [{
+		uid: "50286ae9",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

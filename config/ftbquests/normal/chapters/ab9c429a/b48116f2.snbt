@@ -1,0 +1,58 @@
+{
+	title: "Iron Set",
+	x: -1.0d,
+	y: -2.9d,
+	text: [
+		"You should get ozzy liner under this, or you'll overheat."
+	],
+	dependencies: [
+		"2eaa0579"
+	],
+	tasks: [{
+		uid: "5662fe97",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d9461a6",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1ea0103e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6d833358",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7036408c",
+		type: "item",
+		item: "gregtech:meta_plate 1 51",
+		count: 3
+	},
+	{
+		uid: "b8eff34f",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

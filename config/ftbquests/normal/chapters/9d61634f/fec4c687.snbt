@@ -1,0 +1,49 @@
+{
+	icon: "pyrotech:stone_kiln",
+	x: 11.7d,
+	y: -0.2d,
+	text: [
+		"Stone Machines. Fuel is to be placed in lower slot and to be ignited."
+	],
+	dependencies: [
+		"af238b9f"
+	],
+	tasks: [{
+		uid: "07945843",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_kiln"
+		}]
+	},
+	{
+		uid: "6a5f60f7",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_sawmill"
+		}]
+	},
+	{
+		uid: "e1653849",
+		type: "item",
+		items: [{
+			item: "pyrotech:soaking_pot"
+		}]
+	},
+	{
+		uid: "dc749776",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "92dce7e2",
+		type: "item",
+		item: "thermalfoundation:storage_resource"
+	},
+	{
+		uid: "056a2131",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

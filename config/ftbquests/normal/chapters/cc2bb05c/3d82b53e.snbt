@@ -7,8 +7,7 @@
 				FluidName: "radon",
 				Amount: 1000
 			}
-		},
-		Count: 1b
+		}
 	},
 	x: 2.95d,
 	y: -3.3d,

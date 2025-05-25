@@ -25,5 +25,19 @@
 		items: [{
 			item: "rustic:retort"
 		}]
+	}],
+	rewards: [{
+		uid: "933cdf4a",
+		type: "item",
+		item: {
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "rustic:ironskin",
+					Duration: 1800,
+					Amplifier: 1
+				}]
+			}
+		}
 	}]
 }
